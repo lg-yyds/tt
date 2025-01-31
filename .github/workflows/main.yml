@@ -20,24 +20,8 @@ jobs:
       - name: Clone n3rddd/N3RD repository
         run: git clone https://github.com/n3rddd/N3RD.git
 
-      # 运行 Python 脚本修改 lem.json 文件
-      - name: Modify lem.json with Python
-        run: |
-          python3 modify_lem_json.py
-
-      # 提交并推送修改到当前仓库
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add .
-          git commit -m "Modified lem.json as per request"
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # 将 Python 脚本包含到仓库中
-      - name: Add Python script to the repository
+      # 创建并运行 Python 脚本修改 lem.json 文件
+      - name: Create Python script
         run: |
           echo 'import json' > modify_lem_json.py
           echo 'with open("N3RD/JN/lem.json", "r", encoding="utf-8") as f:' >> modify_lem_json.py
@@ -57,3 +41,18 @@ jobs:
           echo '    # 写回文件' >> modify_lem_json.py
           echo '    with open("N3RD/JN/lem.json", "w", encoding="utf-8") as f_out:' >> modify_lem_json.py
           echo '        json.dump(data, f_out, ensure_ascii=False, indent=2)' >> modify_lem_json.py
+
+      # 运行 Python 脚本
+      - name: Run Python script to modify lem.json
+        run: python3 modify_lem_json.py
+
+      # 提交并推送修改到当前仓库
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git commit -m "Modified lem.json as per request"
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
