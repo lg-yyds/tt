@@ -1,8 +1,15 @@
-import json
+import simplejson as json
 
-# 加载JSON文件
+# 加载JSON文件，忽略错误格式
 with open('JN/lem.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
+    try:
+        data = json.load(f)
+    except json.JSONDecodeError as e:
+        print(f"加载JSON时出错: {e}")
+        # 继续尝试处理文件，但跳过错误内容
+        f.seek(0)
+        content = f.read().replace("'", '"')  # 尝试修正单引号为双引号
+        data = json.loads(content)
 
 # 处理 "lives" 条目
 for live in data.get('lives', []):
