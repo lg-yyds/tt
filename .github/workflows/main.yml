@@ -6,22 +6,30 @@ on:
   workflow_dispatch:  # 允许手动触发
 
 jobs:
-  sync:
+  clone:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout the target repo
-        run: git clone --depth=1 https://github.com/n3rddd/N3RD.git upstream
+      # 检出当前仓库
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Setup Git
-        run: |
-          cd upstream
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+      # 克隆目标仓库
+      - name: Clone n3rddd/N3RD repository
+        run: git clone https://github.com/n3rddd/N3RD.git
 
-      - name: Commit 和 push if changed
+      # 复制文件到当前仓库
+      - name: Copy files
+        run: cp -r N3RD/* .
+
+      # 提交并推送更改到自己的仓库
+      - name: Commit and push changes
         run: |
-          cd upstream
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
           git add .
-          git commit -m "Force update" --allow-empty
+          git commit -m "Clone N3RD repo"
           git push origin main
-          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用自动生成的 GITHUB_TOKEN 进行认证
+
