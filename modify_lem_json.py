@@ -2,7 +2,7 @@ import json
 import re
 
 # 读取文件
-with open("N3RD/JN/lem.json", "r", encoding="utf-8") as f:
+with open("JN/lem.json", "r", encoding="utf-8") as f:
     raw_data = f.read()
 
 # 修复单引号为双引号
@@ -43,7 +43,7 @@ for item in data:
         item["name"] = item["name"].replace("雷蒙影视 | ", "")
 
 # 写回文件
-with open("N3RD/JN/lem.json", "w", encoding="utf-8") as f_out:
+with open("JN/lem.json", "w", encoding="utf-8") as f_out:
     json.dump(data, f_out, ensure_ascii=False, indent=2)
 
 print("文件修改完成。")
