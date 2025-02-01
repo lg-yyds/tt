@@ -64,4 +64,4 @@ try:
 
 except Exception as e:
     print(f"发生错误: {e}")
-    exit(
+    exit(1)
