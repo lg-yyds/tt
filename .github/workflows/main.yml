@@ -15,11 +15,17 @@ jobs:
       - name: 克隆上游仓库
         run: git clone --mirror https://github.com/n3rddd/N3RD.git repo/N3RD
 
-      - name: 推送到目标仓库
+      - name: 检查远程仓库
+        run: |
+          cd repo/N3RD
+          git remote -v
+
+      - name: 配置远程仓库并推送
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           TARGET_REPO: ${{ secrets.TARGET_REPO }}
         run: |
           cd repo/N3RD
-          git remote set-url --push origin $TARGET_REPO
+          git remote remove origin
+          git remote add origin https://x-access-token:$GH_PAT@github.com/lg-yyds/tt.git
           git push --mirror
