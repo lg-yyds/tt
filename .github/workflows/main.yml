@@ -27,5 +27,5 @@ jobs:
         run: |
           cd repo/N3RD
           git remote remove origin
-          git remote add origin https://x-access-token:$GH_PAT@github.com/lg-yyds/tt.git
+          git remote add origin https://x-access-token:$GH_PAT@github.com/lg-yyds/tt.git main
           git push --mirror
