@@ -1,49 +1,33 @@
-import json
 import re
 
-# 读取文件
-with open("JN/lem.json", "r", encoding="utf-8") as f:
-    raw_data = f.read()
+json_file = "JN/lem.json"
 
-# 修复单引号为双引号
-fixed_data = re.sub(r"(?<!\\)'(.*?)'(?!:)", r'"\1"', raw_data)
-
-# 解析修复后的 JSON 数据
 try:
-    data = json.loads(fixed_data)
-except json.decoder.JSONDecodeError as e:
-    print(f"JSON解析错误: {e}")
-    exit(1)
+    # 读取文件内容
+    with open(json_file, "r", encoding="utf-8") as f:
+        content = f.read()
 
-# 删除指定的条目
-keys_to_delete = ["wallpaper", "notice"]
-for key in keys_to_delete:
-    if key in data:
-        del data[key]
+    # 直接删除 wallpaper 字段
+    content = re.sub(r'"wallpaper":\s*"[^"]*",\s*\n?', "", content)
 
-# 删除含有特定字段的条目
-delete_items = [
-    {"name": "雷蒙影视电视直播"},
-    {"name": "雷蒙影视轻量直播"},
-    {"name": "雷蒙影视宣传片"},
-    {"name": "国内直播[合并版]"}
-]
+    # 直接删除 notice 相关字段
+    content = re.sub(r'"notice":\s*"[^"]*",\s*\n?', "", content)
 
-data = [item for item in data if not any(item.get(key) == value for key, value in delete_items.items())]
+    # 直接删除 JSON 里的 "雷蒙影视 |" 关键字
+    content = content.replace("雷蒙影视 | ", "")
 
-# 替换 name 和 url
-for item in data:
-    if item.get("name") == "YY轮播":
-        item["name"] = "直播"
-        item["url"] = "https://raw.githubusercontent.com/lg-yyds/gytvapi/refs/heads/master/output/user_result.txt"
+    # 修改 "YY轮播" 的 "name" 和 "url"
+    content = re.sub(
+        r'("name":\s*)"YY轮播"(,.*?)("url":\s*")([^"]+)"',
+        r'\1"直播"\2\3"https://raw.githubusercontent.com/lg-yyds/gytvapi/refs/heads/master/output/user_result.txt"',
+        content
+    )
 
-# 删除文件中的 "雷蒙影视 | "
-for item in data:
-    if isinstance(item.get("name"), str):
-        item["name"] = item["name"].replace("雷蒙影视 | ", "")
+    # 重新写回 JSON 文件
+    with open(json_file, "w", encoding="utf-8") as f:
+        f.write(content)
 
-# 写回文件
-with open("JN/lem.json", "w", encoding="utf-8") as f_out:
-    json.dump(data, f_out, ensure_ascii=False, indent=2)
+    print("lem.json 修改完成！")
 
-print("文件修改完成。")
+except Exception as e:
+    print(f"发生错误: {e}")
