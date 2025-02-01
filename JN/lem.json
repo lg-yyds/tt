@@ -14,7 +14,7 @@
 "notice": "欢迎使用",
 
 "lives":[
-{"name":"雷蒙影视电视直播","type":0,"url":"https://github.com/lg-yyds/gytvapi/blob/master/output/user_result.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"直播","type":0,"url":"https://github.com/lg-yyds/gytvapi/blob/master/output/user_result.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/null/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"}
 ],
 
 "sites":[
@@ -35,7 +35,7 @@
 {"key":"vod_360资源","name":"🚀360资源","type":1,"api":"https://360zy.com/api.php/provide/vod","categories":["国产剧","短片","动画片","香港剧","韩国剧","欧美剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","NBA","惊悚片","家庭篇","古装片","历史片","悬疑片","犯罪片","纪录片","台湾剧","大陆综艺","国产动漫","日韩动漫","西部片"]},
 {"key":"vod_木耳资源","name":"️🚀木耳资源","type":1,"api":"https://json.heimuer.xyz/api.php/provide/vod/?ac=list"},
 {"key":"vod_海外资源","name":"️🚀海外资源","type":1,"api":"https://hw8.live/api.php/provide/vod/","searchable":1,"quickSearch":1},
-{"key":"vod_华为资源","name":"️🚀华为资源","type":1,"api":"http://nikanba.live/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
+{"key":"vod_华为资源","name":"️🚀华为资源","type":1,"api":"http://nikanba.live/api.php/provide/vod/?ac=list"，"searchable":1,"quickSearch":1},
 {"key":"drjs_荐片","name":"🏆荐片(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./EXT/JS/荐片.js"},
 {"key":"csp_Jianpian_FM","name":"🏆荐片(SP)","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://api2.rinhome.com"},
 {"key":"csp_IkanBot","name":"🤖爱看机器人(SP)","type":3,"api":"csp_IkanBot","searchable":1,"quickSearch":1,"filterable":1},
