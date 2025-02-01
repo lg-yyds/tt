@@ -2,7 +2,7 @@ name: Sync N3RD Repository
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 00:00 UTC 执行
+  #  - cron: '0 0 * * *'  # 每天 00:00 UTC 执行
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
         run: cp -r N3RD/* .
 
       # 提交并推送更改到自己的仓库
-      - name: Commit and push changes
+      - name: Commit 和 push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
