@@ -18,11 +18,10 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
 
-      - name: Commit and push if changed
+      - name: Commit 和 push if changed
         run: |
           cd upstream
           git add .
-          if ! git diff --cached --quiet; then
-            git commit -m "Github Action Auto Updated repository"
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/lg-yyds/tt.git main
+          git commit -m "Force update" --allow-empty
+          git push origin main
           fi
