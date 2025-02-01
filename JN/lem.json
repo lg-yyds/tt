@@ -23,13 +23,10 @@
 
 
 // ⇩⇩ PGjar加载 ⇩⇩
-{"jar":"./N3RD/J/pg.jar","key":"csp_Config_PG","name":"🔨网盘及弹幕配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1},"ext":"./N3RD/T/pg.json"},
 {"jar":"./N3RD/J/pg.jar","key":"csp_Youtube_PG","name":"▶YouTube(SP)","type":3,"api":"csp_Youtube","searchable":1,"quickSearch":1,"changeable":0,"ext":{"token":"./N3RD/T/pg.json","json":"./N3RD/T/ytc.json","type":"","keywords":"排行榜,HOT,TRENDS,热门话题,热门趋势,热门综艺,热门电影,热门电视剧","proxy":"cfg","codecs":"","danmu":true},"style":{"type":"rect","ratio":1.5}},
-{"jar":"./N3RD/J/pg.jar","key":"csp_PushShare_PG","name":"💿雷蒙网盘影集","type":3,"api":"csp_PushShare","searchable":1,"quickSearch":1,"changeable":1,"filterable":0,"timeout":60,"ext":"./N3RD/T/pg.json$$$./N3RD/T/lemshare.txt$$$db$$$1","style":{"type":"list","ratio":1.1}},
-{"jar":"./N3RD/J/pg.jar","key":"csp_Kuaikan_PG","name":"👀快看(SP)","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
 {"jar":"./N3RD/J/pg.jar","key":"vod_量子资源","name":"🚀量子资源","type":1,"playUrl":"json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","api":"http://cj.lziapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 {"jar":"./N3RD/J/pg.jar","key":"vod_非凡资源","name":"🚀非凡资源","type":1,"playUrl":"json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","api":"http://cj.ffzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1,"playerType":2,"categories":["动作片","喜剧片","科幻片","恐怖片","爱情片","剧情片","战争片","记录片","国产剧","欧美剧","香港剧","韩国剧","台湾剧","日本剧","海外剧","泰国剧","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","大陆综艺","港台综艺","日韩综艺","欧美综艺"]},
-{"jar":"./N3RD/J/pg.jar","key":"vod_暴风资源","name":"🚀暴风资源","type":1,"playUrl":"json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","api":"https://app.bfzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1,"categories":["国产剧","国产动漫","动作片","科幻片","剧情片","喜剧片","爱情片","恐怖片","战争片","香港剧","台湾剧","日本剧","欧美剧","泰国剧","日本动漫","综艺频道","大陆综艺","港台综艺","日本综艺","新马泰综艺","纪录片"]},
+{"jar":"./N3RD/J/pg.jar","key":"vod_暴风资源","name":"🚀暴风资源","type":1,"playUrl":"json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","api":"https://app.bfzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1,"categories":["国产剧","国产动漫","动作片","科幻片","剧情片","喜剧片","爱情片","恐怖片","战争片","香港剧","台湾剧","日本剧"，"欧美剧","泰国剧","日本动漫","综艺频道","大陆综艺","港台综艺","日本综艺","新马泰综艺","纪录片"]},
 
 
 // ⇩⇩ Lem缝合包 ⇩⇩ 
@@ -37,8 +34,6 @@
 {"key":"vod_木耳资源","name":"️🚀木耳资源","type":1,"api":"https://json.heimuer.xyz/api.php/provide/vod/?ac=list"},
 {"key":"vod_海外资源","name":"️🚀海外资源","type":1,"api":"https://hw8.live/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"vod_华为资源","name":"️🚀华为资源","type":1,"api":"http://nikanba.live/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
-{"key":"drjs_荐片","name":"🏆荐片(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./EXT/JS/荐片.js"},
-{"key":"csp_Jianpian_FM","name":"🏆荐片(SP)","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://api2.rinhome.com"},
 {"key":"csp_IkanBot","name":"🤖爱看机器人(SP)","type":3,"api":"csp_IkanBot","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"drjs_爱看机器人","name":"🤖爱看机器人(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./EXT/JS/ikanbot2.js"},
 {"key":"csp_Bili","name":"🅱哔哩哔哩(SP)","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":{"json":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/XB/Bili1.json"}},
