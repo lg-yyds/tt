@@ -14,8 +14,8 @@
 "notice": "欢迎使用",
 
 "lives":[
-{"name":"直播","type":0,"url":"https://github.com/lg-yyds/gytvapi/blob/master/output/user_result.m3u","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/null/http://epg.112114.xyz/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"}
-],
+{"name":"直播","type":0,"url":"https://raw.githubusercontent.com/lg-yyds/gytvapi/refs/heads/master/output/user_result.txt","ua":"okhttp/3.15","epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
+]，
 
 "sites":[
 
