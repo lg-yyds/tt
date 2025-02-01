@@ -1,58 +1,25 @@
-name: Clone and Modify lem.json
+name: Sync N3RD to TT
 
 on:
-  push:
-    branches:
-      - main  # 触发工作流的分支
   schedule:
-    - cron: '0 0 * * *'  # 每天午夜12点触发工作流
+    - cron: '0 0 * * *'  # 每天 UTC 00:00 运行
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
-  clone_and_modify:
+  sync-repo:
     runs-on: ubuntu-latest
-
     steps:
-      # 检出当前仓库代码
-      - name: Checkout repository
-        uses: actions/checkout@v3
+      - name: 清理工作目录
+        run: rm -rf repo && mkdir repo
 
-      # 克隆 n3rddd/N3RD 仓库
-      - name: Clone n3rddd/N3RD repository
-        run: git clone https://github.com/n3rddd/N3RD.git
+      - name: 克隆上游仓库
+        run: git clone --mirror https://github.com/n3rddd/N3RD.git repo/N3RD
 
-      # 创建并运行 Python 脚本修改 lem.json 文件
-      - name: Create Python script
-        run: |
-          echo 'import json' > modify_lem_json.py
-          echo 'with open("N3RD/JN/lem.json", "r", encoding="utf-8") as f:' >> modify_lem_json.py
-          echo '    data = json.load(f)' >> modify_lem_json.py
-          echo '    # 删除指定的条目' >> modify_lem_json.py
-          echo '    keys_to_delete = ["wallpaper", "notice"]' >> modify_lem_json.py
-          echo '    data = [item for item in data if not any(item.get(key) == value for key, value in {"name": "雷蒙影视电视直播", "name": "雷蒙影视轻量直播", "name": "雷蒙影视宣传片", "name": "国内直播[合并版]"}.items())]' >> modify_lem_json.py
-          echo '    # 替换 name 和 url' >> modify_lem_json.py
-          echo '    for item in data:' >> modify_lem_json.py
-          echo '        if item.get("name") == "YY轮播":' >> modify_lem_json.py
-          echo '            item["name"] = "直播"' >> modify_lem_json.py
-          echo '            item["url"] = "https://raw.githubusercontent.com/lg-yyds/gytvapi/refs/heads/master/output/user_result.txt"' >> modify_lem_json.py
-          echo '    # 删除文件中的 "雷蒙影视 | "' >> modify_lem_json.py
-          echo '    for item in data:' >> modify_lem_json.py
-          echo '        if isinstance(item.get("name"), str):' >> modify_lem_json.py
-          echo '            item["name"] = item["name"].replace("雷蒙影视 | ", "")' >> modify_lem_json.py
-          echo '    # 写回文件' >> modify_lem_json.py
-          echo '    with open("N3RD/JN/lem.json", "w", encoding="utf-8") as f_out:' >> modify_lem_json.py
-          echo '        json.dump(data, f_out, ensure_ascii=False, indent=2)' >> modify_lem_json.py
-
-      # 运行 Python 脚本
-      - name: Run Python script to modify lem.json
-        run: python3 modify_lem_json.py
-
-      # 提交并推送修改到当前仓库
-      - name: Commit and push changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add .
-          git commit -m "Modified lem.json as per request"
-          git push origin main
+      - name: 推送到目标仓库
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+          TARGET_REPO: ${{ secrets.TARGET_REPO }}
+        run: |
+          cd repo/N3RD
+          git remote set-url --push origin $TARGET_REPO
+          git push --mirror
