@@ -1,31 +1,28 @@
-name: Sync N3RD to TT
+name: Sync N3RD Repository
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 00:00 运行
+    - cron: '0 0 * * *'  # 每天 00:00 UTC 执行
   workflow_dispatch:  # 允许手动触发
 
 jobs:
-  sync-repo:
+  sync:
     runs-on: ubuntu-latest
     steps:
-      - name: 清理工作目录
-        run: rm -rf repo && mkdir repo
+      - name: Checkout the target repo
+        run: git clone --depth=1 https://github.com/n3rddd/N3RD.git upstream
 
-      - name: 克隆上游仓库
-        run: git clone --mirror https://github.com/n3rddd/N3RD.git repo/N3RD
-
-      - name: 检查远程仓库
+      - name: Setup Git
         run: |
-          cd repo/N3RD
-          git remote -v
+          cd upstream
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
 
-      - name: 配置远程仓库并推送
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-          TARGET_REPO: ${{ secrets.TARGET_REPO }}
+      - name: Commit and push if changed
         run: |
-          cd repo/N3RD
-          git remote remove origin
-          git remote add origin https://x-access-token:$GH_PAT@github.com/lg-yyds/tt.git main
-          git push --mirror
+          cd upstream
+          git add .
+          if ! git diff --cached --quiet; then
+            git commit -m "Github Action Auto Updated repository"
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/lg-yyds/tt.git main
+          fi
