@@ -1,60 +1,42 @@
 import json
-import re
 
-# 读取文件
-with open("JN/lem.json", "r", encoding="utf-8") as f:
-    raw_data = f.read()
+# 加载JSON文件
+with open('JN/lem.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
 
-# 修复单引号为双引号
-fixed_data = re.sub(r"(?<!\\)'(.*?)'(?!:)", r'"\1"', raw_data)
+# 处理 "lives" 条目
+for live in data.get('lives', []):
+    live['name'] = '直播'
+    live['url'] = 'https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/output/user_result.txt'
 
-# 解析修复后的 JSON 数据
-try:
-    data = json.loads(fixed_data)
-except json.decoder.JSONDecodeError:
-    data = {}
-
-# 删除指定的条目
-keys_to_delete = ["wallpaper", "notice"]
-for key in keys_to_delete:
-    if key in data:
-        del data[key]
-
-# 删除含有特定字段的条目
-delete_items = [
-    {"name": "📢【Lem声明】公告"},
-    {"name": "📢【Lem声明】勿传播本线路"},
-    {"name": "雷蒙影视 | 🏪应用商店"},
-    {"name": "雷蒙影视 | 🚑急救教学(SP)"},
-    {"name": "雷蒙影视 | 🎞预告片(SP)"},
-    {"name": "雷蒙影视 | 😎雷蒙资源"},
-    {"name": "雷蒙影视 | 🤠雷蒙直播"},
-    {"name": "雷蒙影视 | 📺电视直播"},
-    {"name": "雷蒙影视宣传片"},
-    {"name": "雷蒙影视宣传片"},
-    {"name": "雷蒙影视宣传片"},
-    {"name": "国内直播[合并版]"}
+# 删除指定条目
+keys_to_remove = [
+    "wallpaper",
+    "notice",
+    {"key": "csp_Notice", "name": "📢【Lem声明】公告", "type": 3, "api": "csp_Notice", "ext": "雷蒙影视独家资源，私享即可，请勿传播！"},
+    {"key": "公告1", "name": "📢【Lem声明】勿传播本线路", "type": 3, "api": "csp_Bili", "searchable": 0, "quickSearch": 0, "filterable": 0, "ext": {"json": "https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/XB/ANNOUNCEMENT.json"}},
+    {"key": "csp_Market", "name": "雷蒙影视 | 🏪应用商店", "jar": "./N3RD/J/market.jar", "type": 3, "api": "csp_Market", "searchable": 0, "changeable": 0, "ext": "./N3RD/T/market.json"},
+    {"key": "csp_FirstAid", "name": "雷蒙影视 | 🚑急救教学(SP)", "type": 3, "api": "csp_FirstAid", "searchable": 0, "quickSearch": 0, "changeable": 0, "style": {"type": "rect", "ratio": 3.8}},
 ]
 
-data = [item for item in data if not any(item.get(key) == value for key, value in delete_items.items())]
+def remove_key(data, key):
+    if isinstance(key, str):
+        if key in data:
+            del data[key]
+    elif isinstance(key, dict):
+        for item in data:
+            if isinstance(item, dict) and all(item.get(k) == v for k, v in key.items()):
+                data.remove(item)
 
-# 处理"lives"字段，保留 "YY轮播"
-if "lives" in data:
-    data["lives"] = [item for item in data["lives"] if item.get("name") == "YY轮播"]
+# 删除指定的字段和条目
+for key in keys_to_remove:
+    if isinstance(key, str):
+        remove_key(data, key)
+    else:
+        remove_key(data.get('lives', []), key)
 
-# 替换 name 和 url
-for item in data:
-    if item.get("name") == "YY轮播":
-        item["name"] = "直播"
-        item["url"] = "https://raw.githubusercontent.com/lg-yyds/gytvapi/refs/heads/master/output/user_result.txt"
+# 保存修改后的数据
+with open('JN/lem_modified.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=4)
 
-# 删除文件中的 "雷蒙影视 | "
-for item in data:
-    if isinstance(item.get("name"), str):
-        item["name"] = item["name"].replace("雷蒙影视 | ", "")
-
-# 写回文件
-with open("JN/lem.json", "w", encoding="utf-8") as f_out:
-    json.dump(data, f_out, ensure_ascii=False, indent=2)
-
-print("文件修改完成。")
+print("文件已处理并保存为 lem_modified.json")
