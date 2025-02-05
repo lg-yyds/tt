@@ -9,11 +9,11 @@
 //"spider":"./N3RD/J/lem0116.jar;md5;418870D9E1F56391AFEEA4FD1E3CC8AA",
 //"spider":"./N3RD/J/lem0111.jar;md5;A8E0B9CDD49C215B89CCE40ABC2E9B8A",
  
-"logo":"./N3RD/W/ICONSGIF.gif",
+"logo":"./N3RD/W/logo.gif",
 
 "wallpaper":"",
 
-"notice": "欢迎使用",
+"notice": "欢迎使用本源",
 
 "lives":[
 {"name":"ipv4","type":0,"url":"https://raw.githubusercontent.com/lg-yyds/gytvapi/refs/heads/master/output/user_result.txt","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/null/http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"}
