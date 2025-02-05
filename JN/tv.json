@@ -1,15 +1,15 @@
 {
-"spider":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/J/lem0203.jar;md5;DE8795E3F239B8DB12FB50FE12866B7D",
+"spider":"./N3RD/J/lem0203.jar;md5;DE8795E3F239B8DB12FB50FE12866B7D",
 
-//"spider":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/J/lem0131.jar;md5;79AFB2D354E07A662F12B49D592F9F52",
-//"spider":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/J/lem0125.jar;md5;9242CBBA875D946622DE6549B6E94E8C",
-//"spider":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/J/lem0123.jar;md5;E9F299054C22D4C056EA5C334245EB7D",
-//"spider":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/J/lem0122.jar;md5;A9B6BE722D4C8B9D9A19AC67925C5023",
-//"spider":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/J/lem0118.jar;md5;62323C9BE4E0C82D00FE1094A2978CA6",
-//"spider":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/J/lem0116.jar;md5;418870D9E1F56391AFEEA4FD1E3CC8AA",
-//"spider":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/J/lem0111.jar;md5;A8E0B9CDD49C215B89CCE40ABC2E9B8A",
+//"spider":"./N3RD/J/lem0131.jar;md5;79AFB2D354E07A662F12B49D592F9F52",
+//"spider":"./N3RD/J/lem0125.jar;md5;9242CBBA875D946622DE6549B6E94E8C",
+//"spider":"./N3RD/J/lem0123.jar;md5;E9F299054C22D4C056EA5C334245EB7D",
+//"spider":"./N3RD/J/lem0122.jar;md5;A9B6BE722D4C8B9D9A19AC67925C5023",
+//"spider":"./N3RD/J/lem0118.jar;md5;62323C9BE4E0C82D00FE1094A2978CA6",
+//"spider":"./N3RD/J/lem0116.jar;md5;418870D9E1F56391AFEEA4FD1E3CC8AA",
+//"spider":"./N3RD/J/lem0111.jar;md5;A8E0B9CDD49C215B89CCE40ABC2E9B8A",
  
-"logo":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/W/logo.gif",
+"logo":"./N3RD/W/logo.gif",
 
 "wallpaper":"",
 
@@ -22,7 +22,7 @@
 "sites":[
 
 // ⇩⇩ MULTIJAR ⇩⇩ 
-{"jar":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/J/gm.jar","key":"csp_GM_爱壹帆","name":"| 🐵爱壹帆(SCRIPT)","type":3,"searchable":1,"changeable":1,"quickSearch":0,"style":{"type":"rect","ratio":0.75},"api":"csp_GM","ext":{"userScript":"./EXT/userScripts/ysfp.user.js","debug":false,"webViewSettings":{"blockNetworkImage":true,"blockList":["*.png*","*.mp3*","*.css*","https://*.googletagmanager.com/*","https://*.google-analytics.com/*"]},"spider":{"homeContent":{"loadUrl":"https://m.yfsp.tv/"},"categoryContent":{"loadUrl":"https://m.yfsp.tv/list/${tid}?type=${index-0:-0}${index-1:-,0}${index-2:-,0}${index-3:-,0}${index-4:-,0}${index-5:-}"},"detailContent":{"loadUrl":"https://m.yfsp.tv/play/${id}"},"playerContent":{"loadUrl":"https://m.yfsp.tv/play/${mediaKey}?id=${episodeKey}"},"searchContent":{"loadUrl":"https://m.yfsp.tv/search"}}}},
+{"jar":"./N3RD/J/gm.jar","key":"csp_GM_爱壹帆","name":"| 🐵爱壹帆(SCRIPT)","type":3,"searchable":1,"changeable":1,"quickSearch":0,"style":{"type":"rect","ratio":0.75},"api":"csp_GM","ext":{"userScript":"./EXT/userScripts/ysfp.user.js","debug":false,"webViewSettings":{"blockNetworkImage":true,"blockList":["*.png*","*.mp3*","*.css*","https://*.googletagmanager.com/*","https://*.google-analytics.com/*"]},"spider":{"homeContent":{"loadUrl":"https://m.yfsp.tv/"},"categoryContent":{"loadUrl":"https://m.yfsp.tv/list/${tid}?type=${index-0:-0}${index-1:-,0}${index-2:-,0}${index-3:-,0}${index-4:-,0}${index-5:-}"},"detailContent":{"loadUrl":"https://m.yfsp.tv/play/${id}"},"playerContent":{"loadUrl":"https://m.yfsp.tv/play/${mediaKey}?id=${episodeKey}"},"searchContent":{"loadUrl":"https://m.yfsp.tv/search"}}}},
  
 // ⇩⇩ Lem缝合包 ⇩⇩ 
 {"key":"vod_海外资源","name":"| ️🚀海外资源","type":1,"api":"https://hw8.live/api.php/provide/vod/","searchable":1,"quickSearch":1},
@@ -124,10 +124,10 @@
 {"key":"csp_Kanqiu_FM","name":"| ⚾看球(SP)","type":3,"api":"csp_Kanqiu","searchable":1,"quickSearch":1,"changeable":0,"gridview":3,"style":{"type":"list"}},
 
 // ⇩⇩ CM SPIDER ⇩⇩ 
-{"key":"csp_CandyMuj_freeok","name":"| 🆗FreeOK(SP)","type":3,"api":"csp_CandyMuj_freeok","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/T/freeok.json"},
+{"key":"csp_CandyMuj_freeok","name":"| 🆗FreeOK(SP)","type":3,"api":"csp_CandyMuj_freeok","searchable":1,"quickSearch":1,"filterable":1,"ext":"./N3RD/T/freeok.json"},
 {"key":"csp_CandyMuj_hjtv","name":"| 🍺韩剧TV(SP)","type":3,"api":"csp_CandyMuj_hjtv","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_CandyMuj_netflixgc","name":"| 💖奈飞工厂(SP)","type":3,"api":"csp_CandyMuj_netflixgc","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/T/netflixgc.json"},
-{"key":"csp_CandyMuj_dyls","name":"| 🚅极速影视(SP)","type":3,"api":"csp_CandyMuj_dyls","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/T/dyls.json"},
+{"key":"csp_CandyMuj_netflixgc","name":"| 💖奈飞工厂(SP)","type":3,"api":"csp_CandyMuj_netflixgc","searchable":1,"quickSearch":1,"filterable":1,"ext":"./N3RD/T/netflixgc.json"},
+{"key":"csp_CandyMuj_dyls","name":"| 🚅极速影视(SP)","type":3,"api":"csp_CandyMuj_dyls","searchable":1,"quickSearch":1,"filterable":1,"ext":"./N3RD/T/dyls.json"},
 {"key":"csp_CandyMuj_haokongbu","name":"| 🧛‍♂️好恐怖(SP)","type":3,"api":"csp_CandyMuj_haokongbu","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_CandyMuj_taoju","name":"| 🌊淘剧影院(SP)","type":3,"api":"csp_CandyMuj_taoju","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_CandyMuj_lm5","name":"| 🌃星辰影院(SP)","type":3,"api":"csp_CandyMuj_lm5","searchable":1,"quickSearch":1,"filterable":1},
@@ -185,7 +185,7 @@
 // ⇩⇩ 采集 ⇩⇩ 
 {"key":"vod_黑木","name":"| 🚀黑木","type":1,"api":"https://json.heimuer.xyz/api.php/provide/vod","playUrl":"json:https://4tvbox.ggff.net/hme.php?url=","header":{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36"},"searchable":1,"changeable":1,"categories":["国产剧","港剧","欧美剧","台剧","韩剧","日剧","泰剧","国产综艺","欧美综艺","韩国综艺","日本综艺","日本动漫","国产动漫","欧美动漫","动画电影","冒险片","剧情片","动作片","喜剧片","奇幻片","恐怖片","悬疑片","惊悚片","战争片","歌舞片","灾难片","爱情片","犯罪片","科幻片","纪录片","同性片","经典片"]},
 {"key":"vod_木木","name":"| 🚀木木","type":1,"api":"https://json.heimuer.xyz/api.php/provide/vod","playUrl":"json:https://tvbox.linkpc.net/api/kill_ads?url=","header":{"User-Agent":"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Mobile Safari/537.36"},"searchable":1,"changeable":1,"categories":["国产剧","港剧","欧美剧","台剧","韩剧","日剧","泰剧","国产综艺","欧美综艺","韩国综艺","日本综艺","日本动漫","国产动漫","欧美动漫","动画电影","冒险片","剧情片","动作片","喜剧片","奇幻片","恐怖片","悬疑片","惊悚片","战争片","歌舞片","灾难片","爱情片","犯罪片","科幻片","纪录片","同性片","经典片"]},
-{"key":"vod_优质","name":"| 🚀优质","type":1,"jar":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/N3RD/J/pg.jar","playUrl":"json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","api":"https://api.1080zyku.com/inc/api_mac10.php","searchable":1,"quickSearch":1},
+{"key":"vod_优质","name":"| 🚀优质","type":1,"jar":"./N3RD/J/pg.jar","playUrl":"json:http://127.0.0.1:10079/parse/?thread=0&proxy=&url=","api":"https://api.1080zyku.com/inc/api_mac10.php","searchable":1,"quickSearch":1},
 {"key":"vod_超级","name":"| 🚀超级","type":1,"api":"http://cjvip.free.hr/api.php/provide/vod/?ac=list","searchable":1,"filterable":1,"changeable":1},
 {"key":"vod_追风","name":"| 🚀追风","type":1,"api":"http://www.zfsp.cc/api.php/provide/vod","searchable":1,"filterable":1,"changeable":1,"timeout":10},
 {"key":"vod_飞速","name":"| ️🚀飞速","type":1,"api":"https://www.feisuzy.com/api.php/provide/vod/","searchable":1,"quickSearch":1},
