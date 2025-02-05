@@ -16,9 +16,6 @@
 "notice": "欢迎使用",
 
 "lives":[
-{"name":"YOUTUBE直播","type":0,"url":"https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/YTTV.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
-{"name":"YOUTUBE音乐","type":0,"url":"http://yt.850930.xyz","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"http://5b0988e595225.cdn.sohucs.com/images/20190313/ad9ebfafbec640b7b41b9250156dff39.png"},
-{"name":"YOUTUBE榜单","type":0,"url":"http://yt.850930.xyz/playlist.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"http://5b0988e595225.cdn.sohucs.com/images/20190313/ad9ebfafbec640b7b41b9250156dff39.png"},
 {"name":"ipv4","type":0,"url":"https://raw.githubusercontent.com/lg-yyds/gytvapi/refs/heads/master/output/user_result.txt","ua":"okhttp/3.15","epg":"http://127.0.0.1:10079/p/0/null/http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"}
 ],
 
@@ -26,17 +23,8 @@
 
 // ⇩⇩ MULTIJAR ⇩⇩ 
 {"jar":"./N3RD/J/gm.jar","key":"csp_GM_爱壹帆","name":"| 🐵爱壹帆(SCRIPT)","type":3,"searchable":1,"changeable":1,"quickSearch":0,"style":{"type":"rect","ratio":0.75},"api":"csp_GM","ext":{"userScript":"./EXT/userScripts/ysfp.user.js","debug":false,"webViewSettings":{"blockNetworkImage":true,"blockList":["*.png*","*.mp3*","*.css*","https://*.googletagmanager.com/*","https://*.google-analytics.com/*"]},"spider":{"homeContent":{"loadUrl":"https://m.yfsp.tv/"},"categoryContent":{"loadUrl":"https://m.yfsp.tv/list/${tid}?type=${index-0:-0}${index-1:-,0}${index-2:-,0}${index-3:-,0}${index-4:-,0}${index-5:-}"},"detailContent":{"loadUrl":"https://m.yfsp.tv/play/${id}"},"playerContent":{"loadUrl":"https://m.yfsp.tv/play/${mediaKey}?id=${episodeKey}"},"searchContent":{"loadUrl":"https://m.yfsp.tv/search"}}}},
-{"jar":"./N3RD/J/gm.jar","key":"csp_GM_剧爷爷","name":"| 🐵剧爷爷(SCRIPT)","type":3,"searchable":1,"changeable":1,"quickSearch":0,"style":{"type":"rect","ratio":0.71},"api":"csp_GM","ext":{"userScript":"./EXT/userScripts/juyeye.user.js","debug":false,"webViewSettings":{"blockNetworkImage":true,"blockList":["https://hm.baidu.com/*"]},"playUrlMatch":["*://*/*.m3u8*"],"spider":{"homeContent":{"loadUrl":"https://www.juyeye.cc/"},"categoryContent":{"loadUrl":"https://www.juyeye.cc/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"},"detailContent":{"loadUrl":"https://www.juyeye.cc${id}"},"playerContent":{"loadUrl":"https://www.juyeye.cc${playUrl}"},"searchContent":{"loadUrl":"https://www.juyeye.cc/vodsearch/${key}----------${pg:-1}---.html"}}}},
-{"jar":"./N3RD/J/gm.jar","key":"csp_GM_番茄影视","name":"| 🐵番茄影视(SCRIPT)","type":3,"searchable":1,"changeable":1,"quickSearch":0,"style":{"type":"rect","ratio":0.71},"api":"csp_GM","ext":{"userScript":"./EXT/userScripts/yirenmeng.user.js","debug":false,"webViewSettings":{"blockNetworkImage":true,"blockList":["https://hm.baidu.com/*"]},"playUrlMatch":["*://*/*.m3u8*"],"spider":{"homeContent":{"loadUrl":"https://www.yirenmeng.com/"},"categoryContent":{"loadUrl":"https://www.yirenmeng.com/vodshow/${tid}-${index0:-}-${index1:-}-${index2:-}-${index3:-}-${index4:-}-${index5:-}-${index6:-}-${pg:-1}-${index8:-}-${index9:-}-${index10:-}.html"},"detailContent":{"loadUrl":"https://www.yirenmeng.com${id}"},"playerContent":{"loadUrl":"https://www.yirenmeng.com${playUrl}"},"searchContent":{"loadUrl":"https://www.yirenmeng.com/vodsearch/${key}----------${pg:-1}---.html"}}}}, 
-
-// ⇩⇩ 榜单直播 ⇩⇩ 
-{"key":"csp_Douban","name":"| 📡我的豆瓣(SP)","type":3,"api":"csp_Douban","searchable":0,"ext":"./N3RD/T/douban.json"},
-{"key":"csp_DouDou","name":"| 📡豆瓣片单(SP)","type":3,"api":"csp_DouDou","searchable":0},
-
-
+ 
 // ⇩⇩ Lem缝合包 ⇩⇩ 
-{"key":"vod_360资源","name":"| 🚀360资源","type":1,"api":"https://360zy.com/api.php/provide/vod","categories":["国产剧","短片","动画片","香港剧","韩国剧","欧美剧","动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","战争片","NBA","惊悚片","家庭篇","古装片","历史片","悬疑片","犯罪片","纪录片","台湾剧","大陆综艺","国产动漫","日韩动漫","西部片"]},
-{"key":"vod_木耳资源","name":"| ️🚀木耳资源","type":1,"api":"https://json.heimuer.xyz/api.php/provide/vod/?ac=list"},
 {"key":"vod_海外资源","name":"| ️🚀海外资源","type":1,"api":"https://hw8.live/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"vod_华为资源","name":"| ️🚀华为资源","type":1,"api":"http://nikanba.live/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
 {"key":"csp_Jianpian_FM","name":"| 🏆荐片(SP)","type":3,"api":"csp_Jianpian","searchable":1,"quickSearch":1,"changeable":1,"ext":"http://api2.rinhome.com"},
@@ -45,7 +33,6 @@
 {"key":"csp_Bili","name":"| 🅱哔哩哔哩(SP)","type":3,"api":"csp_Bili","searchable":0,"quickSearch":0,"filterable":0,"ext":{"json":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/XB/Bili1.json"}},
 {"key":"drjs_我的哔哩[官]","name":"| 🅱我的哔哩(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./dr_py/js/我的哔哩[官].js?type=url&params=https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/json/Bili1.json"},
 {"key":"csp_Alllive","name":"| 📽️一直播(SP)","type":3,"api":"csp_Alllive","playerType":2,"searchable":0,"quickSearch":0,"changeable":0},
-{"key":"csp_WoGG","name":"| 👽玩偶哥哥(SP)","type":3,"api":"csp_WoGG","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.net/","danMu":"弹"}},
 {"key":"csp_YCyz","name":"| ☀原创(SP)","type":3,"api":"csp_YCyz","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"csp_LiteApple","name":"| 🍎小苹果(SP)","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"csp_Sbaibai","name":"| 🐟素白白(SP)","type":3,"api":"csp_Sbaibai","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
