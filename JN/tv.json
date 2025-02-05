@@ -1,14 +1,6 @@
 {
 "spider":"./N3RD/J/lem0203.jar;md5;DE8795E3F239B8DB12FB50FE12866B7D",
 
-//"spider":"./N3RD/J/lem0131.jar;md5;79AFB2D354E07A662F12B49D592F9F52",
-//"spider":"./N3RD/J/lem0125.jar;md5;9242CBBA875D946622DE6549B6E94E8C",
-//"spider":"./N3RD/J/lem0123.jar;md5;E9F299054C22D4C056EA5C334245EB7D",
-//"spider":"./N3RD/J/lem0122.jar;md5;A9B6BE722D4C8B9D9A19AC67925C5023",
-//"spider":"./N3RD/J/lem0118.jar;md5;62323C9BE4E0C82D00FE1094A2978CA6",
-//"spider":"./N3RD/J/lem0116.jar;md5;418870D9E1F56391AFEEA4FD1E3CC8AA",
-//"spider":"./N3RD/J/lem0111.jar;md5;A8E0B9CDD49C215B89CCE40ABC2E9B8A",
- 
 "logo":"./N3RD/W/logo.gif",
 
 "wallpaper":"",
@@ -22,7 +14,7 @@
 "sites":[
 
 // ⇩⇩ MULTIJAR ⇩⇩ 
-{"jar":"./N3RD/J/gm.jar","key":"csp_GM_爱壹帆","name":"| 🐵爱壹帆(SCRIPT)","type":3,"searchable":1,"changeable":1,"quickSearch":0,"style":{"type":"rect","ratio":0.75},"api":"csp_GM","ext":{"userScript":"./EXT/userScripts/ysfp.user.js","debug":false,"webViewSettings":{"blockNetworkImage":true,"blockList":["*.png*","*.mp3*","*.css*","https://*.googletagmanager.com/*","https://*.google-analytics.com/*"]},"spider":{"homeContent":{"loadUrl":"https://m.yfsp.tv/"},"categoryContent":{"loadUrl":"https://m.yfsp.tv/list/${tid}?type=${index-0:-0}${index-1:-,0}${index-2:-,0}${index-3:-,0}${index-4:-,0}${index-5:-}"},"detailContent":{"loadUrl":"https://m.yfsp.tv/play/${id}"},"playerContent":{"loadUrl":"https://m.yfsp.tv/play/${mediaKey}?id=${episodeKey}"},"searchContent":{"loadUrl":"https://m.yfsp.tv/search"}}}},
+{"jar":"./N3RD/J/gm.jar","key":"csp_GM_爱壹帆","name":"🐵爱壹帆","type":3,"searchable":1,"changeable":1,"quickSearch":0,"style":{"type":"rect","ratio":0.75},"api":"csp_GM","ext":{"userScript":"./EXT/userScripts/ysfp.user.js","debug":false,"webViewSettings":{"blockNetworkImage":true,"blockList":["*.png*","*.mp3*","*.css*","https://*.googletagmanager.com/*","https://*.google-analytics.com/*"]},"spider":{"homeContent":{"loadUrl":"https://m.yfsp.tv/"},"categoryContent":{"loadUrl":"https://m.yfsp.tv/list/${tid}?type=${index-0:-0}${index-1:-,0}${index-2:-,0}${index-3:-,0}${index-4:-,0}${index-5:-}"},"detailContent":{"loadUrl":"https://m.yfsp.tv/play/${id}"},"playerContent":{"loadUrl":"https://m.yfsp.tv/play/${mediaKey}?id=${episodeKey}"},"searchContent":{"loadUrl":"https://m.yfsp.tv/search"}}}},
  
 // ⇩⇩ Lem缝合包 ⇩⇩ 
 {"key":"vod_海外资源","name":"| ️🚀海外资源","type":1,"api":"https://hw8.live/api.php/provide/vod/","searchable":1,"quickSearch":1},
