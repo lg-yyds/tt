@@ -1,4 +1,4 @@
-name: Sync N3RD Repository
+name: Sync N3RD
 
 on:
   schedule:
