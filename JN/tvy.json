@@ -1,14 +1,8 @@
 {
-"spider":"./N3RD/J/lem0203.jar;md5;DE8795E3F239B8DB12FB50FE12866B7D",
+"spider":"./N3RD/J/lem0209.jar;md5;E13BB8027E585A99FA1F2721965A8D56",
 
  
-//"spider":"./N3RD/J/lem0131.jar;md5;79AFB2D354E07A662F12B49D592F9F52",
-//"spider":"./N3RD/J/lem0125.jar;md5;9242CBBA875D946622DE6549B6E94E8C",
-//"spider":"./N3RD/J/lem0123.jar;md5;E9F299054C22D4C056EA5C334245EB7D",
-//"spider":"./N3RD/J/lem0122.jar;md5;A9B6BE722D4C8B9D9A19AC67925C5023",
-//"spider":"./N3RD/J/lem0118.jar;md5;62323C9BE4E0C82D00FE1094A2978CA6",
-//"spider":"./N3RD/J/lem0116.jar;md5;418870D9E1F56391AFEEA4FD1E3CC8AA",
-//"spider":"./N3RD/J/lem0111.jar;md5;A8E0B9CDD49C215B89CCE40ABC2E9B8A",
+//"spider":"./N3RD/J/lem0203.jar;md5;DE8795E3F239B8DB12FB50FE12866B7D",
  
 "logo":"./N3RD/W/logo.gif",
 
@@ -19,12 +13,12 @@
 "lives":[
 {"name":"ipv4","type":0,"url":"https://raw.githubusercontent.com/lg-yyds/gytvapi/refs/heads/master/output/user_result.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"YOUTUBE直播","type":0,"url":"https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/JS/YTLive.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
-],
+]，
 
 "sites":[
 
  // ⇩⇩ MULTIJAR ⇩⇩ 
-{"jar":"./N3RD/J/gm.jar","key":"csp_GM_爱壹帆","name":"🐵爱壹帆","type":3,"searchable":1,"changeable":1,"quickSearch":0,"style":{"type":"rect","ratio":0.75},"api":"csp_GM","ext":{"userScript":"./EXT/userScripts/ysfp.user.js","debug":false,"webViewSettings":{"blockNetworkImage":true,"blockList":["*.png*","*.mp3*","*.css*","https://*.googletagmanager.com/*","https://*.google-analytics.com/*"]},"spider":{"homeContent":{"loadUrl":"https://m.yfsp.tv/"},"categoryContent":{"loadUrl":"https://m.yfsp.tv/list/${tid}?type=${index-0:-0}${index-1:-,0}${index-2:-,0}${index-3:-,0}${index-4:-,0}${index-5:-}"},"detailContent":{"loadUrl":"https://m.yfsp.tv/play/${id}"},"playerContent":{"loadUrl":"https://m.yfsp.tv/play/${mediaKey}?id=${episodeKey}"},"searchContent":{"loadUrl":"https://m.yfsp.tv/search"}}}},
+{"jar":"./N3RD/J/gm.jar","key":"csp_GM_爱壹帆","name":"🐵爱壹帆","type":3,"searchable":1,"changeable":1,"quickSearch":0,"style":{"type":"rect","ratio":0.75},"api":"csp_GM","ext":{"userScript":"./EXT/userScripts/ysfp.user.js","debug":false,"webViewSettings":{"blockNetworkImage":true,"blockList":["*.png*","*.mp3*","*.css*","https://*.googletagmanager.com/*","https://*.google-analytics.com/*"]},"spider":{"homeContent":{"loadUrl":"https://m.yfsp.tv/"},"categoryContent":{"loadUrl":"https://m.yfsp.tv/list/${tid}?type=${index-0:-0}${index-1:-,0}${index-2:-,0}${index-3:-,0}${index-4:-,0}${index-5:-}"}，"detailContent":{"loadUrl":"https://m.yfsp.tv/play/${id}"},"playerContent":{"loadUrl":"https://m.yfsp.tv/play/${mediaKey}?id=${episodeKey}"},"searchContent":{"loadUrl":"https://m.yfsp.tv/search"}}}},
 
 {"key":"vod_海外资源","name":"️🚀海外资源","type":1,"api":"https://hw8.live/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"vod_华为资源","name":"️🚀华为资源","type":1,"api":"http://nikanba.live/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
@@ -161,24 +155,24 @@
 {"key":"T4_索尼","name":"4️⃣索尼(T4)","type":4,"api":"http://jg.zhangqun66.com/sn.php","searchable":1,"quickSearch":1,"filterable":0},
 {"key":"T4_合集","name":"4️⃣合集(T4)","type":1,"api":"http://jg.zhangqun66.com/cjjh.php","searchable":1,"quickSearch":1,"changeable":1},
 {"key":"T4_克隆","name":"4️⃣克隆(T4)","type":4,"api":"http://jg.zhangqun66.com/klhj.php","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"T4_央视","name":"4️⃣央视(T4)","type":4,"api":"https://catbox.n13.club/t4/cntv.php"},
-{"key":"T4_豆瓣","name":"4️⃣豆瓣(T4)","type":4,"api":"https://catbox.n13.club/t4/douban.php"},
-{"key":"T4_预告","name":"4️⃣预告(T4)","type":4,"api":"https://catbox.n13.club/t4/yugaopian.php"},
-{"key":"T4_采集","name":"4️⃣采集(T4)","type":4,"api":"https://catbox.n13.club/t4/caiji.php"},
-{"key":"T4_南瓜","name":"4️⃣南瓜(T4)","type":4,"api":"https://catbox.n13.club/t4/nangua.php"},
-{"key":"T4_解说","name":"4️⃣解说(T4)","type":4,"api":"https://catbox.n13.club/t4/bili.php?id=影视解说"},
-{"key":"T4_360","name":"4️⃣360(T4)","type":4,"api":"https://catbox.n13.club/t4/360.php"},
-{"key":"T4_Auete","name":"4️⃣Auete(T4)","type":4,"api":"https://catbox.n13.club/t4/auete.php"},
-{"key":"T4_6V","name":"4️⃣6V(T4)","type":4,"api":"https://catbox.n13.club/t4/6v.php"}, 
-{"key":"T4_4KHDR","name":"4️⃣4KHDR(T4)","type":4,"api":"https://catbox.n13.club/t4/4khdr.php"},
-{"key":"T4_电影港","name":"4️⃣电影港(T4)","type":4,"api":"https://catbox.n13.club/t4/dygangs.php"},
-{"key":"T4_DJUU","name":"4️⃣DJUU(T4)","type":4,"api":"https://catbox.n13.club/t4/djuu.php"},
-{"key":"T4_DJMV","name":"4️⃣DJMV(T4)","type":4,"api":"https://catbox.n13.club/t4/djmv.php"},
-{"key":"T4_糖豆","name":"4️⃣糖豆(T4)","type":4,"api":"https://catbox.n13.club/t4/tangdou.php"},
-{"key":"T4_蜻蜓","name":"4️⃣蜻蜓(T4)","type":4,"api":"https://catbox.n13.club/t4/qingting.php"},
-{"key":"T4_博看","name":"4️⃣博看(T4)","type":4,"api":"https://catbox.n13.club/t4/bookan.php"},
-{"key":"T4_360看球","name":"4️⃣360看球(T4)","type":4,"api":"https://catbox.n13.club/t4/360kq.php"},
-{"key":"T4_企鹅体育","name":"4️⃣企鹅体育(T4)","type":4,"api":"https://catbox.n13.club/t4/qietiyu.php"},
+{"key":"T4_央视","name":"4️⃣央视(T4)","type":4,"api":"https://catbox.n13.club/t9/cntv.php"},
+{"key":"T4_豆瓣","name":"4️⃣豆瓣(T4)","type":4,"api":"https://catbox.n13.club/t9/douban.php"},
+{"key":"T4_预告","name":"4️⃣预告(T4)","type":4,"api":"https://catbox.n13.club/t9/yugaopian.php"},
+{"key":"T4_采集","name":"4️⃣采集(T4)","type":4,"api":"https://catbox.n13.club/t9/caiji.php"},
+{"key":"T4_南瓜","name":"4️⃣南瓜(T4)","type":4,"api":"https://catbox.n13.club/t9/nangua.php"},
+{"key":"T4_解说","name":"4️⃣解说(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=影视解说"},
+{"key":"T4_360","name":"4️⃣360(T4)","type":4,"api":"https://catbox.n13.club/t9/360.php"},
+{"key":"T4_Auete","name":"4️⃣Auete(T4)","type":4,"api":"https://catbox.n13.club/t9/auete.php"},
+{"key":"T4_6V","name":"4️⃣6V(T4)","type":4,"api":"https://catbox.n13.club/t9/6v.php"}, 
+{"key":"T4_4KHDR","name":"4️⃣4KHDR(T4)","type":4,"api":"https://catbox.n13.club/t9/4khdr.php"},
+{"key":"T4_电影港","name":"4️⃣电影港(T4)","type":4,"api":"https://catbox.n13.club/t9/dygangs.php"},
+{"key":"T4_DJUU","name":"4️⃣DJUU(T4)","type":4,"api":"https://catbox.n13.club/t9/djuu.php"},
+{"key":"T4_DJMV","name":"4️⃣DJMV(T4)","type":4,"api":"https://catbox.n13.club/t9/djmv.php"},
+{"key":"T4_糖豆","name":"4️⃣糖豆(T4)","type":4,"api":"https://catbox.n13.club/t9/tangdou.php"},
+{"key":"T4_蜻蜓","name":"4️⃣蜻蜓(T4)","type":4,"api":"https://catbox.n13.club/t9/qingting.php"},
+{"key":"T4_博看","name":"4️⃣博看(T4)","type":4,"api":"https://catbox.n13.club/t9/bookan.php"},
+{"key":"T4_360看球","name":"4️⃣360看球(T4)","type":4,"api":"https://catbox.n13.club/t9/360kq.php"},
+{"key":"T4_企鹅体育","name":"4️⃣企鹅体育(T4)","type":4,"api":"https://catbox.n13.club/t9/qietiyu.php"},
  
  
 // ⇩⇩ 采集 ⇩⇩ 
