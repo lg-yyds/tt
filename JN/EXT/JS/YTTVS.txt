@@ -42,6 +42,7 @@ DW,https://www.youtube.com/watch?v=pqabxBKzZ6M
 France24,https://www.youtube.com/watch?v=tkDUSYHoKxE
 CNALives,https://www.youtube.com/watch?v=XWq5kBlakcQ
 TD Ameritrade,https://www.youtube.com/watch?v=SG1Lc0QCD_Y
+CNN News18,https://www.youtube.com/watch?v=CPJmKMH17d4&ab_channel=CNN-News18
 CBN News,https://www.youtube.com/watch?v=CG2XDTgvZPo
 tvOne 24Jam,https://www.youtube.com/watch?v=yNKvkPJl-tg
 NBC NEW,https://www.youtube.com/watch?v=0IUbD_4ytuo
