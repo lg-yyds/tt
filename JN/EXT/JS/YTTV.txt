@@ -1,22 +1,9 @@
-👦雷蒙影視概念宣傳片,#genre#
-雷蒙影视主题曲 TS1,https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/CTVThemeSong1.mp4
-雷蒙影视主题曲 TS2,https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/CTVThemeSong2.mp4
-雷蒙影视主题曲 TS1,https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/CTVThemeSong1.mp4
-雷蒙影视主题曲 TS2,https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/CTVThemeSong2.mp4
-
-雷蒙影視 PV1,https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/CRIMETVPV1.mkv
-雷蒙影視 PV2,https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/CRIMETVPV2.mkv
-雷蒙影視 PV3,https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/CRIMETVPV3.mkv
-雷蒙影視 PV1,https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/CRIMETVPV1.mkv
-雷蒙影視 PV2,https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/CRIMETVPV2.mkv
-雷蒙影視 PV3,https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/N3RD/W/CRIMETVPV3.mkv
-
-
 🇹🇼台灣新聞,#genre#
+鳳凰資訊,https://www.youtube.com/watch?v=HFib76ySpbU
+鳳凰資訊,https://www.youtube.com/watch?v=LNux6O0Fj6A
 中天新聞,https://www.youtube.com/watch?v=vr3XyVCR4T0
 中天新聞2,https://www.youtube.com/watch?v=DM_PEM8GrIg
 中天亞洲台,https://www.youtube.com/watch?v=qN_qW6tmWDs
-鳳凰資訊,https://www.youtube.com/watch?v=HFib76ySpbU
 CCTV-4,https://www.youtube.com/watch?v=SdzewdkJa-o
 TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc&ab_channel=TVBSNEWS
 TVBSHD 56,https://www.youtube.com/watch?v=o_-hSMgpAzs
