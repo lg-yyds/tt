@@ -14,12 +14,12 @@
 "lives":[
 {"name":"直播","type":0,"url":"https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/output/user_tv.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
 {"name":"YOUTUBE直播","type":0,"url":"https://raw.githubusercontent.com/lg-yyds/tt/refs/heads/main/JN/EXT/JS/YTTVS.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
-],
+]，
 
 "sites":[
 
  // ⇩⇩ MULTIJAR ⇩⇩ 
-{"jar":"./N3RD/J/gm.jar","key":"csp_GM_爱壹帆","name":"🐵爱壹帆","type":3,"searchable":1,"changeable":1,"quickSearch":0,"style":{"type":"rect","ratio":0.75},"api":"csp_GM","ext":{"userScript":"./EXT/userScripts/ysfp.user.js","debug":false,"webViewSettings":{"blockNetworkImage":true,"blockList":["*.png*","*.mp3*","*.css*","https://*.googletagmanager.com/*","https://*.google-analytics.com/*"]},"spider":{"homeContent":{"loadUrl":"https://m.yfsp.tv/"},"categoryContent":{"loadUrl":"https://m.yfsp.tv/list/${tid}?type=${index-0:-0}${index-1:-,0}${index-2:-,0}${index-3:-,0}${index-4:-,0}${index-5:-}"}，"detailContent":{"loadUrl":"https://m.yfsp.tv/play/${id}"},"playerContent":{"loadUrl":"https://m.yfsp.tv/play/${mediaKey}?id=${episodeKey}"},"searchContent":{"loadUrl":"https://m.yfsp.tv/search"}}}},
+{"jar":"./N3RD/J/gm.jar","key":"csp_GM_爱壹帆","name":"🐵爱壹帆","type":3,"searchable":1,"changeable":1,"quickSearch":0,"style":{"type":"rect","ratio":0.75},"api":"csp_GM","ext":{"userScript":"./EXT/userScripts/ysfp.user.js","debug":false,"webViewSettings":{"blockNetworkImage":true,"blockList":["*.png*","*.mp3*","*.css*","https://*.googletagmanager.com/*","https://*.google-analytics.com/*"]},"spider":{"homeContent":{"loadUrl":"https://m.yfsp.tv/"},"categoryContent":{"loadUrl":"https://m.yfsp.tv/list/${tid}?type=${index-0:-0}${index-1:-,0}${index-2:-,0}${index-3:-,0}${index-4:-,0}${index-5:-}"},"detailContent":{"loadUrl":"https://m.yfsp.tv/play/${id}"},"playerContent":{"loadUrl":"https://m.yfsp.tv/play/${mediaKey}?id=${episodeKey}"},"searchContent":{"loadUrl":"https://m.yfsp.tv/search"}}}},
 
 {"key":"vod_海外资源","name":"️🚀海外资源","type":1,"api":"https://hw8.live/api.php/provide/vod/","searchable":1,"quickSearch":1},
 {"key":"vod_华为资源","name":"️🚀华为资源","type":1,"api":"http://nikanba.live/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1},
