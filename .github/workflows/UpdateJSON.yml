@@ -49,11 +49,20 @@ jobs:
           echo "Updated JN/tv.json and JN/tvy.json with new spider value."
           cat JN/tv.json || echo "tv.json 文件不存在"
           cat JN/tvy.json || echo "tvy.json 文件不存在"
-      
+
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+
+          # 添加 JN/tv.json 和 JN/tvy.json
           git add JN/tv.json JN/tvy.json
+
+          # 检查是否有更改
+          if git diff --cached --quiet; then
+            echo "No changes detected, skipping commit."
+            exit 0
+          fi
+
           git commit -m "Update spider value in tv.json and tvy.json"
           git push
