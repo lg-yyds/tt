@@ -1,64 +1,25 @@
-name: Update Spider Values
+name: Replace Spider Value
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *'  # 每天午夜12点运行
   push:
-    paths:
-      - './JN/lem.json'
+    branches:
+      - main
+  schedule:
+    # 定时每天凌晨 0 点执行（根据需要调整时间）
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # 支持手动触发
 
 jobs:
-  update_spider_value:
+  replace-spider:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Install Python
-        run: sudo apt-get install python3
-
-      - name: Extract spider value from lem.json and update tv.json and tvy.json
-        run: |
-          # 提取 lem.json 中的 spider 值
-          SPIDER_VALUE=$(python3 -c "
-import json
-with open('./JN/lem.json', 'r') as f:
-    data = json.load(f)
-    spider = data[0].get('spider', '')
-    spider_value = spider.split(';')[0] if spider else ''
-    print(spider_value)
-")
-          echo "SPIDER_VALUE=$SPIDER_VALUE" >> $GITHUB_ENV
-
-      - name: Update spider value in tv.json using Python
-        run: |
-          python3 -c "
-import json
-with open('./JN/tv.json', 'r') as f:
-    data = json.load(f)
-    if data:
-        data[0]['spider'] = '$SPIDER_VALUE'
-with open('./JN/tv.json', 'w') as f:
-    json.dump(data, f, indent=4)
-"
-
-      - name: Update spider value in tvy.json using Python
-        run: |
-          python3 -c "
-import json
-with open('./JN/tvy.json', 'r') as f:
-    data = json.load(f)
-    if data:
-        data[0]['spider'] = '$SPIDER_VALUE'
-with open('./JN/tvy.json', 'w') as f:
-    json.dump(data, f, indent=4)
-"
-
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add ./JN/tv.json ./JN/tvy.json
-          git commit -m "Update spider values in tv.json and tvy.json"
-          git push
+    - name: Extract spider value from lem.json
+      id: extract_spider
+      run: |
+        # 使用 jq 获取 lem.json 文件中的第一个 spider 的值
+        spider_value=$(jq -r '.[0].spider' ./JN/lem.json)
+        echo "spider_value=$spider_value" >> $GITHUB_ENV
