@@ -1,26 +1,46 @@
-name: Update Spider Value
+name: Update Spider Values
 
 on:
+  # 手动触发
+  workflow_dispatch:
+  
+  # 定时触发（每天凌晨12点）
+  schedule:
+    - cron: '0 0 * * *'  # 每天午夜12点运行
+
+  # 监控文件变化
   push:
     paths:
-      - 'lem.json'
-  workflow_dispatch: # 允许手动触发
-  schedule:
-    - cron: '0 0 * * *'  # 每天午夜运行，格式为 CRON 表达式
+      - './JN/lem.json'
 
 jobs:
-  update_spider:
+  update_spider_value:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
+      - name: Install jq (for JSON manipulation)
+        run: sudo apt-get install jq
 
-      - name: Run the script to update spider values
+      - name: Extract spider value from lem.json
+        id: extract_spider
         run: |
-          python ./JN/update_spider.py
+          SPIDER_VALUE=$(jq -r '.[0].spider' ./JN/lem.json | cut -d';' -f1)
+          echo "SPIDER_VALUE=$SPIDER_VALUE" >> $GITHUB_ENV
+
+      - name: Update spider value in tv.json
+        run: |
+          jq --arg value "$SPIDER_VALUE" '.[0].spider = $value' ./JN/tv.json > ./JN/tv_temp.json && mv ./JN/tv_temp.json ./JN/tv.json
+
+      - name: Update spider value in tvy.json
+        run: |
+          jq --arg value "$SPIDER_VALUE" '.[0].spider = $value' ./JN/tvy.json > ./JN/tvy_temp.json && mv ./JN/tvy_temp.json ./JN/tvy.json
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add ./JN/tv.json ./JN/tvy.json
+          git commit -m "Update spider values in tv.json and tvy.json"
+          git push
