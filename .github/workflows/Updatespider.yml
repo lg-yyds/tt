@@ -26,10 +26,11 @@ jobs:
 
       - name: Commit changes
         run: |
-          # 进入到 JN 目录
           cd JN
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add tv.json tvy.json  # 添加相对路径
-          git commit -m "Update spider values in tv.json and tvy.json"
+
+          # 检查文件是否有更改
+          git diff --exit-code tv.json tvy.json || git add tv.json tvy.json
+          git commit -m "Update spider values in tv.json and tvy.json" || echo "No changes to commit"
           git push
