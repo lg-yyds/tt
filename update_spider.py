@@ -3,26 +3,32 @@ import os
 
 def update_spider(file_path, spider_value):
     try:
-        # 尝试加载文件内容
+        # 读取文件内容，不管格式如何
         with open(file_path, 'r') as f:
-            data = f.read()  # 先读取文件内容为字符串
-            
-            # 忽略 JSON 解析错误，尽最大努力处理格式不完全正确的文件
+            data = f.read()  # 读取文件内容为字符串
             try:
-                data = json.loads(data)  # 尝试解析为JSON格式
+                # 尝试解析 JSON 数据
+                data = json.loads(data)
             except json.JSONDecodeError:
-                print(f"Warning: Invalid JSON format in {file_path}, attempting to proceed anyway.")
+                data = []  # 如果解析错误，设为一个空列表，避免崩溃
 
-        # 确保数据是列表且第一个元素存在
-        if isinstance(data, list) and len(data) > 0:
-            data[0]['spider'] = spider_value
-            with open(file_path, 'w') as f:
-                json.dump(data, f, indent=4)
+        # 无论格式如何，只要数据是列表，就更新第一个元素的 spider 值
+        if isinstance(data, list):
+            if len(data) > 0:
+                data[0]['spider'] = spider_value
+            else:
+                data.append({'spider': spider_value})  # 如果列表为空，添加一个新的字典
         else:
-            print(f"Warning: Invalid JSON structure in {file_path}, skipping this file.")
+            data = [{'spider': spider_value}]  # 如果数据格式不对，直接创建一个包含 spider 的字典
+
+        # 将更新后的数据写回文件
+        with open(file_path, 'w') as f:
+            json.dump(data, f, indent=4)
 
     except FileNotFoundError:
         print(f"File not found: {file_path}")
+    except Exception as e:
+        print(f"Error processing {file_path}: {e}")
 
 def main():
     # 获取 lem.json 文件中的 spider 值
@@ -30,24 +36,18 @@ def main():
     spider_value = None
     try:
         with open(lem_file_path, 'r') as f:
-            data = f.read()  # 先读取文件内容为字符串
-            
-            # 忽略 JSON 解析错误，尽最大努力处理格式不完全正确的文件
+            data = f.read()  # 读取文件内容为字符串
             try:
-                data = json.loads(data)  # 尝试解析为JSON格式
+                data = json.loads(data)  # 尝试解析 JSON 格式
             except json.JSONDecodeError:
-                print(f"Warning: Invalid JSON format in {lem_file_path}, attempting to proceed anyway.")
-                data = []  # 如果 JSON 无法解析，使用空列表，避免错误
-
-        # 提取 spider 值
+                data = []  # 如果格式错误，设为空列表
         if isinstance(data, list) and len(data) > 0:
             spider_value = data[0].get("spider")
-        else:
-            print("Warning: No valid spider field found in lem.json")
-
     except FileNotFoundError:
         print(f"File not found: {lem_file_path}")
         return
+    except Exception as e:
+        print(f"Error reading {lem_file_path}: {e}")
 
     if spider_value:
         # 更新 tv.json 和 tvy.json 文件
