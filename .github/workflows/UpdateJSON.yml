@@ -21,9 +21,9 @@ jobs:
             exit 0
           fi
           
-          # 直接使用 grep 提取 spider 值，避免 JSON 解析失败
-          SPIDER_VALUE=$(grep -oP '"spider"\s*:\s*"\K[^"]+' JN/lem.json)
-
+          # 直接使用 grep 提取最新的 spider 值
+          SPIDER_VALUE=$(grep -oP '"spider"\s*:\s*"\K[^"]+' JN/lem.json | head -n 1)
+          
           # 记录 spider 值日志
           echo "Extracted spider value: $SPIDER_VALUE"
           
@@ -33,17 +33,27 @@ jobs:
             exit 0
           fi
           
-          # 使用 jq 安全更新 JSON，忽略格式错误
-          if [ -f JN/tv.json ]; then
-            jq --arg spider "$SPIDER_VALUE" 'if type == "object" then .spider = $spider else . end' JN/tv.json 2>/dev/null > JN/tv_tmp.json || echo "{\"spider\": \"$SPIDER_VALUE\"}" > JN/tv_tmp.json
-            mv JN/tv_tmp.json JN/tv.json
+          # 确保 tv.json 和 tvy.json 存在，否则创建
+          if [ ! -f JN/tv.json ]; then
+            echo '{"spider": ""}' > JN/tv.json
           fi
-
-          if [ -f JN/tvy.json ]; then
-            jq --arg spider "$SPIDER_VALUE" 'if type == "object" then .spider = $spider else . end' JN/tvy.json 2>/dev/null > JN/tvy_tmp.json || echo "{\"spider\": \"$SPIDER_VALUE\"}" > JN/tvy_tmp.json
-            mv JN/tvy_tmp.json JN/tvy.json
+          if [ ! -f JN/tvy.json ]; then
+            echo '{"spider": ""}' > JN/tvy.json
           fi
+          
+          # 使用 jq 安全更新 JSON，避免格式错误
+          jq --arg spider "$SPIDER_VALUE" 'if type == "object" then .spider = $spider else . end' JN/tv.json > JN/tv_tmp.json && mv JN/tv_tmp.json JN/tv.json
+          jq --arg spider "$SPIDER_VALUE" 'if type == "object" then .spider = $spider else . end' JN/tvy.json > JN/tvy_tmp.json && mv JN/tvy_tmp.json JN/tvy.json
           
           # 确保更改被保存
           echo "Updated JN/tv.json and JN/tvy.json with new spider value."
-          cat JN
+          cat JN/tv.json || echo "tv.json 文件不存在"
+          cat JN/tvy.json || echo "tvy.json 文件不存在"
+      
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add JN/tv.json JN/tvy.json
+          git commit -m "Update spider value in tv.json and tvy.json"
+          git push
