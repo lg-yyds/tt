@@ -23,4 +23,4 @@ jobs:
 
       - name: Run the script to update spider values
         run: |
-          python update_spider.py
+          python ./JN/update_spider.py
