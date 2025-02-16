@@ -7,8 +7,6 @@ on:
   push:
     paths:
       - './JN/lem.json'
-      - './JN/tv.json'
-      - './JN/tvy.json'
 
 jobs:
   update_spider_value:
