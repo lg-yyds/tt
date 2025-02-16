@@ -1,0 +1,37 @@
+name: Update Spider in JSON
+
+on:
+  schedule:
+    - cron: "0 0 * * *"  # 每天午夜 UTC 运行
+  workflow_dispatch:  # 允许手动运行
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Update JSON files
+        run: |
+          # 读取 JN/lem.json 中的 spider 值
+          SPIDER_VALUE=$(jq -r '.spider' JN/lem.json)
+          
+          # 更新 JN/tv.json 中的 spider 值
+          jq --arg spider "$SPIDER_VALUE" '.spider = $spider' JN/tv.json > JN/tv_tmp.json && mv JN/tv_tmp.json JN/tv.json
+          
+          # 更新 JN/tvy.json 中的 spider 值
+          jq --arg spider "$SPIDER_VALUE" '.spider = $spider' JN/tvy.json > JN/tvy_tmp.json && mv JN/tvy_tmp.json JN/tvy.json
+          
+          # 确保更改被保存
+          cat JN/tv.json
+          cat JN/tvy.json
+      
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add JN/tv.json JN/tvy.json
+          git commit -m "Update spider value in tv.json and tvy.json"
+          git push
