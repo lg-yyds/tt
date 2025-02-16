@@ -22,13 +22,9 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
-
     - name: Run Python script to update spider values
       run: |
-        python ./JN//update_spider.py
+        python ./JN/update_spider.py
 
     - name: Commit changes
       run: |
