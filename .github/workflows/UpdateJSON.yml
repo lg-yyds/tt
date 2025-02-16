@@ -17,19 +17,19 @@ jobs:
         run: |
           # 确保 JN/lem.json 存在
           if [ ! -f JN/lem.json ]; then
-            echo "JN/lem.json 文件不存在，跳过更新。"
+            echo "❌ JN/lem.json 文件不存在，跳过更新。"
             exit 0
           fi
           
-          # 直接使用 grep 提取最新的 spider 值
-          SPIDER_VALUE=$(grep -oP '"spider"\s*:\s*"\K[^"]+' JN/lem.json | head -n 1)
-          
+          # 使用 jq 解析 spider 值，避免 grep 提取不完整数据
+          SPIDER_VALUE=$(jq -r '.spider' JN/lem.json 2>/dev/null)
+
           # 记录 spider 值日志
           echo "Extracted spider value: $SPIDER_VALUE"
           
-          # 如果 spider 值为空，则跳过更新
-          if [ -z "$SPIDER_VALUE" ]; then
-            echo "Skipping update: Invalid or missing spider value"
+          # 如果 spider 值为空或 JSON 解析失败，则跳过更新
+          if [ -z "$SPIDER_VALUE" ] || [ "$SPIDER_VALUE" = "null" ]; then
+            echo "❌ 解析失败或 spider 为空，跳过更新"
             exit 0
           fi
           
@@ -41,26 +41,24 @@ jobs:
             echo '{"spider": ""}' > JN/tvy.json
           fi
           
-          # 使用 jq 安全更新 JSON，避免格式错误
+          # 使用 jq 安全更新 JSON
           jq --arg spider "$SPIDER_VALUE" 'if type == "object" then .spider = $spider else . end' JN/tv.json > JN/tv_tmp.json && mv JN/tv_tmp.json JN/tv.json
           jq --arg spider "$SPIDER_VALUE" 'if type == "object" then .spider = $spider else . end' JN/tvy.json > JN/tvy_tmp.json && mv JN/tvy_tmp.json JN/tvy.json
           
           # 确保更改被保存
-          echo "Updated JN/tv.json and JN/tvy.json with new spider value."
-          cat JN/tv.json || echo "tv.json 文件不存在"
-          cat JN/tvy.json || echo "tvy.json 文件不存在"
-
+          echo "✅ 成功更新 JN/tv.json 和 JN/tvy.json"
+          cat JN/tv.json || echo "⚠️ tv.json 文件不存在"
+          cat JN/tvy.json || echo "⚠️ tvy.json 文件不存在"
+      
       - name: Commit and push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-
-          # 添加 JN/tv.json 和 JN/tvy.json
           git add JN/tv.json JN/tvy.json
 
-          # 检查是否有更改
+          # 检查是否有变更，避免空提交
           if git diff --cached --quiet; then
-            echo "No changes detected, skipping commit."
+            echo "🚫 没有变化，不提交"
             exit 0
           fi
 
