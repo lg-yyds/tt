@@ -2,7 +2,7 @@ name: Update Spider in JSON Files
 
 on:
   schedule:
-    - cron: "0 03 * * *"  # 每天午夜 UTC 运行
+    - cron: "0 0 * * *"  # 每天午夜 UTC 运行
   workflow_dispatch:  # 允许手动运行
 
 jobs:
@@ -15,8 +15,20 @@ jobs:
 
       - name: Update JSON files
         run: |
-          # 读取 JN/lem.json 中的 spider 值（忽略 JSON 语法错误）
-          SPIDER_VALUE=$(jq -r 'try .spider // empty' JN/lem.json 2>/dev/null || echo "")
+          # 确保 JN/lem.json 存在
+          if [ ! -f JN/lem.json ]; then
+            echo "JN/lem.json 文件不存在，跳过更新。"
+            exit 0
+          fi
+          
+          # 解析 JSON，确保格式正确
+          if ! jq empty JN/lem.json 2>/dev/null; then
+            echo "JN/lem.json 解析失败，跳过更新。"
+            exit 0
+          fi
+          
+          # 读取 JN/lem.json 中的 spider 值
+          SPIDER_VALUE=$(jq -r 'if type == "object" and .spider then .spider else empty end' JN/lem.json)
           
           # 记录 spider 值日志
           echo "Extracted spider value: $SPIDER_VALUE"
@@ -28,8 +40,8 @@ jobs:
           fi
           
           # 使用 jq 正确更新 JSON，确保特殊字符不会导致错误
-          jq --arg spider "$SPIDER_VALUE" '.spider = $spider' JN/tv.json > JN/tv_tmp.json && mv JN/tv_tmp.json JN/tv.json
-          jq --arg spider "$SPIDER_VALUE" '.spider = $spider' JN/tvy.json > JN/tvy_tmp.json && mv JN/tvy_tmp.json JN/tvy.json
+          jq --arg spider "$SPIDER_VALUE" 'if type == "object" then .spider = $spider else . end' JN/tv.json > JN/tv_tmp.json && mv JN/tv_tmp.json JN/tv.json
+          jq --arg spider "$SPIDER_VALUE" 'if type == "object" then .spider = $spider else . end' JN/tvy.json > JN/tvy_tmp.json && mv JN/tvy_tmp.json JN/tvy.json
           
           # 确保更改被保存
           echo "Updated JN/tv.json and JN/tvy.json with new spider value."
