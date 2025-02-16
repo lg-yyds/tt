@@ -23,3 +23,21 @@ jobs:
         # 使用 jq 获取 lem.json 文件中的第一个 spider 的值
         spider_value=$(jq -r '.[0].spider' ./JN/lem.json)
         echo "spider_value=$spider_value" >> $GITHUB_ENV
+
+    - name: Replace spider value in tv.json
+      run: |
+        # 使用 jq 修改 tv.json 文件中的第一个 spider 的值
+        jq --arg spider "$spider_value" '.[0].spider = $spider' ./JN/tv.json > ./JN/tv_tmp.json && mv ./JN/tv_tmp.json ./JN/tv.json
+
+    - name: Replace spider value in tvy.json
+      run: |
+        # 使用 jq 修改 tvy.json 文件中的第一个 spider 的值
+        jq --arg spider "$spider_value" '.[0].spider = $spider' ./JN/tvy.json > ./JN/tvy_tmp.json && mv ./JN/tvy_tmp.json ./JN/tvy.json
+
+    - name: Commit changes
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+        git add ./JN/tv.json ./JN/tvy.json
+        git commit -m "Update spider values in tv.json and tvy.json"
+        git push
