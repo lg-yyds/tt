@@ -41,8 +41,13 @@ def main():
                 data = json.loads(data)  # 尝试解析 JSON 格式
             except json.JSONDecodeError:
                 data = []  # 如果格式错误，设为空列表
+        print(f"Data from lem.json: {data}")  # 打印读取的数据
+
+        # 检查是否找到 spider 值
         if isinstance(data, list) and len(data) > 0:
             spider_value = data[0].get("spider")
+            print(f"Found spider value: {spider_value}")  # 打印找到的 spider 值
+
     except FileNotFoundError:
         print(f"File not found: {lem_file_path}")
         return
