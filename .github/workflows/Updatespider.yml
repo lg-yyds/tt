@@ -23,12 +23,14 @@ jobs:
     - name: Update spider value in tv.json
       run: |
         SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
-        sed -i '0,/"spider":".*"/s//"spider":"'"$SPIDER_VALUE"'"/' ./JN/tv.json
+        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
+        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/tv.json
 
     - name: Update spider value in tvy.json
       run: |
         SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
-        sed -i '0,/"spider":".*"/s//"spider":"'"$SPIDER_VALUE"'"/' ./JN/tvy.json
+        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
+        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/tvy.json
 
     - name: Commit and push changes
       run: |
