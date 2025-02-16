@@ -17,7 +17,7 @@ def update_spider(file_path, spider_value):
 
 def main():
     # 获取 lem.json 文件中的 spider 值
-    lem_file_path = '/JN/lem.json'
+    lem_file_path = './JN/lem.json'
     spider_value = None
     try:
         with open(lem_file_path, 'r') as f:
@@ -30,8 +30,8 @@ def main():
 
     if spider_value:
         # 更新 tv.json 和 tvy.json 文件
-        update_spider('/JN/tv.json', spider_value)
-        update_spider('/JN/tvy.json', spider_value)
+        update_spider('./JN/tv.json', spider_value)
+        update_spider('./JN/tvy.json', spider_value)
     else:
         print("Spider value not found in lem.json")
 
