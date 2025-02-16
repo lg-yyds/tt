@@ -21,6 +21,7 @@ jobs:
       # 复制文件到当前仓库
       - name: Copy files
         run: cp -r N3RD/* .
+             cp -r JN/EXT/JS/YTTV.txt JN/EXT/TXT
 
       # 提交并推送更改到自己的仓库
       - name: Commit 和 push changes
