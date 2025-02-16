@@ -16,21 +16,40 @@ jobs:
 
       # 克隆目标仓库
       - name: Clone n3rddd/N3RD repository
-        run: git clone https://github.com/n3rddd/N3RD.git
+        run: |
+          echo "Cloning n3rddd/N3RD repository..."
+          git clone https://github.com/n3rddd/N3RD.git || echo "Clone failed"
+          echo "Clone completed."
 
       # 复制文件到当前仓库
       - name: Copy files
-        run: cp -r N3RD/* .
-             cp -r JN/EXT/JS/YTTV.txt JN/EXT/TXT
+        run: |
+          echo "Copying files..."
+          cp -r N3RD/* .
+          echo "Files copied."
+
+      # 复制 JN/EXT/JS/YTTV.txt 到 JN/EXT/TXT 目录
+      - name: Copy YTTV.txt to target directory
+        run: |
+          echo "Copying YTTV.txt to JN/EXT/TXT..."
+          mkdir -p JN/EXT/TXT  # 确保目标目录存在
+          cp JN/EXT/JS/YTTV.txt JN/EXT/TXT/
+          echo "YTTV.txt copied."
 
       # 提交并推送更改到自己的仓库
-      - name: Commit 和 push changes
+      - name: Commit and push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
           git add .
-          git commit -m "Clone N3RD repo"
-          git push origin main
+          git commit -m "Sync N3RD repo and copy YTTV.txt"
+          git push origin ${{ github.ref_name }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用自动生成的 GITHUB_TOKEN 进行认证
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # 清理克隆的仓库
+      - name: Clean up
+        run: |
+          echo "Cleaning up..."
+          rm -rf N3RD
+          echo "Cleanup completed."
