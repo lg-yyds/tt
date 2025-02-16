@@ -20,11 +20,6 @@ jobs:
         with:
           python-version: '3.8'
 
-      - name: Install dependencies
-        run: |
-          pip install --upgrade pip
-          pip install json
-
       - name: Run update_spider.py script
         run: |
           python3 update_spider.py
