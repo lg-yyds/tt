@@ -21,14 +21,17 @@ jobs:
             exit 0
           fi
           
+          # 尝试修复 JSON 可能的 BOM 或非法字符
+          sed -i 's/[^ -~]//g' JN/lem.json
+          
           # 解析 JSON，确保格式正确
-          if ! jq empty JN/lem.json 2>/dev/null; then
+          if ! jq -e . JN/lem.json > /dev/null 2>&1; then
             echo "JN/lem.json 解析失败，跳过更新。"
             exit 0
           fi
           
-          # 读取 JN/lem.json 中的 spider 值
-          SPIDER_VALUE=$(jq -r 'if type == "object" and .spider then .spider else empty end' JN/lem.json)
+          # 读取 JN/lem.json 中的 spider 值，确保它是字符串
+          SPIDER_VALUE=$(jq -r 'if type == "object" and .spider and (.spider | type == "string") then .spider else empty end' JN/lem.json)
           
           # 记录 spider 值日志
           echo "Extracted spider value: $SPIDER_VALUE"
