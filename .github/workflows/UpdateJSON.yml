@@ -1,4 +1,4 @@
-name: Update Spider in JSON
+name: Update Spider in JSON Files
 
 on:
   schedule:
@@ -15,16 +15,24 @@ jobs:
 
       - name: Update JSON files
         run: |
-          # 读取 JN/lem.json 中的 spider 值
-          SPIDER_VALUE=$(jq -r '.spider' JN/lem.json)
+          # 读取 JN/lem.json 中的 spider 值（忽略 JSON 语法错误）
+          SPIDER_VALUE=$(jq -r 'try .spider // empty' JN/lem.json 2>/dev/null || echo "")
           
-          # 更新 JN/tv.json 中的 spider 值
+          # 记录 spider 值日志
+          echo "Extracted spider value: $SPIDER_VALUE"
+          
+          # 如果 spider 值为空，则跳过更新
+          if [ -z "$SPIDER_VALUE" ]; then
+            echo "Skipping update: Invalid or missing spider value"
+            exit 0
+          fi
+          
+          # 使用 jq 正确更新 JSON，确保特殊字符不会导致错误
           jq --arg spider "$SPIDER_VALUE" '.spider = $spider' JN/tv.json > JN/tv_tmp.json && mv JN/tv_tmp.json JN/tv.json
-          
-          # 更新 JN/tvy.json 中的 spider 值
           jq --arg spider "$SPIDER_VALUE" '.spider = $spider' JN/tvy.json > JN/tvy_tmp.json && mv JN/tvy_tmp.json JN/tvy.json
           
           # 确保更改被保存
+          echo "Updated JN/tv.json and JN/tvy.json with new spider value."
           cat JN/tv.json
           cat JN/tvy.json
       
