@@ -23,10 +23,10 @@ def update_spider_value(file_path, spider_value):
         pass
 
 def main():
-    lem_spider = get_spider_value('/JN/lem.json')
+    lem_spider = get_spider_value(./JN/lem.json')
     if lem_spider:
-        update_spider_value('/JN/tv.json', lem_spider)
-        update_spider_value('/JN/tvy.json', lem_spider)
+        update_spider_value(./JN/tv.json', lem_spider)
+        update_spider_value(./JN/tvy.json', lem_spider)
 
 if __name__ == "__main__":
     main()
