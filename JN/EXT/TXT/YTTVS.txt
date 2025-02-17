@@ -6,9 +6,7 @@ GOLF,https://api.kds.tw/ssgolf
 博斯网球,https://api.kds.tw/bosstennis
 博斯运动1,https://api.kds.tw/bsyd1
 纬来体育,https://api.kds.tw/wlty
-TVBS新闻台,https://api.kds.tw/tvbsxw
-凤凰资讯,https://api.kds.tw/fhzx
-翡翠台,https://api.kds.tw/jade
+
 
 🇹🇼台灣新聞-油管,#genre#
 鳳凰資訊,https://www.youtube.com/watch?v=HFib76ySpbU
