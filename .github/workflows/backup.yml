@@ -19,8 +19,8 @@ jobs:
 
     - name: Backup and compress the project
       run: |
-        # 使用 --exclude 排除一些常见的动态文件夹（例如 .git 和 node_modules）
-        tar --exclude='.git' --exclude='node_modules' --exclude='*.log' --warning=no-file-changed -czf blackup/project-backup-$(date +'%Y-%m-%d_%H-%M-%S').tar.gz .
+        # 使用 --exclude 排除 .git, .github, N3RD 文件夹和其他可能变化的文件
+        tar  --exclude='.github' --exclude='N3RD' --exclude='node_modules' --exclude='*.log' --warning=no-file-changed -czf blackup/project-backup-$(date +'%Y-%m-%d_%H-%M-%S').tar.gz .
 
     - name: Commit backup to repository
       run: |
