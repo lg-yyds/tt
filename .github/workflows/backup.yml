@@ -19,11 +19,15 @@ jobs:
 
     - name: Backup and compress the project
       run: |
-        # 使用 --exclude 排除 .git, .github, N3RD 文件夹和其他可能变化的文件
-        tar  --exclude='.github' --exclude='N3RD' --exclude='node_modules' --exclude='*.log' --warning=no-file-changed -czf blackup/project-backup-$(date +'%Y-%m-%d_%H-%M-%S').tar.gz .
-
-    - name: Commit backup to repository
+        # 排除文件夹
+        tar  --exclude='.github' --exclude='N3RD' --exclude='node_modules' --exclude='*.log' --exclude='.DS_Store' --exclude='blackup' --warning=no-file-changed -czf blackup/project-backup-$(date +'%Y-%m-%d_%H-%M-%S').tar.gz .
+    
+    - name: Commit and push changes
       run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
         git add blackup/
         git commit -m "Add project backup on $(date +'%Y-%m-%d_%H-%M-%S')"
-        git push
+        git push origin ${{ github.ref_name }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
