@@ -1,0 +1,29 @@
+name: Backup Project
+
+on:
+  workflow_dispatch:  # 手动触发
+  schedule:
+    - cron: '0 0 * * *'  # 每天 0 点自动触发备份任务，你可以根据需要修改时间
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Create backup directory
+      run: |
+        mkdir -p blackup
+
+    - name: Backup and compress the project
+      run: |
+        # 将整个项目压缩为 tar.gz 格式，备份文件命名为当前时间戳
+        tar -czf blackup/project-backup-$(date +'%Y-%m-%d_%H-%M-%S').tar.gz .
+
+    - name: Commit backup to repository
+      run: |
+        git add blackup/
+        git commit -m "Add project backup on $(date +'%Y-%m-%d_%H-%M-%S')"
+        git push
