@@ -3,7 +3,7 @@ name: Backup Project
 on:
   workflow_dispatch:  # 手动触发
   schedule:
-    - cron: '0 0 * * *'  # 每天 0 点自动触发备份任务，你可以根据需要修改时间
+    - cron: '0 05 * * *'  # 每天 0 点自动触发备份任务，你可以根据需要修改时间
 
 jobs:
   backup:
@@ -19,8 +19,8 @@ jobs:
 
     - name: Backup and compress the project
       run: |
-        # 将整个项目压缩为 tar.gz 格式，备份文件命名为当前时间戳
-        tar -czf blackup/project-backup-$(date +'%Y-%m-%d_%H-%M-%S').tar.gz .
+        # 使用 --exclude 排除 .git 文件夹，避免备份时遇到文件正在被修改的问题
+        tar --exclude='.git' -czf blackup/project-backup-$(date +'%Y-%m-%d_%H-%M-%S').tar.gz .
 
     - name: Commit backup to repository
       run: |
