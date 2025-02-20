@@ -61,7 +61,7 @@
 {"key":"csp_Wobg_小米UC","name":"雷蒙影视 | 💿小米UC(SP)","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./N3RD/T/pg.json$$$https://milvdou.fun$$$cfg$$$1$$$./N3RD/T/wogg.json"},
 {"key":"csp_Wobg_小虎斑","name":"雷蒙影视 | 💿小虎斑(SP)","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./N3RD/T/pg.json$$$http://103.45.162.207:20720$$$cfg$$$1$$$./N3RD/T/wogg.json$$$U_HUBAN"},
 {"key":"csp_Wobg_特下饭","name":"雷蒙影视 | 💿特下饭(SP)","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./N3RD/T/pg.json$$$http://txfpan.top$$$cfg$$$1$$$./N3RD/T/wogg.json"},
-{"key":"csp_Wobg_木偶哥哥","name":"雷蒙影视 | 💿木偶哥哥(SP)","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./N3RD/T/pg.json$$$https://muouso.fun$$$cfg$$$1$$$./N3RD/T/wogg.json$$$MOGG"},
+{"key":"csp_Wobg_木偶哥哥","name":"雷蒙影视 | 💿木偶哥哥(SP)","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./N3RD/T/pg.json$$$http://tv.91muou.icu/$$$cfg$$$1$$$./N3RD/T/wogg.json$$$MOGG"},
 {"key":"csp_Wobg_闪电优汐","name":"雷蒙影视 | 💿闪电优汐(SP)","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./N3RD/T/pg.json$$$http://1.95.79.193/$$$cfg$$$1$$$./N3RD/T/wogg.json"},
 {"key":"csp_Wobg_六趣网盘","name":"雷蒙影视 | 💿六趣网盘(SP)","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./N3RD/T/pg.json$$$https://wp.0v.fit/$$$cfg$$$1$$$./N3RD/T/wogg.json"},
 {"key":"csp_Wobg_玩你老哥","name":"雷蒙影视 | 💿玩你老哥(SP)","type":3,"api":"csp_Wobg","quickSearch":1,"changeable":1,"filterable":1,"timeout":60,"ext":"./N3RD/T/pg.json$$$https://tv.yydsys.top/$$$cfg$$$1$$$./N3RD/T/wogg.json$$$WNLG"}, 
@@ -212,6 +212,31 @@
 {"name":"AdGuard","url":"https://dns.adguard.com/dns-query","ips":["94.140.14.140","94.140.14.141"]},
 {"name":"DNSWatch","url":"https://resolver2.dns.watch/dns-query","ips":["84.200.69.80","84.200.70.40"]},
 {"name":"Quad9","url":"https://dns.quad9.net/dns-quer","ips":["9.9.9.9","149.112.112.112"]}
+],
+
+"proxy":[
+"raw.githubusercontent.com",
+"googlevideo.com",
+"cdn.v82u1l.com",
+"cdn.iz8qkg.com",
+"cdn.kin6c1.com",
+"c.biggggg.com",
+"c.olddddd.com",
+"haiwaikan.com",
+"www.histar.tv",
+"youtube.com",
+"uhibo.com",
+".*boku.*",
+".*nivod.*",
+".*ulivetv.*"
+],
+
+"hosts":[
+"cache.ott.ystenlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+"cache.ott.bestlive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+"cache.ott.wasulive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+"cache.ott.fifalive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com",
+"cache.ott.hnbblive.itv.cmvideo.cn=base-v4-free-mghy.e.cdn.chinamobile.com"
 ],
 
 "rules":[
