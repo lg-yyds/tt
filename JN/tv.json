@@ -8,8 +8,7 @@
 //"notice": "欢迎使用本源",
 
 "lives":[
-{"name":"直播","type":0,"url":"https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/output/user_tv.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","catchup":{"type":"append","source":"?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"}},
-{"name":"YOUTUBE直播","type":0,"url":"./JN/EXT/JS/YTTVS.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
+{"name":"直播","type":0,"url":"https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/output/user_tv.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","catchup":{"type":"append","source":"?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"}}
 ],
 
 "sites":[
@@ -190,8 +189,6 @@
 {"key":"vod_卧龙","name":"️🚀卧龙","type":1,"api":"https://collect.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"vod_OK","name":"️🚀OK","type":1,"api":"https://api.okzy.org/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"xml_金鹰","name":"️🚀金鹰","type":0,"api":"https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml/","playUrl":"https://hd.iapijy.com/play?url=","searchable":1,"quickSearch":1,"categories":[]}
-
-
 ],
 
 
@@ -206,9 +203,8 @@
 {"name":"農民嗅探","hosts":["toutiaovod.com"],"regex":["toutiaovod.com"]},
 {"name":"喵次元139嗅探","hosts":["mcloud.139.com"],"regex":["mcloud.139.com"]},
 {"name":"348资源嗅探","hosts":["aliyundrive.net"],"regex":["aliyundrive.net"]},
-{"name":"七新嗅探","hosts":["api.52wyb.com"],"regex":["m3u8?pt=m3u8"]},
- 
-{"name":"磁力廣告","hosts":["magnet"],"regex":["更多","社區","xuu","最新","最新","直播","更新","社区","有趣","有趣","英皇体育","全中文AV在线","澳门皇冠赌场","哥哥快来","美女荷官","裸聊","新片首发","UUE29"]}
+{"name":"七新嗅探","hosts":["api.52wyb.com"],"regex":["m3u8?pt=m3u8"]}
+
 ],
 
 
