@@ -1,12 +1,3 @@
-📺测试频道,#genre#
-parse=1 
-ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-博斯高尔夫,https://api.kds.tw/bsgolf
-博斯网球,https://api.kds.tw/bosstennis
-博斯运动1,https://api.kds.tw/bsyd1
-纬来体育,https://api.kds.tw/wlty
-
-
 🇹🇼台灣新聞-油管,#genre#
 鳳凰資訊,https://www.youtube.com/watch?v=HFib76ySpbU
 鳳凰資訊,https://www.youtube.com/watch?v=LNux6O0Fj6A
