@@ -8,7 +8,7 @@
 //"notice": "欢迎使用本源",
 
 "lives":[
-{"name":"直播","type":0,"url":"https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/output/user_tv.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"},
+{"name":"直播","type":0,"url":"https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/output/user_tv.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","catchup":{"type":"append","source":"?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"}},
 {"name":"YOUTUBE直播","type":0,"url":"./JN/EXT/JS/YTTVS.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}
 ],
 
