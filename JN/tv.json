@@ -35,7 +35,6 @@
 {"key":"csp_NewCz","name":"👴厂长资源","type":3,"api":"csp_NewCz","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://www.czzyvideo.com/"},
 {"key":"csp_Auete","name":"🎀Auete","type": 3,"api":"csp_Auete","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://auete.com/"}, 
 {"key":"csp_Uvod","name":"💎优视频","type":3,"api":"csp_Uvod","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"csp_PTT","name":"🎈PTT","type":3,"api":"csp_PTT","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_NCat","name":"😻网飞猫","type":3,"api":"csp_NCat","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_TvDy","name":"👼电影天堂","type":3,"api":"csp_TvDy","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_W55Movie","name":"5️⃣555电影","type":3,"api":"csp_W55Movie","searchable":1,"quickSearch":1,"filterable":1,"ext":"https://w55xy.com/"},
