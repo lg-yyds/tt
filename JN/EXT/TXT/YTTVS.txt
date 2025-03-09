@@ -1,4 +1,4 @@
-🇹🇼台灣新聞-油管,#genre#
+🇹🇼台灣新聞-YTB,#genre#
 鳳凰資訊,https://www.youtube.com/watch?v=HFib76ySpbU
 鳳凰資訊,https://www.youtube.com/watch?v=LNux6O0Fj6A
 中天新聞,https://www.youtube.com/watch?v=vr3XyVCR4T0
@@ -14,25 +14,24 @@ TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 東森新闻Live,https://www.youtube.com/watch?v=V1p33hqPrUk
 東森財經,https://www.youtube.com/watch?v=1I2iq41Akmo
 東森財經新聞,https://www.youtube.com/watch?v=AEBeWMM1atA
-民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA&ab_channel=%E6%B0%91%E8%A6%96%E6%96%B0%E8%81%9E%E7%B6%B2FormosaTVNewsnetwork
-華視新聞,https://www.youtube.com/watch?v=wM0g8EoUZ_E&ab_channel=%E8%8F%AF%E8%A6%96%E6%96%B0%E8%81%9ECH52
-中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM&ab_channel=%E4%B8%AD%E8%A6%96%E6%96%B0%E8%81%9EHD%E7%9B%B4%E6%92%AD%E9%A0%BB%E9%81%93%EF%BD%9CTaiwanCTVnewsHDLive
-台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8&ab_channel=%E5%8F%B0%E8%A6%96%E6%96%B0%E8%81%9ETTVNEWS
+民視新聞,https://www.youtube.com/watch?v=ylYJSBUgaMA
+中視新聞,https://www.youtube.com/watch?v=TCnaIE_SAtM
+台視新聞,https://www.youtube.com/watch?v=xL0ch83RAK8
 公視新聞網,https://www.youtube.com/watch?v=quwqlazU-c8
 寰宇新闻,https://www.youtube.com/watch?v=6IquAgfvYmc
 寰宇台灣台,https://www.youtube.com/watch?v=w87VGpgd90U
 寰宇財經台,https://www.youtube.com/watch?v=WTRQiVWK1jY
-鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o&ab_channel=%E9%8F%A1%E6%96%B0%E8%81%9E
+鏡新聞,https://www.youtube.com/watch?v=5n0y6b0Q25o
 
 
-🌍国际新闻-油管,#genre#
+🌍国际新闻-YTB,#genre#
 ABC News,https://www.youtube.com/watch?v=u8gyCHfITHw
 ABC News(Australia),https://www.youtube.com/watch?v=vOTiJkg1voo
 NBC News NOW,https://www.youtube.com/watch?v=PoX4NUhhIJc
 NBC NEWS,https://www.youtube.com/watch?v=o1ZydFM-upg
 NBC2 News,https://www.youtube.com/watch?v=IMNK1Mfq8FA
 NEWSMAX,https://www.youtube.com/watch?v=0BMeWXKcjIM
-News12 NewYork,https://www.youtube.com/watch?v=1GkcsMJTFiI&ab_channel=News12
+News12 NewYork,https://www.youtube.com/watch?v=1GkcsMJTFiI
 GB News,https://www.youtube.com/watch?v=8WX6YL9JnLw
 Al Jazeera,https://www.youtube.com/watch?v=gCNeDWCI0vo
 Euronews,https://www.youtube.com/watch?v=pykpO5kQJ98
@@ -49,7 +48,7 @@ NBC NEW,https://www.youtube.com/watch?v=0IUbD_4ytuo
 KOMPASTV,https://www.youtube.com/watch?v=w7ZTt55F5YE
 
 
-🇯🇵🇰🇷日韩新聞-油管,#genre#
+🇯🇵🇰🇷日韩新聞-YTB,#genre#
 Arirang TV,https://www.youtube.com/watch?v=CJVBX7KI5nU
 MBC NEWS,https://www.youtube.com/watch?v=q-Wv4Pvt-5A
 KBS NEWS,https://www.youtube.com/watch?v=D2R15WicmAs
@@ -67,7 +66,7 @@ YonhapnewsTV,https://www.youtube.com/watch?v=6QZ_qc75ihU
 YTN,https://www.youtube.com/watch?v=FJfwehhzIhw
 
 
-🇰🇷K-POP-油管,#genre#
+🇰🇷K-POP-YTB,#genre#
 THE K-POP,https://www.youtube.com/watch?v=JVocS7Yftw8
 THE K-POP 2,https://www.youtube.com/watch?v=TgLONqXNXqE
 
@@ -200,7 +199,7 @@ TVBS台劇台,https://www.4gtv.tv/channel/4gtv-live088?set=1&ch=285
 電影免費看 2台,https://www.4gtv.tv/channel/4gtv-live005?set=1&ch=245
 超人力霸王整套看,https://www.4gtv.tv/channel/4gtv-live015?set=1&ch=278
 花系列 經典劇場,https://www.4gtv.tv/channel/4gtv-live016?set=1&ch=279
-熱門收視頻道,#genre#
+🇹🇼熱門收視頻道,#genre#
 parse=1 
 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 台視,https://tv4g.130707.xyz/index.m3u8?pid=4gtv-4gtv066&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
@@ -227,7 +226,7 @@ ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gec
 去有風的地方,https://tv4g.130707.xyz/index.m3u8?pid=ofiii116&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 綜藝玩很大,https://tv4g.130707.xyz/index.m3u8?pid=ofiii130&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 全民星攻略,https://tv4g.130707.xyz/index.m3u8?pid=ofiii131&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
-新聞‧財經,#genre#
+🇹🇼新聞‧財經,#genre#
 parse=1 
 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 Yes娛樂,https://tv4g.130707.xyz/index.m3u8?pid=ofiii47&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
@@ -256,7 +255,7 @@ Yes娛樂,https://tv4g.130707.xyz/index.m3u8?pid=ofiii47&sd=1080&token=e9d03b1eb
 環球大戰線,https://tv4g.130707.xyz/index.m3u8?pid=ofiii206&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 少康戰情室,https://tv4g.130707.xyz/index.m3u8?pid=ofiii207&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 國民大會,https://tv4g.130707.xyz/index.m3u8?pid=ofiii208&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
-綜合,#genre#
+🇹🇼綜合,#genre#
 parse=1 
 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 台視,https://tv4g.130707.xyz/index.m3u8?pid=4gtv-4gtv066&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
@@ -292,7 +291,7 @@ SiCAR愛車酷,https://tv4g.130707.xyz/index.m3u8?pid=ofiii216&sd=1080&token=e9d
 放鬆的爵士午後,https://tv4g.130707.xyz/index.m3u8?pid=ofiii252&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 野外燒柴火聲,https://tv4g.130707.xyz/index.m3u8?pid=ofiii253&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 夏日陽光海浪聲,https://tv4g.130707.xyz/index.m3u8?pid=ofiii254&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
-電影,#genre#
+🇹🇼電影,#genre#
 parse=1 
 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 哆啦Ａ夢台,https://tv4g.130707.xyz/index.m3u8?pid=ofiii22&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
@@ -302,7 +301,7 @@ Golden 強片台,https://tv4g.130707.xyz/index.m3u8?pid=ofiii70&sd=1080&token=e9
 周星馳台,https://tv4g.130707.xyz/index.m3u8?pid=ofiii73&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 歐飛電影台,https://tv4g.130707.xyz/index.m3u8?pid=ofiii74&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 歐飛喜劇電影台,https://tv4g.130707.xyz/index.m3u8?pid=ofiii75&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
-戲劇,#genre#
+🇹🇼戲劇,#genre#
 parse=1 
 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 公視金獎台,https://tv4g.130707.xyz/index.m3u8?pid=ofiii13&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
@@ -349,7 +348,7 @@ Focus風采戲劇台,https://tv4g.130707.xyz/index.m3u8?pid=ofiii1048&sd=1080&to
 苦力,https://tv4g.130707.xyz/index.m3u8?pid=ofiii156&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 俗女養成記,https://tv4g.130707.xyz/index.m3u8?pid=ofiii157&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 麻醉風暴,https://tv4g.130707.xyz/index.m3u8?pid=ofiii158&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
-綜藝,#genre#
+🇹🇼綜藝,#genre#
 parse=1 
 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 TVBS食尚玩家,https://tv4g.130707.xyz/index.m3u8?pid=ofiii31&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
@@ -382,14 +381,14 @@ WTO姐妹會,https://tv4g.130707.xyz/index.m3u8?pid=ofiii129&sd=1080&token=e9d03
 世界第一等,https://tv4g.130707.xyz/index.m3u8?pid=ofiii238&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 台灣第一等,https://tv4g.130707.xyz/index.m3u8?pid=ofiii239&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 溢遊未盡,https://tv4g.130707.xyz/index.m3u8?pid=ofiii240&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
-卡通‧兒童,#genre#
+🇹🇼卡通‧兒童,#genre#
 parse=1 
 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 ELTV生活英語台,https://tv4g.130707.xyz/index.m3u8?pid=litv-longturn20&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 龍華卡通台,https://tv4g.130707.xyz/index.m3u8?pid=litv-longturn01&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 哆啦Ａ夢台,https://tv4g.130707.xyz/index.m3u8?pid=ofiii22&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 新哆啦A夢(中文版),https://tv4g.130707.xyz/index.m3u8?pid=ofiii23&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
-動漫,#genre#
+🇹🇼動漫,#genre#
 parse=1 
 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
 新哆啦A夢(中文版),https://tv4g.130707.xyz/index.m3u8?pid=ofiii23&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
@@ -417,7 +416,7 @@ JOJO 的奇妙冒險,https://tv4g.130707.xyz/index.m3u8?pid=ofiii178&sd=1080&tok
 史上最強弟子兼一(中文版),https://tv4g.130707.xyz/index.m3u8?pid=ofiii180&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 爆漫王(中文版),https://tv4g.130707.xyz/index.m3u8?pid=ofiii181&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
 忍者亂太郎(中文版),https://tv4g.130707.xyz/index.m3u8?pid=ofiii182&sd=1080&token=e9d03b1ebf6e44fb5948ade49c2bc676&proxy=true
+删除缓存,#genre#
 parse=1 
 ua=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36
-删除缓存,#genre#
 删除缓存,https://tv4g.130707.xyz/clear_all_cache
