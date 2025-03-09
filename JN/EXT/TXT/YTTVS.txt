@@ -27,26 +27,19 @@ TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 🌍国际新闻-YTB,#genre#
 ABC News,https://www.youtube.com/watch?v=u8gyCHfITHw
 ABC News(Australia),https://www.youtube.com/watch?v=vOTiJkg1voo
-NBC News NOW,https://www.youtube.com/watch?v=PoX4NUhhIJc
-NBC NEWS,https://www.youtube.com/watch?v=o1ZydFM-upg
-NBC2 News,https://www.youtube.com/watch?v=IMNK1Mfq8FA
-NEWSMAX,https://www.youtube.com/watch?v=0BMeWXKcjIM
+NBC News NOW,https://www.youtube.com/watch?v=0_e_10wI7sU
 News12 NewYork,https://www.youtube.com/watch?v=1GkcsMJTFiI
-GB News,https://www.youtube.com/watch?v=8WX6YL9JnLw
 Al Jazeera,https://www.youtube.com/watch?v=gCNeDWCI0vo
 Euronews,https://www.youtube.com/watch?v=pykpO5kQJ98
-TRT World,https://www.youtube.com/watch?v=5VF4aor94gw
-DW,https://www.youtube.com/watch?v=pqabxBKzZ6M
-彭博财经台,https://www.youtube.com/watch?v=dp8PhLsUcFE
-France24,https://www.youtube.com/watch?v=tkDUSYHoKxE
+TRT World,https://www.youtube.com/watch?v=Fxu04q4Rv38
+DW,https://www.youtube.com/watch?v=tZT2MCYu6Zw
+France24,https://www.youtube.com/watch?v=Ap-UM1O9RBU
 CNALives,https://www.youtube.com/watch?v=XWq5kBlakcQ
-TD Ameritrade,https://www.youtube.com/watch?v=SG1Lc0QCD_Y
-CNN News18,https://www.youtube.com/watch?v=CPJmKMH17d4&ab_channel=CNN-News18
+TD Ameritrade,https://www.youtube.com/watch?v=EK76hBAOMEk
+CNN News18,https://www.youtube.com/watch?v=UUo2f9qA7Xc
 CBN News,https://www.youtube.com/watch?v=CG2XDTgvZPo
 tvOne 24Jam,https://www.youtube.com/watch?v=yNKvkPJl-tg
-NBC NEW,https://www.youtube.com/watch?v=0IUbD_4ytuo
-KOMPASTV,https://www.youtube.com/watch?v=w7ZTt55F5YE
-
+NBC NEW,https://www.youtube.com/watch?v=0_e_10wI7sU
 
 🇯🇵🇰🇷日韩新聞-YTB,#genre#
 Arirang TV,https://www.youtube.com/watch?v=CJVBX7KI5nU
