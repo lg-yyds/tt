@@ -5,7 +5,7 @@
 中天新聞2,https://www.youtube.com/watch?v=DM_PEM8GrIg
 中天亞洲台,https://www.youtube.com/watch?v=qN_qW6tmWDs
 CCTV-4,https://www.youtube.com/watch?v=SdzewdkJa-o
-TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc&ab_channel=TVBSNEWS
+TVBS新聞,https://www.youtube.com/watch?v=2mCSYvcfhtc
 TVBSHD 56,https://www.youtube.com/watch?v=o_-hSMgpAzs
 TVBS NEWS,https://www.youtube.com/watch?v=m_dhMSvUCIc
 三立iNEWS,https://www.youtube.com/watch?v=pF507BLtbqU
