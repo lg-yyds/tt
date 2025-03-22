@@ -1,3 +1,26 @@
+测试频道,#genre#
+爱尔达体育 1,https://yydsxll.serv00.net/Smartv.php?id=eltasport_twn
+爱尔达体育 2,https://yydsxll.serv00.net/Smartv.php?id=eltasport2_twn
+爱尔达体育 3,https://yydsxll.serv00.net/Smartv.php?id=eltasport3_twn
+纬来体育台,https://yydsxll.serv00.net/Smartv.php?id=videolandsport
+NBA TV,https://yydsxll.serv00.net/Smartv.php?id=nbatv_twn
+TNT Sports 1,https://yydsxll.serv00.net/Smartv.php?id=beeone
+TNT Sports 2,https://yydsxll.serv00.net/Smartv.php?id=beetwo
+TNT Sports 3,https://yydsxll.serv00.net/Smartv.php?id=beethree
+TNT Sports 4,https://yydsxll.serv00.net/Smartv.php?id=beefour
+Skysports Arena,https://yydsxll.serv00.net/Smartv.php?id=tiankongarena
+Skysports Cricket,https://yydsxll.serv00.net/Smartv.php?id=tiankongcricket
+Skysports EPL,https://yydsxll.serv00.net/Smartv.php?id=tiankongepl
+Skysports F1,https://yydsxll.serv00.net/Smartv.php?id=tiankongf1
+Skysports Football,https://yydsxll.serv00.net/Smartv.php?id=tiankongfootball
+Skysports Golf,https://yydsxll.serv00.net/Smartv.php?id=tiankonggolf
+博斯网球,https://yydsxll.serv00.net/Smartv.php?id=bositennis_twn
+博斯运动1,https://yydsxll.serv00.net/Smartv.php?id=bosisport1_twn
+博斯运动2,https://yydsxll.serv00.net/Smartv.php?id=bosisport2_twn
+博斯高球1,https://yydsxll.serv00.net/Smartv.php?id=bosigolf1_twn
+博斯高球2,https://yydsxll.serv00.net/Smartv.php?id=bosigolf2_twn
+CCTV-5,https://yydsxll.serv00.net/Smartv.php?id=cctv5
+CCTV-5+,https://yydsxll.serv00.net/Smartv.php?id=cctv5plus
 🇹🇼台灣新聞-YTB,#genre#
 鳳凰資訊,https://www.youtube.com/watch?v=HFib76ySpbU
 鳳凰資訊,https://www.youtube.com/watch?v=LNux6O0Fj6A
