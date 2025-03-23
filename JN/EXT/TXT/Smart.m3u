@@ -1,0 +1,1083 @@
+#EXTM3U x-tvg-url="https://epg.v1.mk/fy.xml"
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|翡翠台
+https://yydsxll.serv00.net/Smartv.php?id=jade_twn
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|翡翠台 backup
+https://yydsxll.serv00.net/Smartv.php?id=Jade_xue
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|iNews 新闻台
+https://yydsxll.serv00.net/Smartv.php?id=inews_twn
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|J 2
+https://yydsxll.serv00.net/Smartv.php?id=j2_twn
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|珍珠台
+https://yydsxll.serv00.net/Smartv.php?id=pearl_twn
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|凤凰香港
+https://yydsxll.serv00.net/Smartv.php?id=hkphoenix_twn
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|HOY资讯台
+https://yydsxll.serv00.net/Smartv.php?id=hoycaijing_twn
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|RHK 31
+https://yydsxll.serv00.net/Smartv.php?id=rhk31_twn
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|VIUTV1
+https://yydsxll.serv00.net/Smartv.php?id=viu1_twn
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|RHK 32
+https://yydsxll.serv00.net/Smartv.php?id=rhk32_twn
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|凤凰卫视
+https://yydsxll.serv00.net/Smartv.php?id=phoenixtv_hd
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|凤凰资讯
+https://yydsxll.serv00.net/Smartv.php?id=phoenixinfo_hd
+#EXTINF:-1,tvg-id="凤凰卫视香港" tvg-name="凤凰卫视香港" tvg-logo="https://epg.v1.mk/logo/凤凰卫视香港.png" group-title="香港",香港|Viu6
+https://yydsxll.serv00.net/Smartv.php?id=viusix_twn
+#EXTINF:-1,tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://epg.v1.mk/logo/CCTV1.png" group-title="央视",中国|CCTV-1 综合 HD
+https://yydsxll.serv00.net/Smartv.php?id=cctv1
+#EXTINF:-1,tvg-id="cctv2" tvg-name="cctv2" tvg-logo="https://epg.v1.mk/logo/cctv2.png" group-title="央视",中国|CCTV-2 财经
+https://yydsxll.serv00.net/Smartv.php?id=cctv2
+#EXTINF:-1,tvg-id="cctv3" tvg-name="cctv3" tvg-logo="https://epg.v1.mk/logo/cctv3.png" group-title="央视",中国|CCTV-3 综艺 HD
+https://yydsxll.serv00.net/Smartv.php?id=cctv3
+#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="央视",中国|CCTV-4 中文国际
+https://yydsxll.serv00.net/Smartv.php?id=cctv4
+#EXTINF:-1,tvg-id="cctv4" tvg-name="cctv4" tvg-logo="https://epg.v1.mk/logo/cctv4.png" group-title="央视",中国|CCTV4 新闻台
+https://yydsxll.serv00.net/Smartv.php?id=Cctv4
+#EXTINF:-1,tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://epg.v1.mk/logo/CCTV7.png" group-title="央视",中国|CCTV-7 军事农业
+https://yydsxll.serv00.net/Smartv.php?id=cctv7
+#EXTINF:-1,tvg-id="cctv8" tvg-name="cctv8" tvg-logo="https://epg.v1.mk/logo/cctv8.png" group-title="央视",中国|CCTV-8 电视剧 HD
+https://yydsxll.serv00.net/Smartv.php?id=cctv8hd
+#EXTINF:-1,tvg-id="cctv9" tvg-name="cctv9" tvg-logo="https://epg.v1.mk/logo/cctv9.png" group-title="央视",中国|CCTV-9 记录 HD
+https://yydsxll.serv00.net/Smartv.php?id=cctv9hd
+#EXTINF:-1,tvg-id="cctv10" tvg-name="cctv10" tvg-logo="https://epg.v1.mk/logo/cctv10.png" group-title="央视",中国|CCTV-10 科教 HD
+https://yydsxll.serv00.net/Smartv.php?id=cctv10hd
+#EXTINF:-1,tvg-id="cctv11" tvg-name="cctv11" tvg-logo="https://epg.v1.mk/logo/cctv11.png" group-title="央视",中国|CCTV-11 戏曲
+https://yydsxll.serv00.net/Smartv.php?id=cctv11
+#EXTINF:-1,tvg-id="cctv12" tvg-name="cctv12" tvg-logo="https://epg.v1.mk/logo/cctv12.png" group-title="央视",中国|CCTV-12 社会与法
+https://yydsxll.serv00.net/Smartv.php?id=cctv12
+#EXTINF:-1,tvg-id="cctv13" tvg-name="cctv13" tvg-logo="https://epg.v1.mk/logo/cctv13.png" group-title="央视",中国|CCTV-13 新闻频道
+https://yydsxll.serv00.net/Smartv.php?id=cctv13
+#EXTINF:-1,tvg-id="cctv14" tvg-name="cctv14" tvg-logo="https://epg.v1.mk/logo/cctv14.png" group-title="央视",中国|CCTV-14 少儿
+https://yydsxll.serv00.net/Smartv.php?id=cctv14
+#EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="央视",中国|CCTV-6
+https://yydsxll.serv00.net/Smartv.php?id=cctv6
+#EXTINF:-1,tvg-id="cctv15" tvg-name="cctv15" tvg-logo="https://epg.v1.mk/logo/cctv15.png" group-title="央视",中国|CCTV-15 音乐
+https://yydsxll.serv00.net/Smartv.php?id=cctv15
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="湖南",中国|湖南卫视
+https://yydsxll.serv00.net/Smartv.php?id=hunan_twn
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="浙江",中国|浙江卫视
+https://yydsxll.serv00.net/Smartv.php?id=zhejiang_twn
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="江苏",中国|江苏卫视
+https://yydsxll.serv00.net/Smartv.php?id=jiangsu_twn
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="卫视",中国|深圳卫视
+https://yydsxll.serv00.net/Smartv.php?id=shenzhen
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="福建",中国|福建东南卫视
+https://yydsxll.serv00.net/Smartv.php?id=fujian
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="广东",中国|广东南方卫视
+https://yydsxll.serv00.net/Smartv.php?id=nanfang_twn
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="广东",中国|广东卫视
+https://yydsxll.serv00.net/Smartv.php?id=guangdongweishi_twn
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="北京",中国|北京卫视
+https://yydsxll.serv00.net/Smartv.php?id=beijing
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="其他",中国|珠江台
+https://yydsxll.serv00.net/Smartv.php?id=zhujiang
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="卫视",中国|广西卫视
+https://yydsxll.serv00.net/Smartv.php?id=guangxi
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="湖北",中国|湖北卫视
+https://yydsxll.serv00.net/Smartv.php?id=hubei
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="四川",中国|四川卫视
+https://yydsxll.serv00.net/Smartv.php?id=sichuan_twn
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="卫视",中国|东方卫视
+https://yydsxll.serv00.net/Smartv.php?id=dongfangweishi_twn
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="央视",中国|CGTN
+https://yydsxll.serv00.net/Smartv.php?id=CGTN
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="卫视",中国|凤凰卫视
+https://yydsxll.serv00.net/Smartv.php?id=phoenixtv_hd
+#EXTINF:-1,tvg-id="Channel [V] 中国" tvg-name="Channel [V] 中国" tvg-logo="https://epg.v1.mk/logo/Channel [V] 中国.png" group-title="香港",中国|凤凰资讯
+https://yydsxll.serv00.net/Smartv.php?id=phoenixinfo_hd
+#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="央视",中国|CCTV-5 体育频道
+https://yydsxll.serv00.net/Smartv.php?id=cctv5
+#EXTINF:-1,tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="央视",中国|CCTV-5+ 体育赛事 HD
+https://yydsxll.serv00.net/Smartv.php?id=cctv5plus
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro Premier League 1
+https://yydsxll.serv00.net/Smartv.php?id=go_assp1
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro EPL 1 backup
+https://yydsxll.serv00.net/Smartv.php?id=go_assp1x
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro Premier League 2
+https://yydsxll.serv00.net/Smartv.php?id=go_assp2
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro Grandstand
+https://yydsxll.serv00.net/Smartv.php?id=go_assp3
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro Football
+https://yydsxll.serv00.net/Smartv.php?id=go_assp4
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro Sports Plus
+https://yydsxll.serv00.net/Smartv.php?id=go_sportsplus
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro Badminton 1
+https://yydsxll.serv00.net/Smartv.php?id=go_badminton1
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro Badminton 2
+https://yydsxll.serv00.net/Smartv.php?id=go_badminton2
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro W-Sports
+https://yydsxll.serv00.net/Smartv.php?id=go_assp5
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Supersports 1
+https://yydsxll.serv00.net/Smartv.php?id=Assp1
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Supersports 2
+https://yydsxll.serv00.net/Smartv.php?id=Assp2
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Supersports 3
+https://yydsxll.serv00.net/Smartv.php?id=Assp3
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Supersports 4
+https://yydsxll.serv00.net/Smartv.php?id=Assp4
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|WWE
+https://yydsxll.serv00.net/Smartv.php?id=Wwe
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Fight Sports
+https://yydsxll.serv00.net/Smartv.php?id=Fs
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|NBA TV
+https://yydsxll.serv00.net/Smartv.php?id=Nba
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro Cricket
+https://yydsxll.serv00.net/Smartv.php?id=Acricket
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro Golf
+https://yydsxll.serv00.net/Smartv.php?id=Agolf
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Tnt Sports 1
+https://yydsxll.serv00.net/Smartv.php?id=6fac0aaead
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|TNT Sports 2
+https://yydsxll.serv00.net/Smartv.php?id=d9a76a79cc
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|TNT Sports 3
+https://yydsxll.serv00.net/Smartv.php?id=5fea4d73db
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|TNT Sports 4
+https://yydsxll.serv00.net/Smartv.php?id=tntsport4
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Sony Ten 1
+https://yydsxll.serv00.net/Smartv.php?id=ten1_raj
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Sony Ten 2
+https://yydsxll.serv00.net/Smartv.php?id=ten2_raj
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Sony Ten 3
+https://yydsxll.serv00.net/Smartv.php?id=ten3_raj
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|SPOTV 1 HD
+https://yydsxll.serv00.net/Smartv.php?id=go_spotv
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|SPO TV 2
+https://yydsxll.serv00.net/Smartv.php?id=go_spotv2
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Skysports F1
+https://yydsxll.serv00.net/Smartv.php?id=tiankongf1
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Skysports Cricket
+https://yydsxll.serv00.net/Smartv.php?id=tiankongcricket
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Skysports EPL
+https://yydsxll.serv00.net/Smartv.php?id=tiankongepl
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Skysports Main Event
+https://yydsxll.serv00.net/Smartv.php?id=tiankongmain
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Skysports News
+https://yydsxll.serv00.net/Smartv.php?id=tiankongnews
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Skysports Mix
+https://yydsxll.serv00.net/Smartv.php?id=tiankongmix
+#EXTINF:-1,tvg-id="cctv5" tvg-name="cctv5" tvg-logo="https://epg.v1.mk/logo/cctv5.png" group-title="央视",体育频道|CCTV-5 体育频道
+https://yydsxll.serv00.net/Smartv.php?id=cctv5
+#EXTINF:-1,tvg-id="cctv5+" tvg-name="cctv5+" tvg-logo="https://epg.v1.mk/logo/cctv5+.png" group-title="央视",体育频道|CCTV-5+ 体育赛事 HD
+https://yydsxll.serv00.net/Smartv.php?id=cctv5plus
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|爱尔达体育2台
+https://yydsxll.serv00.net/Smartv.php?id=eltasport2_twn
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|爱尔达体育3台
+https://yydsxll.serv00.net/Smartv.php?id=eltasport3_twn
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Rugby Pass TV
+https://yydsxll.serv00.net/Smartv.php?id=Rugbypasstv
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|RTM Sports HD
+https://yydsxll.serv00.net/Smartv.php?id=Rtmsport
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Arena
+https://yydsxll.serv00.net/Smartv.php?id=Arena
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|Arena 2
+https://yydsxll.serv00.net/Smartv.php?id=Arena2
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|BolaArena 1
+https://yydsxll.serv00.net/Smartv.php?id=Bolaarena1
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="其他",体育频道|BolaArena 2
+https://yydsxll.serv00.net/Smartv.php?id=Bolaarena2
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro Beinsports 1
+https://yydsxll.serv00.net/Smartv.php?id=Astrobein1
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro Beinsports 2
+https://yydsxll.serv00.net/Smartv.php?id=Astrobein2
+#EXTINF:-1,tvg-id="山东体育频道" tvg-name="山东体育频道" tvg-logo="https://epg.v1.mk/logo/山东体育频道.png" group-title="港澳台",体育频道|Astro Beinsports 3
+https://yydsxll.serv00.net/Smartv.php?id=Astrobein3
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|TVBS News 新闻台
+https://yydsxll.serv00.net/Smartv.php?id=tvbs_n
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|TVBS 欢乐台 （备份）
+https://yydsxll.serv00.net/Smartv.php?id=tvbshuanle_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|TVBS HD
+https://yydsxll.serv00.net/Smartv.php?id=tvbs
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|中天新闻 HD
+https://yydsxll.serv00.net/Smartv.php?id=ctinews
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|中天娱乐 CTI Entertaiment
+https://yydsxll.serv00.net/Smartv.php?id=ctient
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|中天综合 CTI Metro
+https://yydsxll.serv00.net/Smartv.php?id=ctizhonghe
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|中天亚洲台
+https://yydsxll.serv00.net/Smartv.php?id=ctiasia_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|台视 TTV HD
+https://yydsxll.serv00.net/Smartv.php?id=ttv_taiwan
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|台视新闻台
+https://yydsxll.serv00.net/Smartv.php?id=ttvnews_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|台视综合台
+https://yydsxll.serv00.net/Smartv.php?id=ttvzhonghe
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|中视 HD
+https://yydsxll.serv00.net/Smartv.php?id=zhongshihd_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|中视新闻台
+https://yydsxll.serv00.net/Smartv.php?id=zhongshinews_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|民视 HD
+https://yydsxll.serv00.net/Smartv.php?id=ftvhd_taiwan
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|民视新闻台 FTV News
+https://yydsxll.serv00.net/Smartv.php?id=ftvnew_taiwan
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|民视台湾台
+https://yydsxll.serv00.net/Smartv.php?id=ftvtaiwan_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|华视 CTS HD
+https://yydsxll.serv00.net/Smartv.php?id=ctshd_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|公视 CTV
+https://yydsxll.serv00.net/Smartv.php?id=ctv18_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|八大第一 GTV First
+https://yydsxll.serv00.net/Smartv.php?id=badafirst
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|八大综合 GTV Metro
+https://yydsxll.serv00.net/Smartv.php?id=badazhonghe
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|八大戏剧 GTV Drama
+https://yydsxll.serv00.net/Smartv.php?id=badadrama
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|八大娱乐 GTV Entertainment
+https://yydsxll.serv00.net/Smartv.php?id=badaentertain
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|HBO_HD
+https://yydsxll.serv00.net/Smartv.php?id=hbohd_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|HBO_HITS
+https://yydsxll.serv00.net/Smartv.php?id=hbohit_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|Hollywood Movies
+https://yydsxll.serv00.net/Smartv.php?id=hollywoodmovies_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|三立台湾 Sanli Taiwan
+https://yydsxll.serv00.net/Smartv.php?id=sanlitaiwan
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|三立戏剧台
+https://yydsxll.serv00.net/Smartv.php?id=sanlixiju_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|三立综合 Sanli Metro
+https://yydsxll.serv00.net/Smartv.php?id=sanlizhonghe
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|三立都会台
+https://yydsxll.serv00.net/Smartv.php?id=sanlidouhui
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|东森新闻 ETTV News
+https://yydsxll.serv00.net/Smartv.php?id=ettvnews
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|CINEMAX
+https://yydsxll.serv00.net/Smartv.php?id=cinemax_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|东森综合 ETTV Metro
+https://yydsxll.serv00.net/Smartv.php?id=ettvzhonghe
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|东森戏剧 ETTV Drama
+https://yydsxll.serv00.net/Smartv.php?id=ettvdrama
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|东森超视
+https://yydsxll.serv00.net/Smartv.php?id=ettvsuper
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|东森财经新闻 ETTV Business
+https://yydsxll.serv00.net/Smartv.php?id=ettvcaijing_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|寰宇财经
+https://yydsxll.serv00.net/Smartv.php?id=huanyutaiwan_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|寰宇新闻台
+https://yydsxll.serv00.net/Smartv.php?id=huanyuxinwen_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|公视2
+https://yydsxll.serv00.net/Smartv.php?id=ctv2_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|大爱1台
+https://yydsxll.serv00.net/Smartv.php?id=daai_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|非凡新闻台
+https://yydsxll.serv00.net/Smartv.php?id=feifannews_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|龙华戏剧 Lunghua Drama
+https://yydsxll.serv00.net/Smartv.php?id=lunghuaxiju_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|龙华经典台
+https://yydsxll.serv00.net/Smartv.php?id=lunghuajingdian_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|龙华偶像
+https://yydsxll.serv00.net/Smartv.php?id=lunghuaidol_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|AXN Taiwan
+https://yydsxll.serv00.net/Smartv.php?id=axn_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|靖天国际台
+https://yydsxll.serv00.net/Smartv.php?id=jingtianintl_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|年代新闻
+https://yydsxll.serv00.net/Smartv.php?id=niandainews_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|纬来日本台
+https://yydsxll.serv00.net/Smartv.php?id=videolandjapan
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|纬来电影台
+https://yydsxll.serv00.net/Smartv.php?id=videolandmovie
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|纬来体育台
+https://yydsxll.serv00.net/Smartv.php?id=videolandsport
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|纬来综合台
+https://yydsxll.serv00.net/Smartv.php?id=videolandzonghe
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|纬来育乐
+https://yydsxll.serv00.net/Smartv.php?id=videolandyule
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|纬来精彩
+https://yydsxll.serv00.net/Smartv.php?id=videolandspecial_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|好消息 2
+https://yydsxll.serv00.net/Smartv.php?id=good2_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|大爱2台
+https://yydsxll.serv00.net/Smartv.php?id=daai2_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|亚洲美食
+https://yydsxll.serv00.net/Smartv.php?id=afc_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|美食星球
+https://yydsxll.serv00.net/Smartv.php?id=foodplanet_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|亚洲旅游 TLC Asia
+https://yydsxll.serv00.net/Smartv.php?id=tlc_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|东森电影 ETTV Movie
+https://yydsxll.serv00.net/Smartv.php?id=ettvmovie
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|阿里郎 Arirang
+https://yydsxll.serv00.net/Smartv.php?id=arirang_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|博斯运动 1
+https://yydsxll.serv00.net/Smartv.php?id=bosisport1_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|博斯运动 2
+https://yydsxll.serv00.net/Smartv.php?id=bosisport2_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|博斯高球2 HD
+https://yydsxll.serv00.net/Smartv.php?id=bosigolf2_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|博斯网球 HD
+https://yydsxll.serv00.net/Smartv.php?id=bositennis_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|东森洋片 ETTV Western
+https://yydsxll.serv00.net/Smartv.php?id=ettvwestern
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|龙华洋片 Lunghua Western
+https://yydsxll.serv00.net/Smartv.php?id=lunghuawestern_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|博斯无限
+https://yydsxll.serv00.net/Smartv.php?id=bosiunlimited_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|MTV Live
+https://yydsxll.serv00.net/Smartv.php?id=mtvhd_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|龙详时代
+https://yydsxll.serv00.net/Smartv.php?id=lungxiangtime_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|EYETV 旅游
+https://yydsxll.serv00.net/Smartv.php?id=eyetvtravel_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|靖天卡通台
+https://yydsxll.serv00.net/Smartv.php?id=jingtiancartoon_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|EYETV 戏剧
+https://yydsxll.serv00.net/Smartv.php?id=eyetvxiju_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|卫视中文台 Star Movies Chinese
+https://yydsxll.serv00.net/Smartv.php?id=weishichinese_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|东森幼幼 Yoyo TV
+https://yydsxll.serv00.net/Smartv.php?id=yoyo_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|卫视电影台
+https://yydsxll.serv00.net/Smartv.php?id=weishimovie_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|美亚电影
+https://yydsxll.serv00.net/Smartv.php?id=meiyamovie_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|爱尔达影剧台
+https://yydsxll.serv00.net/Smartv.php?id=eltayingju_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|爱尔达综合台
+https://yydsxll.serv00.net/Smartv.php?id=eltazonghe_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|星卫电影
+https://yydsxll.serv00.net/Smartv.php?id=xingwei_movie
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|爱尔达影剧
+https://yydsxll.serv00.net/Smartv.php?id=eltayingju_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|AFC 亚洲旅游台
+https://yydsxll.serv00.net/Smartv.php?id=asiatravel_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|爱尔达体育2台
+https://yydsxll.serv00.net/Smartv.php?id=eltasport2_twn
+#EXTINF:-1,tvg-id="AXN台湾" tvg-name="AXN台湾" tvg-logo="https://epg.v1.mk/logo/AXN台湾.png" group-title="台湾",台湾|爱尔达体育3台
+https://yydsxll.serv00.net/Smartv.php?id=eltasport3_twn
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="港澳台",电影频道|HBO_HD
+https://yydsxll.serv00.net/Smartv.php?id=hbohd_twn
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="港澳台",电影频道|HBO_HITS
+https://yydsxll.serv00.net/Smartv.php?id=hbohit_twn
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Hollywood Movies
+https://yydsxll.serv00.net/Smartv.php?id=hollywoodmovies_twn
+#EXTINF:-1,tvg-id="cctv6" tvg-name="cctv6" tvg-logo="https://epg.v1.mk/logo/cctv6.png" group-title="央视",电影频道|CCTV-6
+https://yydsxll.serv00.net/Smartv.php?id=cctv6
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|CINEMAX
+https://yydsxll.serv00.net/Smartv.php?id=cinemax_twn
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Cinemax
+https://yydsxll.serv00.net/Smartv.php?id=Cinemax
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|AXN Taiwan
+https://yydsxll.serv00.net/Smartv.php?id=axn_twn
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="港澳台",电影频道|大爱2台
+https://yydsxll.serv00.net/Smartv.php?id=daai2_twn
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="港澳台",电影频道|东森电影 ETTV Movie
+https://yydsxll.serv00.net/Smartv.php?id=ettvmovie
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="港澳台",电影频道|东森洋片 ETTV Western
+https://yydsxll.serv00.net/Smartv.php?id=ettvwestern
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|龙华洋片 Lunghua Western
+https://yydsxll.serv00.net/Smartv.php?id=lunghuawestern_twn
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Animax
+https://yydsxll.serv00.net/Smartv.php?id=Animax
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|龙详时代
+https://yydsxll.serv00.net/Smartv.php?id=lungxiangtime_twn
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Movies Now HD
+https://yydsxll.serv00.net/Smartv.php?id=moviesnow_raj
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Star Movies HD
+https://yydsxll.serv00.net/Smartv.php?id=starmovies_raj
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="卫视",电影频道|卫视中文台 Star Movies Chinese
+https://yydsxll.serv00.net/Smartv.php?id=weishichinese_twn
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="港澳台",电影频道|HBO Family
+https://yydsxll.serv00.net/Smartv.php?id=Hbofamily
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Hits
+https://yydsxll.serv00.net/Smartv.php?id=Hits
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Warner TV
+https://yydsxll.serv00.net/Smartv.php?id=WarnerTV
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="卫视",电影频道|卫视电影台
+https://yydsxll.serv00.net/Smartv.php?id=weishimovie_twn
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="港澳台",电影频道|HBO HD
+https://yydsxll.serv00.net/Smartv.php?id=Hbo
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|美亚电影
+https://yydsxll.serv00.net/Smartv.php?id=meiyamovie_twn
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="港澳台",电影频道|HBO Signature
+https://yydsxll.serv00.net/Smartv.php?id=Hbosignature
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="港澳台",电影频道|HBO Hits
+https://yydsxll.serv00.net/Smartv.php?id=Hbohitshd
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|星卫电影
+https://yydsxll.serv00.net/Smartv.php?id=xingwei_movie
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|SCM
+https://yydsxll.serv00.net/Smartv.php?id=Weishimovie
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Dreamworks
+https://yydsxll.serv00.net/Smartv.php?id=Dreamworks
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Thrill
+https://yydsxll.serv00.net/Smartv.php?id=Thrill
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Hits Movie
+https://yydsxll.serv00.net/Smartv.php?id=Hitsmovie
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|One
+https://yydsxll.serv00.net/Smartv.php?id=One
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|tvN Movie
+https://yydsxll.serv00.net/Smartv.php?id=Tvnmovie
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Celestial Classic
+https://yydsxll.serv00.net/Smartv.php?id=Celestial2
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Celestial Movies HD
+https://yydsxll.serv00.net/Smartv.php?id=Celestialindo
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Axn HD
+https://yydsxll.serv00.net/Smartv.php?id=Axn
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Paramount Network
+https://yydsxll.serv00.net/Smartv.php?id=Paramountnetwork
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="港澳台",电影频道|Astrol Kplus
+https://yydsxll.serv00.net/Smartv.php?id=Kplus
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Rock Actions
+https://yydsxll.serv00.net/Smartv.php?id=Rockaction
+#EXTINF:-1,tvg-id="1905电影频道" tvg-name="1905电影频道" tvg-logo="https://epg.v1.mk/logo/1905电影频道.png" group-title="其他",电影频道|Rock Entertainment
+https://yydsxll.serv00.net/Smartv.php?id=Rockentertain
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|Natgeo_HD
+https://yydsxll.serv00.net/Smartv.php?id=natgeohd_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|NatGeo_Wild HD
+https://yydsxll.serv00.net/Smartv.php?id=natgeowild_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|Animal_Planet
+https://yydsxll.serv00.net/Smartv.php?id=animalplanet_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|Discovery Asia
+https://yydsxll.serv00.net/Smartv.php?id=discoverytwn_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|CI
+https://yydsxll.serv00.net/Smartv.php?id=ci_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|Asia Travel
+https://yydsxll.serv00.net/Smartv.php?id=asiatravel_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|Discovery HD
+https://yydsxll.serv00.net/Smartv.php?id=discoveryhd_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|亚洲美食
+https://yydsxll.serv00.net/Smartv.php?id=afc_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|美食星球
+https://yydsxll.serv00.net/Smartv.php?id=foodplanet_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|亚洲旅游 TLC Asia
+https://yydsxll.serv00.net/Smartv.php?id=tlc_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|NatGeo HD
+https://yydsxll.serv00.net/Smartv.php?id=Natgeo
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|Fashion TV
+https://yydsxll.serv00.net/Smartv.php?id=fashiontv_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|History
+https://yydsxll.serv00.net/Smartv.php?id=History
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|BBC Earth HD
+https://yydsxll.serv00.net/Smartv.php?id=bbcearth_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|BBC Earth Lifestyle
+https://yydsxll.serv00.net/Smartv.php?id=bbclifestyle_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|MTV Live
+https://yydsxll.serv00.net/Smartv.php?id=mtvhd_twn
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|NatGeo Wild HD
+https://yydsxll.serv00.net/Smartv.php?id=Natgeowild
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|Animal Planet (Eng)
+https://yydsxll.serv00.net/Smartv.php?id=AnimalPlanet
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|TLC
+https://yydsxll.serv00.net/Smartv.php?id=Tlc
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|Foodnetwork Hd
+https://yydsxll.serv00.net/Smartv.php?id=Foodnetwork
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|HGTV
+https://yydsxll.serv00.net/Smartv.php?id=HGTV
+#EXTINF:-1,tvg-id="CCTV-9纪录" tvg-name="CCTV-9纪录" tvg-logo="https://epg.v1.mk/logo/CCTV-9纪录.png" group-title="其他",纪录频道|AFC 亚洲旅游台
+https://yydsxll.serv00.net/Smartv.php?id=asiatravel_twn
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|Skynews
+https://yydsxll.serv00.net/Smartv.php?id=skynews_twn
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|ABC News
+https://yydsxll.serv00.net/Smartv.php?id=abcnews_glo
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="港澳台",新闻频道|东森财经新闻 ETTV Business
+https://yydsxll.serv00.net/Smartv.php?id=ettvcaijing_twn
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|CBS HD
+https://yydsxll.serv00.net/Smartv.php?id=cbshd_glo
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|CBSN HD
+https://yydsxll.serv00.net/Smartv.php?id=cbsn_glo
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|France 24
+https://yydsxll.serv00.net/Smartv.php?id=france24_twn
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|DW (Deutsch)
+https://yydsxll.serv00.net/Smartv.php?id=dw_twn
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="港澳台",新闻频道|NHK World
+https://yydsxll.serv00.net/Smartv.php?id=nhkworld_japan
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="港澳台",新闻频道|Fox News
+https://yydsxll.serv00.net/Smartv.php?id=foxnews_twn
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="央视",新闻频道|CGTN
+https://yydsxll.serv00.net/Smartv.php?id=CGTN
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|CNN International
+https://yydsxll.serv00.net/Smartv.php?id=Cnn
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|CNN backup
+https://yydsxll.serv00.net/Smartv.php?id=cnn_twn
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|CNBC
+https://yydsxll.serv00.net/Smartv.php?id=cnbc_twn
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|CNA
+https://yydsxll.serv00.net/Smartv.php?id=cna
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|BBC World News
+https://yydsxll.serv00.net/Smartv.php?id=bbcnews_twn
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|BBC World News
+https://yydsxll.serv00.net/Smartv.php?id=Bbcnews
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|Bloomberg News
+https://yydsxll.serv00.net/Smartv.php?id=bloomberg_twn
+#EXTINF:-1,tvg-id="上视新闻频道4" tvg-name="上视新闻频道4" tvg-logo="https://epg.v1.mk/logo/上视新闻频道4.png" group-title="其他",新闻频道|Al-Jazeera
+https://yydsxll.serv00.net/Smartv.php?id=aljazeera_twn
+#EXTINF:-1,tvg-id="Nickelodeon Asia(尼克儿童频道)" tvg-name="Nickelodeon Asia(尼克儿童频道)" tvg-logo="https://epg.v1.mk/logo/Nickelodeon Asia(尼克儿童频道).png" group-title="其他",儿童频道|Baby TV Eng
+https://yydsxll.serv00.net/Smartv.php?id=Babytv
+#EXTINF:-1,tvg-id="Nickelodeon Asia(尼克儿童频道)" tvg-name="Nickelodeon Asia(尼克儿童频道)" tvg-logo="https://epg.v1.mk/logo/Nickelodeon Asia(尼克儿童频道).png" group-title="其他",儿童频道|CBeebies
+https://yydsxll.serv00.net/Smartv.php?id=Cbeebies
+#EXTINF:-1,tvg-id="Nickelodeon Asia(尼克儿童频道)" tvg-name="Nickelodeon Asia(尼克儿童频道)" tvg-logo="https://epg.v1.mk/logo/Nickelodeon Asia(尼克儿童频道).png" group-title="其他",儿童频道|Kids TV
+https://yydsxll.serv00.net/Smartv.php?id=KidsTV
+#EXTINF:-1,tvg-id="Nickelodeon Asia(尼克儿童频道)" tvg-name="Nickelodeon Asia(尼克儿童频道)" tvg-logo="https://epg.v1.mk/logo/Nickelodeon Asia(尼克儿童频道).png" group-title="其他",儿童频道|Momo TV
+https://yydsxll.serv00.net/Smartv.php?id=momo1_twn
+#EXTINF:-1,tvg-id="Nickelodeon Asia(尼克儿童频道)" tvg-name="Nickelodeon Asia(尼克儿童频道)" tvg-logo="https://epg.v1.mk/logo/Nickelodeon Asia(尼克儿童频道).png" group-title="其他",儿童频道|Animax
+https://yydsxll.serv00.net/Smartv.php?id=Animax
+#EXTINF:-1,tvg-id="Nickelodeon Asia(尼克儿童频道)" tvg-name="Nickelodeon Asia(尼克儿童频道)" tvg-logo="https://epg.v1.mk/logo/Nickelodeon Asia(尼克儿童频道).png" group-title="其他",儿童频道|Baby TV
+https://yydsxll.serv00.net/Smartv.php?id=babytv_twn
+#EXTINF:-1,tvg-id="Nickelodeon Asia(尼克儿童频道)" tvg-name="Nickelodeon Asia(尼克儿童频道)" tvg-logo="https://epg.v1.mk/logo/Nickelodeon Asia(尼克儿童频道).png" group-title="其他",儿童频道|MiaoMi
+https://yydsxll.serv00.net/Smartv.php?id=MiaoMi
+#EXTINF:-1,tvg-id="Nickelodeon Asia(尼克儿童频道)" tvg-name="Nickelodeon Asia(尼克儿童频道)" tvg-logo="https://epg.v1.mk/logo/Nickelodeon Asia(尼克儿童频道).png" group-title="其他",儿童频道|靖天卡通台
+https://yydsxll.serv00.net/Smartv.php?id=jingtiancartoon_twn
+#EXTINF:-1,tvg-id="Nickelodeon Asia(尼克儿童频道)" tvg-name="Nickelodeon Asia(尼克儿童频道)" tvg-logo="https://epg.v1.mk/logo/Nickelodeon Asia(尼克儿童频道).png" group-title="港澳台",儿童频道|东森幼幼 Yoyo TV
+https://yydsxll.serv00.net/Smartv.php?id=yoyo_twn
+#EXTINF:-1,tvg-id="Nickelodeon Asia(尼克儿童频道)" tvg-name="Nickelodeon Asia(尼克儿童频道)" tvg-logo="https://epg.v1.mk/logo/Nickelodeon Asia(尼克儿童频道).png" group-title="其他",儿童频道|Cartoon Network
+https://yydsxll.serv00.net/Smartv.php?id=Cn
+#EXTINF:-1,tvg-id="Nickelodeon Asia(尼克儿童频道)" tvg-name="Nickelodeon Asia(尼克儿童频道)" tvg-logo="https://epg.v1.mk/logo/Nickelodeon Asia(尼克儿童频道).png" group-title="其他",儿童频道|Nickelodeon
+https://yydsxll.serv00.net/Smartv.php?id=Nickelodeon
+#EXTINF:-1,tvg-id="Nickelodeon Asia(尼克儿童频道)" tvg-name="Nickelodeon Asia(尼克儿童频道)" tvg-logo="https://epg.v1.mk/logo/Nickelodeon Asia(尼克儿童频道).png" group-title="其他",儿童频道|Nick Jr
+https://yydsxll.serv00.net/Smartv.php?id=Nickjr
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|Channel 5
+https://yydsxll.serv00.net/Smartv.php?id=Channel5HD
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|Channel 8
+https://yydsxll.serv00.net/Smartv.php?id=Channel8HD
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|Suria
+https://yydsxll.serv00.net/Smartv.php?id=Suria
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|Channel U
+https://yydsxll.serv00.net/Smartv.php?id=ChannelU
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|Vasantham
+https://yydsxll.serv00.net/Smartv.php?id=Vasantham
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|CNA
+https://yydsxll.serv00.net/Smartv.php?id=cna
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|CNA backup
+https://yydsxll.serv00.net/Smartv.php?id=cna_twn
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|MeWatch Ch 5
+https://yydsxll.serv00.net/Smartv.php?id=Mewatch_ch5
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|MeWatch Ch 8
+https://yydsxll.serv00.net/Smartv.php?id=Mewatch_ch8
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|MeWatch Ch U
+https://yydsxll.serv00.net/Smartv.php?id=Mewatch_chU
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|MeWatch Suria
+https://yydsxll.serv00.net/Smartv.php?id=Mewatch_Suria
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|MeWatch Vasantham
+https://yydsxll.serv00.net/Smartv.php?id=Mewatch_Vasantham
+#EXTINF:-1,tvg-id="021新唐人亞太台" tvg-name="021新唐人亞太台" tvg-logo="https://epg.v1.mk/logo/021新唐人亞太台.png" group-title="其他",新加坡|MeWatch CNA
+https://yydsxll.serv00.net/Smartv.php?id=Mewatch_cna
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|TV1
+https://yydsxll.serv00.net/Smartv.php?id=TV1
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|TV1 backup
+https://yydsxll.serv00.net/Smartv.php?id=TV1_backup
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|TV2
+https://yydsxll.serv00.net/Smartv.php?id=TV2
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|TV3
+https://yydsxll.serv00.net/Smartv.php?id=TV3
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|TV3 SD
+https://yydsxll.serv00.net/Smartv.php?id=TV3_mega
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|NTV7
+https://yydsxll.serv00.net/Smartv.php?id=NTV7
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|TV8
+https://yydsxll.serv00.net/Smartv.php?id=TV8
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|TV9
+https://yydsxll.serv00.net/Smartv.php?id=TV9
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Ria
+https://yydsxll.serv00.net/Smartv.php?id=Ria-0
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Ria-3
+https://yydsxll.serv00.net/Smartv.php?id=Ria_backup
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Al-Hijrah
+https://yydsxll.serv00.net/Smartv.php?id=Alhijrah
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Al-Hijrah backup
+https://yydsxll.serv00.net/Smartv.php?id=Alhijrah_backup
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Awani
+https://yydsxll.serv00.net/Smartv.php?id=Awani
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Bernama
+https://yydsxll.serv00.net/Smartv.php?id=Bernama
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Prima
+https://yydsxll.serv00.net/Smartv.php?id=Prima-0
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Prima backup
+https://yydsxll.serv00.net/Smartv.php?id=AAprima1
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Prima backup 2
+https://yydsxll.serv00.net/Smartv.php?id=AAprima
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Ceria
+https://yydsxll.serv00.net/Smartv.php?id=Ceria
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|Astro MTV
+https://yydsxll.serv00.net/Smartv.php?id=AstroMTV
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Mecca Live HD
+https://yydsxll.serv00.net/Smartv.php?id=quran_mido
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Madinah HD
+https://yydsxll.serv00.net/Smartv.php?id=sunnah_mido
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Oasis
+https://yydsxll.serv00.net/Smartv.php?id=Oasis
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|HBO HD
+https://yydsxll.serv00.net/Smartv.php?id=Hbo
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|HBO Signature
+https://yydsxll.serv00.net/Smartv.php?id=Hbosignature
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|HBO Hits
+https://yydsxll.serv00.net/Smartv.php?id=Hbohitshd
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|NatGeo Wild HD
+https://yydsxll.serv00.net/Smartv.php?id=Natgeowild
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Cartoon Network
+https://yydsxll.serv00.net/Smartv.php?id=Cn
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Nickelodeon
+https://yydsxll.serv00.net/Smartv.php?id=Nickelodeon
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Nick Jr
+https://yydsxll.serv00.net/Smartv.php?id=Nickjr
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Dreamworks
+https://yydsxll.serv00.net/Smartv.php?id=Dreamworks
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Siar
+https://yydsxll.serv00.net/Smartv.php?id=Siar
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Citra
+https://yydsxll.serv00.net/Smartv.php?id=AAcitra
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Citra backup
+https://yydsxll.serv00.net/Smartv.php?id=AAcitra1
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Sensasi
+https://yydsxll.serv00.net/Smartv.php?id=Sensasi
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Aura
+https://yydsxll.serv00.net/Smartv.php?id=Aura
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Rania
+https://yydsxll.serv00.net/Smartv.php?id=Rania
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|KBS World
+https://yydsxll.serv00.net/Smartv.php?id=KBS
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Boo
+https://yydsxll.serv00.net/Smartv.php?id=Boo
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Awesome TV
+https://yydsxll.serv00.net/Smartv.php?id=Dsangat
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|Astro Sonypix
+https://yydsxll.serv00.net/Smartv.php?id=Asonypix
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Sony HD
+https://yydsxll.serv00.net/Smartv.php?id=SetOne
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|TvN
+https://yydsxll.serv00.net/Smartv.php?id=TVN
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|AEC
+https://yydsxll.serv00.net/Smartv.php?id=AEC
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|华丽台 HD （Wah Lai Toi）
+https://yydsxll.serv00.net/Smartv.php?id=Wlt
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|欢喜台 HD （Hua Hee Tai）
+https://yydsxll.serv00.net/Smartv.php?id=Huahee
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|Astro QJ
+https://yydsxll.serv00.net/Smartv.php?id=Quanjia
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|TVB Jade
+https://yydsxll.serv00.net/Smartv.php?id=Tvbjade
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|TVB Asia
+https://yydsxll.serv00.net/Smartv.php?id=Tvbasia
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|TVB Entertainment
+https://yydsxll.serv00.net/Smartv.php?id=Tvbentertainment
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|TVB Classic
+https://yydsxll.serv00.net/Smartv.php?id=Tvbclassic
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|AOD
+https://yydsxll.serv00.net/Smartv.php?id=Aodhd
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|One
+https://yydsxll.serv00.net/Smartv.php?id=One
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|TVB 星河台 Xing He
+https://yydsxll.serv00.net/Smartv.php?id=Xinhe
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|爱奇艺 iQiyi
+https://yydsxll.serv00.net/Smartv.php?id=Qiyi
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Animal Planet (Eng)
+https://yydsxll.serv00.net/Smartv.php?id=AnimalPlanet
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|tvN Movie
+https://yydsxll.serv00.net/Smartv.php?id=Tvnmovie
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|CNN backup
+https://yydsxll.serv00.net/Smartv.php?id=cnn_twn
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Celestial Classic
+https://yydsxll.serv00.net/Smartv.php?id=Celestial2
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|CNBC
+https://yydsxll.serv00.net/Smartv.php?id=cnbc_twn
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|TLC
+https://yydsxll.serv00.net/Smartv.php?id=Tlc
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|CNA
+https://yydsxll.serv00.net/Smartv.php?id=cna
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|BBC World News
+https://yydsxll.serv00.net/Smartv.php?id=bbcnews_twn
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Foodnetwork Hd
+https://yydsxll.serv00.net/Smartv.php?id=Foodnetwork
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|HGTV
+https://yydsxll.serv00.net/Smartv.php?id=HGTV
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Goshop
+https://yydsxll.serv00.net/Smartv.php?id=Goshop
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Celestial Movies HD
+https://yydsxll.serv00.net/Smartv.php?id=Celestial
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Axn HD
+https://yydsxll.serv00.net/Smartv.php?id=Axn
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Paramount Network
+https://yydsxll.serv00.net/Smartv.php?id=Paramountnetwork
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|Astrol Kplus
+https://yydsxll.serv00.net/Smartv.php?id=Kplus
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|AFC 亚洲旅游台
+https://yydsxll.serv00.net/Smartv.php?id=asiatravel_twn
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Rock Actions
+https://yydsxll.serv00.net/Smartv.php?id=Rockaction
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Bloomberg News
+https://yydsxll.serv00.net/Smartv.php?id=bloomberg_twn
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Al-Jazeera
+https://yydsxll.serv00.net/Smartv.php?id=aljazeera_twn
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Rock Entertainment
+https://yydsxll.serv00.net/Smartv.php?id=Rockentertain
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|RTM Sports HD
+https://yydsxll.serv00.net/Smartv.php?id=Rtmsport
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Arena
+https://yydsxll.serv00.net/Smartv.php?id=Arena
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|Arena 2
+https://yydsxll.serv00.net/Smartv.php?id=Arena2
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|BolaArena 1
+https://yydsxll.serv00.net/Smartv.php?id=Bolaarena1
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|BolaArena 2
+https://yydsxll.serv00.net/Smartv.php?id=Bolaarena2
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|Astro LOL
+https://yydsxll.serv00.net/Smartv.php?id=Astro_lol
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="港澳台",马来西亚|Astro Rusi
+https://yydsxll.serv00.net/Smartv.php?id=Rusi
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|WION
+https://yydsxll.serv00.net/Smartv.php?id=Wion
+#EXTINF:-1,tvg-id="义马综合" tvg-name="义马综合" tvg-logo="https://epg.v1.mk/logo/义马综合.png" group-title="其他",马来西亚|RTM Asean
+https://yydsxll.serv00.net/Smartv.php?id=Rtmasean
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|TVRI National
+https://yydsxll.serv00.net/Smartv.php?id=TVRI
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|RCTI
+https://yydsxll.serv00.net/Smartv.php?id=Rcti
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Kompass TV
+https://yydsxll.serv00.net/Smartv.php?id=Kompass
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Berita Satu
+https://yydsxll.serv00.net/Smartv.php?id=BeritaSatu_eko
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Indosiar HD
+https://yydsxll.serv00.net/Smartv.php?id=Indosiar
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|AnTV
+https://yydsxll.serv00.net/Smartv.php?id=Antv
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|MNC TV
+https://yydsxll.serv00.net/Smartv.php?id=Mnctv
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Trans 7
+https://yydsxll.serv00.net/Smartv.php?id=Trans7_eko
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Transtv
+https://yydsxll.serv00.net/Smartv.php?id=Transtv
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|JTV
+https://yydsxll.serv00.net/Smartv.php?id=JTV_eko
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Metro TV
+https://yydsxll.serv00.net/Smartv.php?id=metrotv_eko
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Cinemax
+https://yydsxll.serv00.net/Smartv.php?id=Cinemax
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|SCTV
+https://yydsxll.serv00.net/Smartv.php?id=SCTV
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Tvone
+https://yydsxll.serv00.net/Smartv.php?id=Tvone
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|TVMU
+https://yydsxll.serv00.net/Smartv.php?id=TVMU_eko
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|GTV
+https://yydsxll.serv00.net/Smartv.php?id=Gtv
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|RTV
+https://yydsxll.serv00.net/Smartv.php?id=Rtv
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Jak TV
+https://yydsxll.serv00.net/Smartv.php?id=JakTV
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|iNews TV
+https://yydsxll.serv00.net/Smartv.php?id=Inewstv
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Daai TV
+https://yydsxll.serv00.net/Smartv.php?id=DaaiTV
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Net TV
+https://yydsxll.serv00.net/Smartv.php?id=NetTV
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Animax
+https://yydsxll.serv00.net/Smartv.php?id=Animax
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|EWTN
+https://yydsxll.serv00.net/Smartv.php?id=Ewtn
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|AlQuran AlKareem
+https://yydsxll.serv00.net/Smartv.php?id=AlQuran
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Tawaf TV
+https://yydsxll.serv00.net/Smartv.php?id=TawafTV
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Vision Prime
+https://yydsxll.serv00.net/Smartv.php?id=VisionPrime
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Muslim TV
+https://yydsxll.serv00.net/Smartv.php?id=MuslimTV
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Music TV
+https://yydsxll.serv00.net/Smartv.php?id=MusicTV
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Lifestyle&Fashion
+https://yydsxll.serv00.net/Smartv.php?id=Lifestyle
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Entertain
+https://yydsxll.serv00.net/Smartv.php?id=Entertain
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Hits
+https://yydsxll.serv00.net/Smartv.php?id=Hits
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Warner TV
+https://yydsxll.serv00.net/Smartv.php?id=WarnerTV
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|SCM
+https://yydsxll.serv00.net/Smartv.php?id=Weishimovie
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Thrill
+https://yydsxll.serv00.net/Smartv.php?id=Thrill
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Fight Sports
+https://yydsxll.serv00.net/Smartv.php?id=Fs
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Hits Movie
+https://yydsxll.serv00.net/Smartv.php?id=Hitsmovie
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|One
+https://yydsxll.serv00.net/Smartv.php?id=One
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|tvN Movie
+https://yydsxll.serv00.net/Smartv.php?id=Tvnmovie
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Celestial Movies HD
+https://yydsxll.serv00.net/Smartv.php?id=Celestialindo
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Rock Actions
+https://yydsxll.serv00.net/Smartv.php?id=Rockaction
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度尼西亚|Rock Entertainment
+https://yydsxll.serv00.net/Smartv.php?id=Rockentertain
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Sun TV HD
+https://yydsxll.serv00.net/Smartv.php?id=Suntv
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Star Vijay
+https://yydsxll.serv00.net/Smartv.php?id=Starvijay
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Colors Tamil
+https://yydsxll.serv00.net/Smartv.php?id=Colorstam
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Sun Music
+https://yydsxll.serv00.net/Smartv.php?id=Sunmusic
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="港澳台",印度|Astro Sunlife
+https://yydsxll.serv00.net/Smartv.php?id=Sunlife
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="港澳台",印度|Astro Vaanavil
+https://yydsxll.serv00.net/Smartv.php?id=Vaanavil
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Zee Tamil
+https://yydsxll.serv00.net/Smartv.php?id=Zeetamil
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Zee Business
+https://yydsxll.serv00.net/Smartv.php?id=Zeebusiness
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|News 18 Tamil
+https://yydsxll.serv00.net/Smartv.php?id=news18tamil_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Adithya
+https://yydsxll.serv00.net/Smartv.php?id=Adithya
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Makkal TV
+https://yydsxll.serv00.net/Smartv.php?id=Makkaltv
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Zee Action
+https://yydsxll.serv00.net/Smartv.php?id=Zeeaction
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="港澳台",印度|Astro KTV
+https://yydsxll.serv00.net/Smartv.php?id=Astroktv
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Zee TV HD
+https://yydsxll.serv00.net/Smartv.php?id=Zeetvhd
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Zee Cinema HD
+https://yydsxll.serv00.net/Smartv.php?id=Zeecinemahd
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Color HD
+https://yydsxll.serv00.net/Smartv.php?id=Colorhd
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Starplus HD
+https://yydsxll.serv00.net/Smartv.php?id=Starplushd
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Picture HD
+https://yydsxll.serv00.net/Smartv.php?id=Npicture
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Zee News
+https://yydsxll.serv00.net/Smartv.php?id=Zeenews
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Asianet
+https://yydsxll.serv00.net/Smartv.php?id=asianet_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Asianet News
+https://yydsxll.serv00.net/Smartv.php?id=asianetnews_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Discovery World Tamil
+https://yydsxll.serv00.net/Smartv.php?id=discoveryworldtam_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|History Tamil
+https://yydsxll.serv00.net/Smartv.php?id=historytam_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|NatGeo Tamil
+https://yydsxll.serv00.net/Smartv.php?id=natgeotamil_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Natgeo Wild Tamil
+https://yydsxll.serv00.net/Smartv.php?id=natgeowildtamil_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="港澳台",印度|Astro Sonypix
+https://yydsxll.serv00.net/Smartv.php?id=Asonypix
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Discovery Kids Tamil
+https://yydsxll.serv00.net/Smartv.php?id=discoverykidtamil_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Discovery Tamil
+https://yydsxll.serv00.net/Smartv.php?id=discoverytamil_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Sony Yay Tamil
+https://yydsxll.serv00.net/Smartv.php?id=sonyyaytam_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Sun TV India
+https://yydsxll.serv00.net/Smartv.php?id=suntv_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Starmaa HD
+https://yydsxll.serv00.net/Smartv.php?id=starmaa_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Starmaa Movies HD
+https://yydsxll.serv00.net/Smartv.php?id=starmaamovies_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Bollyone
+https://yydsxll.serv00.net/Smartv.php?id=Bollyone
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="港澳台",印度|Astro Sunmusic
+https://yydsxll.serv00.net/Smartv.php?id=Sunmusic
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Vijay Super
+https://yydsxll.serv00.net/Smartv.php?id=vijaysuper_raj
+#EXTINF:-1,tvg-id="流畅印度的ArianaTV" tvg-name="流畅印度的ArianaTV" tvg-logo="https://epg.v1.mk/logo/流畅印度的ArianaTV.png" group-title="其他",印度|Vellithirai
+https://yydsxll.serv00.net/Smartv.php?id=Vellithirai
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Channel 3 Thailand
+https://yydsxll.serv00.net/Smartv.php?id=ch3_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Channel 5 Thailand
+https://yydsxll.serv00.net/Smartv.php?id=ch5_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Channel 7 Thailand
+https://yydsxll.serv00.net/Smartv.php?id=ch7_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|MCOT HD Thailand-1
+https://yydsxll.serv00.net/Smartv.php?id=mcot_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|PPTV Thailand1
+https://yydsxll.serv00.net/Smartv.php?id=pptv_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Thai Thai
+https://yydsxll.serv00.net/Smartv.php?id=thaithai_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Amarin
+https://yydsxll.serv00.net/Smartv.php?id=amarin_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Ch 8
+https://yydsxll.serv00.net/Smartv.php?id=ch8_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|GmmOne
+https://yydsxll.serv00.net/Smartv.php?id=gmmone_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Mono
+https://yydsxll.serv00.net/Smartv.php?id=mono_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Thairath
+https://yydsxll.serv00.net/Smartv.php?id=thairath_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|tpbs
+https://yydsxll.serv00.net/Smartv.php?id=tpbs_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Workpoint
+https://yydsxll.serv00.net/Smartv.php?id=workpoint_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Gmm Channel
+https://yydsxll.serv00.net/Smartv.php?id=gmmchannel_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Nation
+https://yydsxll.serv00.net/Smartv.php?id=nation_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Tnn24
+https://yydsxll.serv00.net/Smartv.php?id=tnn24_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|Nbt
+https://yydsxll.serv00.net/Smartv.php?id=nbt_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|New
+https://yydsxll.serv00.net/Smartv.php?id=new_pat
+#EXTINF:-1,tvg-id="泰国7HD" tvg-name="泰国7HD" tvg-logo="https://epg.v1.mk/logo/泰国7HD.png" group-title="其他",泰国|TPTV
+https://yydsxll.serv00.net/Smartv.php?id=tptv_pat
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|BBC 1
+https://yydsxll.serv00.net/Smartv.php?id=bbc1_antik
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|BBC 2
+https://yydsxll.serv00.net/Smartv.php?id=bbc2_antik
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|CBBC
+https://yydsxll.serv00.net/Smartv.php?id=cbbc_antik
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|More4
+https://yydsxll.serv00.net/Smartv.php?id=more4_antik
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Freesports
+https://yydsxll.serv00.net/Smartv.php?id=freesports_antik
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Skynews
+https://yydsxll.serv00.net/Smartv.php?id=skynews_twn
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Pick TV
+https://yydsxll.serv00.net/Smartv.php?id=picktv_antik
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|itv 1
+https://yydsxll.serv00.net/Smartv.php?id=itv1_antik
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|itv 2
+https://yydsxll.serv00.net/Smartv.php?id=itv2_antik
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Euronews
+https://yydsxll.serv00.net/Smartv.php?id=euronews_antik
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Channel 4
+https://yydsxll.serv00.net/Smartv.php?id=channel4_antik
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|NatGeo HD
+https://yydsxll.serv00.net/Smartv.php?id=Natgeo
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|CBeebies
+https://yydsxll.serv00.net/Smartv.php?id=Cbeebies
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|History
+https://yydsxll.serv00.net/Smartv.php?id=History
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Kids TV
+https://yydsxll.serv00.net/Smartv.php?id=KidsTV
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|France 24
+https://yydsxll.serv00.net/Smartv.php?id=france24_twn
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|DW (Deutsch)
+https://yydsxll.serv00.net/Smartv.php?id=dw_twn
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|BBC Earth HD
+https://yydsxll.serv00.net/Smartv.php?id=bbcearth_twn
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|BBC Earth Lifestyle
+https://yydsxll.serv00.net/Smartv.php?id=bbclifestyle_twn
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|MTV Live
+https://yydsxll.serv00.net/Smartv.php?id=mtvhd_twn
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Star Movies HD
+https://yydsxll.serv00.net/Smartv.php?id=starmovies_raj
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="港澳台",英国|NHK World
+https://yydsxll.serv00.net/Smartv.php?id=nhkworld_japan
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Warner TV
+https://yydsxll.serv00.net/Smartv.php?id=WarnerTV
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="港澳台",英国|HBO HD
+https://yydsxll.serv00.net/Smartv.php?id=Hbo
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|NatGeo Wild HD
+https://yydsxll.serv00.net/Smartv.php?id=Natgeowild
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Nickelodeon
+https://yydsxll.serv00.net/Smartv.php?id=Nickelodeon
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Nick Jr
+https://yydsxll.serv00.net/Smartv.php?id=Nickjr
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Thrill
+https://yydsxll.serv00.net/Smartv.php?id=Thrill
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="央视",英国|CGTN
+https://yydsxll.serv00.net/Smartv.php?id=CGTN
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Hits Movie
+https://yydsxll.serv00.net/Smartv.php?id=Hitsmovie
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Animal Planet (Eng)
+https://yydsxll.serv00.net/Smartv.php?id=AnimalPlanet
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|CNBC
+https://yydsxll.serv00.net/Smartv.php?id=cnbc_twn
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|TLC
+https://yydsxll.serv00.net/Smartv.php?id=Tlc
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|BBC World News
+https://yydsxll.serv00.net/Smartv.php?id=bbcworldnews_antik
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|HGTV
+https://yydsxll.serv00.net/Smartv.php?id=HGTV
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Axn HD
+https://yydsxll.serv00.net/Smartv.php?id=Axn
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Skysports F1
+https://yydsxll.serv00.net/Smartv.php?id=tiankongf1
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Skysports Cricket
+https://yydsxll.serv00.net/Smartv.php?id=tiankongcricket
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Bloomberg News
+https://yydsxll.serv00.net/Smartv.php?id=bloomberg_twn
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Skysports EPL
+https://yydsxll.serv00.net/Smartv.php?id=tiankongepl
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Skysports Main Event
+https://yydsxll.serv00.net/Smartv.php?id=tiankongmain
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Skysports News
+https://yydsxll.serv00.net/Smartv.php?id=tiankongnews
+#EXTINF:-1,tvg-id="CGTN英語" tvg-name="CGTN英語" tvg-logo="https://epg.v1.mk/logo/CGTN英語.png" group-title="其他",英国|Al-Jazeera
+https://yydsxll.serv00.net/Smartv.php?id=aljazeera_twn
+#EXTINF:-1,tvg-id="越南" tvg-name="越南" tvg-logo="https://epg.v1.mk/logo/越南.png" group-title="其他",越南|ANTV
+https://yydsxll.serv00.net/Smartv.php?id=viet_antv
+#EXTINF:-1,tvg-id="越南" tvg-name="越南" tvg-logo="https://epg.v1.mk/logo/越南.png" group-title="其他",越南|VTV 1
+https://yydsxll.serv00.net/Smartv.php?id=viet_vtv1
+#EXTINF:-1,tvg-id="越南" tvg-name="越南" tvg-logo="https://epg.v1.mk/logo/越南.png" group-title="其他",越南|VTV 7
+https://yydsxll.serv00.net/Smartv.php?id=viet_vtv7
+#EXTINF:-1,tvg-id="越南" tvg-name="越南" tvg-logo="https://epg.v1.mk/logo/越南.png" group-title="其他",越南|HTV 7
+https://yydsxll.serv00.net/Smartv.php?id=viet_htv7
+#EXTINF:-1,tvg-id="越南" tvg-name="越南" tvg-logo="https://epg.v1.mk/logo/越南.png" group-title="其他",越南|HTV 9
+https://yydsxll.serv00.net/Smartv.php?id=viet_htv9
+#EXTINF:-1,tvg-id="越南" tvg-name="越南" tvg-logo="https://epg.v1.mk/logo/越南.png" group-title="其他",越南|BPTV 2
+https://yydsxll.serv00.net/Smartv.php?id=viet_bptv2
+#EXTINF:-1,tvg-id="越南" tvg-name="越南" tvg-logo="https://epg.v1.mk/logo/越南.png" group-title="其他",越南|BRT HD
+https://yydsxll.serv00.net/Smartv.php?id=viet_brt
+#EXTINF:-1,tvg-id="越南" tvg-name="越南" tvg-logo="https://epg.v1.mk/logo/越南.png" group-title="其他",越南|Ca Mau TV
+https://yydsxll.serv00.net/Smartv.php?id=viet_camautv
+#EXTINF:-1,tvg-id="越南" tvg-name="越南" tvg-logo="https://epg.v1.mk/logo/越南.png" group-title="其他",越南|Danang TV1 HD
+https://yydsxll.serv00.net/Smartv.php?id=viet_danangtv1
+#EXTINF:-1,tvg-id="越南" tvg-name="越南" tvg-logo="https://epg.v1.mk/logo/越南.png" group-title="其他",越南|Danang TV2 HD
+https://yydsxll.serv00.net/Smartv.php?id=viet_danangtv2
+#EXTINF:-1,tvg-id="越南" tvg-name="越南" tvg-logo="https://epg.v1.mk/logo/越南.png" group-title="北京",越南|HBTV HD
+https://yydsxll.serv00.net/Smartv.php?id=viet_hbtv
+#EXTINF:-1,tvg-id="越南" tvg-name="越南" tvg-logo="https://epg.v1.mk/logo/越南.png" group-title="其他",越南|PTTH 1
+https://yydsxll.serv00.net/Smartv.php?id=viet_ptth1
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|Arirang HD
+https://yydsxll.serv00.net/Smartv.php?id=arirang_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|Yonhap News
+https://yydsxll.serv00.net/Smartv.php?id=yonhapnews_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|CBS
+https://yydsxll.serv00.net/Smartv.php?id=cbs_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|EBS 1
+https://yydsxll.serv00.net/Smartv.php?id=ebs1_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|EBS2
+https://yydsxll.serv00.net/Smartv.php?id=ebs2_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|EBS Plus2
+https://yydsxll.serv00.net/Smartv.php?id=ebsplus2_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|SBS Plus
+https://yydsxll.serv00.net/Smartv.php?id=sbsplus_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|YTN
+https://yydsxll.serv00.net/Smartv.php?id=ytn_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|KBS World 24
+https://yydsxll.serv00.net/Smartv.php?id=kbsworld24_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|YTN Science
+https://yydsxll.serv00.net/Smartv.php?id=ytnscience_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|YTN Korean
+https://yydsxll.serv00.net/Smartv.php?id=ytnkorean_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|YTN DMB
+https://yydsxll.serv00.net/Smartv.php?id=ytndmb_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|Apps TV
+https://yydsxll.serv00.net/Smartv.php?id=appongoogle_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|All the Kpop
+https://yydsxll.serv00.net/Smartv.php?id=allthekpop_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|J the Kpop
+https://yydsxll.serv00.net/Smartv.php?id=jthekpop_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|EBS Kids
+https://yydsxll.serv00.net/Smartv.php?id=ebskids_korea
+#EXTINF:-1,tvg-id="韩国娱乐KMTV" tvg-name="韩国娱乐KMTV" tvg-logo="https://epg.v1.mk/logo/韩国娱乐KMTV.png" group-title="其他",韩国|CGNTV
+https://yydsxll.serv00.net/Smartv.php?id=cgntv_korea
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="港澳台",日本|NHK-総合-2
+https://yydsxll.serv00.net/Smartv.php?id=nhkg_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="港澳台",日本|NHK-E
+https://yydsxll.serv00.net/Smartv.php?id=nhke_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="其他",日本|テレビ朝日 Asahi TV
+https://yydsxll.serv00.net/Smartv.php?id=asahitv_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="其他",日本|JET 綜合
+https://yydsxll.serv00.net/Smartv.php?id=jettv_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="其他",日本|テレビ東京 Tokyo TV
+https://yydsxll.serv00.net/Smartv.php?id=tokyotv_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="其他",日本|TOKYOMX
+https://yydsxll.serv00.net/Smartv.php?id=tokyomx_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="港澳台",日本|NHKBS1
+https://yydsxll.serv00.net/Smartv.php?id=nhkbs1_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="港澳台",日本|NHKBSプレミア Premium
+https://yydsxll.serv00.net/Smartv.php?id=nhkpremium_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="其他",日本|BSジャパン 181
+https://yydsxll.serv00.net/Smartv.php?id=bs181_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="其他",日本|BSフジ BS Fuji
+https://yydsxll.serv00.net/Smartv.php?id=bsfuji_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="其他",日本|CNA Japan
+https://yydsxll.serv00.net/Smartv.php?id=cna_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="其他",日本|BS-TBS
+https://yydsxll.serv00.net/Smartv.php?id=bstbs_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="港澳台",日本|NHK Oaska
+https://yydsxll.serv00.net/Smartv.php?id=nhkosaka_japan
+#EXTINF:-1,tvg-id="Discovery探索日本" tvg-name="Discovery探索日本" tvg-logo="https://epg.v1.mk/logo/Discovery探索日本.png" group-title="港澳台",日本|NHK World
+https://yydsxll.serv00.net/Smartv.php?id=nhkworld_japan
