@@ -1,6 +1,7 @@
 {
-"spider":"./N3RD/J/lem0413.jar;md5;A869B57493F031E55C4E3140E47C3D4B",
+"spider":"./N3RD/J/lem0416.jar;md5;8F3BEE8D1268141C55C4748A28C124D6",
 
+//"spider":"./N3RD/J/lem0413.jar;md5;A869B57493F031E55C4E3140E47C3D4B",
 //"spider":"./N3RD/J/lem0412.jar;md5;BC936CDB2B9DB7E3283316AFC5125164",
 //"spider":"./N3RD/J/lem0409.jar;md5;2E6D6982F8307E9DD33941E326F46CE6",
 //"spider":"./N3RD/J/lem0408.jar;md5;615D6A30406BDCD71B5C8253924DF16B",
@@ -221,6 +222,7 @@
 {"key":"py_CliCli","name":"雷蒙影视 | 🧿CliCli(PY)","type":3,"api":"./PY/app/CliCli动漫APP.py"},
 {"key":"py_HiTV","name":"雷蒙影视 | 🧿HiTV(PY)","type":3,"api":"./PY/app/hitvAPP.py"},
 {"key":"py_MiFun","name":"雷蒙影视 | 🧿MiFun(PY)","type":3,"api":"./PY/app/MiFunAPP.py"},
+{"key":"py_零度","name":"雷蒙影视 | 🧿零度(PY)","type":3,"api":"./PY/app/零度影视APP.py"},
 {"key":"py_外剧","name":"雷蒙影视 | 🧿外剧(PY)","type":3,"api":"./PY/app/国外剧APP.py"},
 {"key":"py_爱瓜","name":"雷蒙影视 | 🧿爱瓜(PY)","type":3,"api":"./PY/app/爱瓜TVAPP.py"},
 {"key":"py_边缘","name":"雷蒙影视 | 🧿边缘(PY)","type":3,"api":"./PY/app/边缘影视APP.py"},
