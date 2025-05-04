@@ -36,6 +36,13 @@ jobs:
         echo "Updated tvy.json:"
         cat ./JN/tvy.json
 
+    - name: Update spider value in ttt.json
+      run: |
+        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
+        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/ttt.json
+        echo "Updated ttt.json:"
+        cat ./JN/ttt.json
     - name: Check for changes
       id: check-changes
       run: |
@@ -53,6 +60,6 @@ jobs:
       run: |
         git config --global user.name "GitHub Actions"
         git config --global user.email "actions@github.com"
-        git add ./JN/tv.json ./JN/tvy.json
+        git add ./JN/tv.json ./JN/tvy.json ./JN/ttt.json
         git commit -m "Update spider value"
         git push
