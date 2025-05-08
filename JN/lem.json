@@ -264,20 +264,9 @@
 
 
 // ⇩⇩ T4 ⇩⇩ 
-{"key":"T4_CNTV","name":"雷蒙影视 |4️⃣CNTV(T4)","type":4,"api":"https://azure.leuse.top/vod/cntv","searchable":0,"filterable":0},
-{"key":"T4_黑木","name":"雷蒙影视 | 4️⃣黑木(T4)","type":4,"api":"https://spider.doube.eu.org/spider?site=HeiMuEr","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"T4_海外","name":"雷蒙影视 | 4️⃣海外(T4)","type":4,"api":"https://spider.doube.eu.org/spider?site=HuaWeiBa","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
-{"key":"T4_欧乐","name":"雷蒙影视 | 4️⃣欧乐(T4)","type":4,"api":"https://spider.doube.eu.org/spider?site=OleVod","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
-{"key":"T4_嗨视","name":"雷蒙影视 | 4️⃣嗨视(T4)","type":4,"api":"https://spider.doube.eu.org/spider?site=UpFuHn","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
-{"key":"T4_爱瓜","name":"雷蒙影视 | 4️⃣爱瓜(T4)","type":4,"api":"https://spider.doube.eu.org/spider?site=AiGuaTV","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
-{"key":"T4_皮虾","name":"雷蒙影视 | 4️⃣皮虾(T4)","type":4,"api":"https://py.doube.eu.org/spider?site=PPXYs","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
-{"key":"T4_比特","name":"雷蒙影视 | 4️⃣比特(T4)","type":4,"api":"https://json.doube.eu.org/app/index.php?site=bttwoo","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
-{"key":"T4_木木","name":"雷蒙影视 | 4️⃣木木(T4)","type":4,"api":"http://jg.zhangqun66.com/225.php","searchable":1,"quickSearch":1,"filterable":0},
-{"key":"T4_金鹰","name":"雷蒙影视 | 4️⃣金鹰(T4)","type":4,"api":"http://jg.zhangqun66.com/jy.php","searchable":1,"quickSearch":1,"filterable":0},
-{"key":"T4_华为","name":"雷蒙影视 | 4️⃣华为(T4)","type":4,"api":"http://jg.zhangqun66.com/hwb.php","searchable":1,"quickSearch":1,"filterable":0},
-{"key":"T4_索尼","name":"雷蒙影视 | 4️⃣索尼(T4)","type":4,"api":"http://jg.zhangqun66.com/sn.php","searchable":1,"quickSearch":1,"filterable":0},
-{"key":"T4_合集","name":"雷蒙影视 | 4️⃣合集(T4)","type":1,"api":"http://jg.zhangqun66.com/cjjh.php","searchable":1,"quickSearch":1,"changeable":1},
-{"key":"T4_克隆","name":"雷蒙影视 | 4️⃣克隆(T4)","type":4,"api":"http://jg.zhangqun66.com/klhj.php","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"T4_欧乐","name":"雷蒙影视 | 4️⃣欧乐(T4)","type":4,"api":"https://py.doube.eu.org/spider?site=OleVod","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
+{"key":"T4_嗨视","name":"雷蒙影视 | 4️⃣嗨视(T4)","type":4,"api":"https://py.doube.eu.org/spider?site=UpFuHn","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
+{"key":"T4_八号","name":"雷蒙影视 | 4️⃣八号(T4)","type":4,"api":"https://py.doube.eu.org/spider?site=BaHaoTV","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
 {"key":"T4_央视","name":"雷蒙影视 | 4️⃣央视(T4)","type":4,"api":"https://catbox.n13.club/t9/cntv.php"},
 {"key":"T4_豆瓣","name":"雷蒙影视 | 4️⃣豆瓣(T4)","type":4,"api":"https://catbox.n13.club/t9/douban.php"},
 {"key":"T4_预告","name":"雷蒙影视 | 4️⃣预告(T4)","type":4,"api":"https://catbox.n13.club/t9/yugaopian.php"},
@@ -323,6 +312,12 @@
 {"key":"vod_速播","name":"雷蒙影视 | ️🚀速播","type":1,"api":"https://subocaiji.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"vod_优酷","name":"雷蒙影视 | ️🚀优酷","type":1,"api":"https://api.ukuapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"vod_卧龙","name":"雷蒙影视 | ️🚀卧龙","type":1,"api":"https://collect.wolongzyw.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"vod_天堂","name":"雷蒙影视 | ️🚀天堂","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"vod_茅台","name":"雷蒙影视 | ️🚀茅台","type":1,"api":"https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"vod_无线","name":"雷蒙影视 | ️🚀无线","type":1,"api":"https://api.wuxianzy.net/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"vod_魔爪","name":"雷蒙影视 | ️🚀魔爪","type":1,"api":"https://mozhuazy.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"vod_如意","name":"雷蒙影视 | ️🚀如意","type":1,"api":"https://cj.rycjapi.com/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"vod_蜂巢","name":"雷蒙影视 | ️🚀蜂巢","type":1,"api":"https://api.fczy888.me/api.php/provide/vod","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"vod_OK","name":"雷蒙影视 | ️🚀OK","type":1,"api":"https://api.okzy.org/api.php/provide/vod/","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"xml_金鹰","name":"雷蒙影视 | ️🚀金鹰","type":0,"api":"https://jyzyapi.com/provide/vod/from/jinyingm3u8/at/xml/","playUrl":"https://hd.iapijy.com/play?url=","searchable":1,"quickSearch":1,"categories":[]}
 
