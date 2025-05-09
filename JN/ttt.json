@@ -7,7 +7,7 @@
 
 "lives":[
 {"name":"直播","type":0,"url":"https://tv.88886666.xyz","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","catchup":{"type":"append","source":"?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"}}
-]，
+],
 
 "sites":[
 
@@ -26,7 +26,7 @@
 {"key":"drjs_爱看机器人","name":"🤖爱看机器人(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./EXT/JS/ikanbot2.js"},
 {"key":"csp_BiliGuard","name":"🅱哔哩哔哩(SP)","type":3,"api":"csp_BiliGuard","searchable":0,"quickSearch":0,"filterable":0,"ext":{"json":"https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/EXT/XB/Bili1.json"}},
 {"key":"drjs_我的哔哩[官]","name":"🅱我的哔哩(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./dr_py/js/我的哔哩[官].js?type=url&params=https://cors.isteed.cc/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/dr_py/json/Bili1.json"},
-{"key":"csp_AllliveGuard","name":"📽️一直播(SP)","type":3,"api":"csp_AllliveGuard"，"playerType":2,"searchable":0,"quickSearch":0,"changeable":0},
+{"key":"csp_AllliveGuard","name":"📽️一直播(SP)","type":3,"api":"csp_AllliveGuard"，"playerType":2,"searchable":0,"quickSearch":0，"changeable":0},
 {"key":"csp_WoGGGuard","name":"👽玩偶哥哥(SP)","type":3,"api":"csp_WoGGGuard","timeout":30,"searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","from":"4k|auto","siteUrl":"https://www.wogg.com/","danMu":"弹"}},
 {"key":"csp_SbaibaiGuard","name":"🐟素白白(SP)","type":3,"api":"csp_SbaibaiGuard","playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"csp_YCyzGuard","name":"☀原创(SP)","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
