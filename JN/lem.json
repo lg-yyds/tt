@@ -1,12 +1,11 @@
 {
-"spider":"./N3RD/J/lem0719.jar;md5;A5E641E169F53B4BD34A1C6A463CF31E",
+"spider":"./N3RD/J/lem0721.jar;md5;BCE09983C2B93ACB9C9FC28110772AB5",
 
+//"spider":"./N3RD/J/lem0719.jar;md5;A5E641E169F53B4BD34A1C6A463CF31E",
 //"spider":"./N3RD/J/lem0718.jar;md5;A331D127115942E0347E59AB8E94A6C0",
 //"spider":"./N3RD/J/lem0717.jar;md5;6B0AB91BA79E264C16C403E8F10BD1AD",
 //"spider":"./N3RD/J/lem0712.jar;md5;A0D0865ED4584D92CEDB0213CE5B786A",
 //"spider":"./N3RD/J/lem0711.jar;md5;4B8B07EDD7C71D7B699A45292949B338",
-//"spider":"./N3RD/J/lem0704.jar;md5;CC360C9DDA5FE05A87067BB6FC52DAD3",
-//"spider":"./N3RD/J/lem0702.jar;md5;892CBB97AF5669DFB114418ED9BE362E",
 
 "logo":"./N3RD/W/ICONSGIF.gif",
 
@@ -114,7 +113,7 @@
 {"key":"csp_Anime1Guard","name":"雷蒙影视 | 🐾Anime1动画线上看(SP)","api":"csp_Anime1Guard","type":3,"filterable":1,"quickSearch":1,"searchable":1},
 {"key":"csp_YHDM","name":"雷蒙影视 | 🐾樱花动漫(SP)","api":"csp_YHDM","timeout":15,"type":3,"filterable":1,"quickSearch":1,"searchable":1},
 {"key":"csp_SP360","name":"雷蒙影视 | 3️⃣360(SP)","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"csp_kanqiu926Guard","name":"雷蒙影视 | ⚽926看球(SP)","type":3,"api":"csp_kanqiu926Guard","timeout":15,"searchable":0,"changeable":0,"style":{"type":"list"}},
+{"key":"csp_kanqiu926Guard","name":"雷蒙影视 | ⚽926看球(SP)","type":3,"api":"csp_kanqiu926Guard","timeout":15,"searchable":0,"changeable":0,"style":{"type":"list"},"ext":"uqGL1fpJNAUa4uUHi9iMsef1+C/R"},
 {"key":"csp_Sir88Guard","name":"雷蒙影视 | ⚽88看球(SP)","type":3,"api":"csp_Sir88Guard","timeout":15,"searchable":0,"changeable":0,"style":{"type":"list"}},
 {"key":"csp_KanqiuGuard","name":"雷蒙影视 | ⚽看球(SP)","type":3,"api":"csp_KanqiuGuard","timeout":15,"searchable":0,"changeable":0,"style":{"type":"list"}},
 {"key":"csp_AppYsV2_臻彩","name":"雷蒙影视 | 🅰臻彩(SP)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,"ext":"http://cmszcsj.lfytv.cn/api.php/app/"},
@@ -285,6 +284,7 @@
 {"key":"py_4KAV","name":"雷蒙影视 | 🧿4KAV(PY)","type":3,"api":"./PY/html/4KAV.py"},
 {"key":"py_NUNFLIX","name":"雷蒙影视 | 🧿Nunflix(PY)","type":3,"api":"./PY/html/NUNFLIX.py"},
 {"key":"py_荐片","name":"雷蒙影视 | 🧿荐片(PY)","type":3,"api":"./PY/html/荐片.py"},
+{"key":"py_猎手","name":"雷蒙影视 | 🧿猎手(PY)","type":3,"api":"./PY/html/电影猎手.py"},
 {"key":"py_柯南","name":"雷蒙影视 | 🧿柯南(PY)","type":3,"api":"./PY/html/柯南影视.py"},
 {"key":"py_骚火","name":"雷蒙影视 | 🧿骚火(PY)","type":3,"api":"./PY/html/骚火电影.py"},
 {"key":"py_剧粑","name":"雷蒙影视 | 🧿剧粑(PY)","type":3,"api":"./PY/html/剧粑粑.py"},
@@ -292,6 +292,7 @@
 {"key":"py_金牌","name":"雷蒙影视 | 🧿金牌(PY)","type":3,"api":"./PY/html/金牌.py","ext":{"site":"https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com"}},
 {"key":"py_旺旺","name":"雷蒙影视 | 🧿旺旺(PY)","type":3,"api":"./PY/html/旺旺.py"},
 {"key":"py_绝对","name":"雷蒙影视 | 🧿绝对(PY)","type":3,"api":"./PY/html/绝对影视.py"},
+{"key":"py_河马","name":"雷蒙影视 | 🧿河马(PY)","type":3,"api":"./PY/html/河马短剧.py"},
 {"key":"py_偷乐","name":"雷蒙影视 | 🧿偷乐(PY)","type":3,"api":"./PY/html/偷乐短剧.py"},
 {"key":"py_好帅","name":"雷蒙影视 | 🧿好帅(PY)","type":3,"api":"./PY/html/好帅短剧.py"},
 {"key":"py_红果","name":"雷蒙影视 | 🧿红果(PY)","type":3,"api":"./PY/html/红果网页.py"},
