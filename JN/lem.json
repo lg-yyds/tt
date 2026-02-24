@@ -232,6 +232,7 @@
 {"key":"py_小猪_APP","name":"雷蒙影视 | 🧿小猪(QIJI)","type":3,"api":"./PY/app/qijiapp.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"host":"https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/aoteman.txt","api":"/api.php/qijiappapi","datakey":"lp3d4t53y9t5db8y","dataiv":"lp3d4t53y9t5db8y"}},
 {"key":"py_鲸鱼_APP","name":"雷蒙影视 | 🧿鲸鱼(QIJI)","type":3,"api":"./PY/app/qijiapp.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"host":"https://jingyu4k-1312635929.cos.ap-nanjing.myqcloud.com/juyu3.json","api":"/api.php/qijiappapi","datakey":"AAdgrdghjfgsABC1","dataiv":"AAdgrdghjfgsABC1"}},
 {"key":"py_优兔_APP","name":"雷蒙影视 | 🧿优兔(QIJI)","type":3,"api":"./PY/app/qijiapp.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"host":"https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt","api":"/api.php/qijiappapi","datakey":"UrWKPnmQWJA8AQzd","dataiv":"UrWKPnmQWJA8AQzd"}},
+{"key":"py_爱影_APP","name":"雷蒙影视 | 🧿爱影(QIJI)","type":3,"api":"./PY/app/qijiapp.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"host":"https://aysappto.oss-cn-chengdu.aliyuncs.com/q16.txt","api":"/api.php/qijiappapi","datakey":"dj382hsyqp98kqn8","dataiv":"dj382hsyqp98kqn8"}},
 {"key":"py_七壹_APP","name":"雷蒙影视 | 🧿七壹(GET)","type":3,"api":"./PY/app/getapp.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"host":"https://qiyiys.cc","api":"/api.php/getappapi","datakey":"45452893929B40D9","dataiv":"45452893929B40D9"}},
 {"key":"py_方源_APP","name":"雷蒙影视 | 🧿方源(GET)","type":3,"api":"./PY/app/getapp.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"host":"https://fyys9.fytd.top/1.txt","api":"/api.php/getappapi","datakey":"0ef6fc92a64b4e74","dataiv":"0ef6fc92a64b4e74"}},
 {"key":"py_七月_APP","name":"雷蒙影视 | 🧿七月(GET)","type":3,"api":"./PY/app/getapp.py","searchable":1,"quickSearch":1,"filterable":1,"ext":{"host":"https://99.jl8.top/1.txt","api":"/api.php/getappapi","datakey":"xnybssspqtwotuwj","dataiv":"xnybssspqtwotuwj"}},
@@ -319,15 +320,18 @@
 {"key":"py_柠檬","name":"雷蒙影视 | 🧿柠檬(PY)","type":3,"api":"./PY/html/LIVES.py"},
 
 
+// ⇩⇩ JS ⇩⇩ 
+{"key":"js_柒月","name":"雷蒙影视 | 🍥柒月(NOX)","type":3,"api":"./dr_py/libs/appnox.min.js","ext":{"host":"https://nox.ggww.net","signature":"A4:0D:A8:0A:59:D1:70:CA:A9:50:CF:15:C1:8C:45:4D:47:A3:9B:26:98:9D:8B:64:0E:CD:74:5B:A7:1B:F5:DC","package":"com.qyys.app","verCode":"8","verName":"8","deviceId":"ee0b3ae17bbf6218"}},
+{"key":"js_片喵","name":"雷蒙影视 | 🍥片喵(NOX)","type":3,"api":"./dr_py/libs/appnox.min.js","ext":{"host":"https://svip.2video.cc","signature":"70:DF:B1:2A:AE:C3:E3:73:6E:23:0F:67:B9:3B:C5:63:2D:EA:2A:2C:9E:9D:52:82:1D:3F:3C:3C:B9:10:9E:EE","package":"com.ds.wlss","verCode":"56","verName":"1.2.6","deviceId":"ee0b3ae17bbf6218"}},
+{"key":"js_金牌","name":"雷蒙影视 | 🍥金牌(NOX)","type":3,"api":"./dr_py/libs/appnox.min.js","ext":{"host":"https://jp5.ggtvb.cc","signature":"11:05:5B:0E:DD:14:6A:96:38:28:CB:29:7D:5F:04:57:3F:D6:EC:6A:C4:54:4F:4D:44:72:0A:C1:8E:DD:A9:58","package":"cc.xzsc.user","verCode":"12","verName":"5.2","deviceId":"ee0b3ae17bbf6218"}},
+{"key":"js_豆丁","name":"雷蒙影视 | 🍥豆丁(NOX)","type":3,"api":"./dr_py/libs/appnox.min.js","ext":{"host":"http://172.247.44.102:9924","signature":"99:CA:F0:76:5A:92:1F:00:1A:60:96:2C:BB:AC:01:51:A6:4E:C6:28:EB:67:F5:82:9C:2C:78:66:91:C3:60:56","package":"com.ddsp.app","verCode":"2","verName":"3.0.9","deviceId":"ee0b3ae17bbf6218"}},
+
+
 // ⇩⇩ T4 ⇩⇩ 
-{"key":"T4_欧乐","name":"雷蒙影视 | 4️⃣欧乐(T4)","type":4,"api":"https://py.doube.eu.org/spider?site=OleVod","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
-{"key":"T4_嗨视","name":"雷蒙影视 | 4️⃣嗨视(T4)","type":4,"api":"https://py.doube.eu.org/spider?site=UpFuHn","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
-{"key":"T4_八号","name":"雷蒙影视 | 4️⃣八号(T4)","type":4,"api":"https://py.doube.eu.org/spider?site=BaHaoTV","searchable":1,"quickSearch":1,"filterable":0,"changeable":0},
 {"key":"T4_央视","name":"雷蒙影视 | 4️⃣央视(T4)","type":4,"api":"https://catbox.n13.club/t9/cntv.php"},
 {"key":"T4_豆瓣","name":"雷蒙影视 | 4️⃣豆瓣(T4)","type":4,"api":"https://catbox.n13.club/t9/douban.php"},
 {"key":"T4_预告","name":"雷蒙影视 | 4️⃣预告(T4)","type":4,"api":"https://catbox.n13.club/t9/yugaopian.php"},
 {"key":"T4_采集","name":"雷蒙影视 | 4️⃣采集(T4)","type":4,"api":"https://catbox.n13.club/t9/caiji.php"},
-{"key":"T4_解说","name":"雷蒙影视 | 4️⃣解说(T4)","type":4,"api":"https://catbox.n13.club/t9/bili.php?id=影视解说"},
 {"key":"T4_糖豆","name":"雷蒙影视 | 4️⃣糖豆(T4)","type":4,"api":"https://catbox.n13.club/t9/tangdou.php"},
 {"key":"T4_蜻蜓","name":"雷蒙影视 | 4️⃣蜻蜓(T4)","type":4,"api":"https://catbox.n13.club/t9/qingting.php"},
 {"key":"T4_博看","name":"雷蒙影视 | 4️⃣博看(T4)","type":4,"api":"https://catbox.n13.club/t9/bookan.php"},
