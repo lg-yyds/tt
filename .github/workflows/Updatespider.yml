@@ -2,137 +2,64 @@ name: Update Spider Value
 
 on:
   schedule:
-    - cron: '0 03 * * *'
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: '0 03 * * *'  # 每天 UTC 时间 00:00 触发（北京时间 08:00）
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   update-spider:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: main                   # change if your default branch is different
-          fetch-depth: 0
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Install jq and other utils
-        run: sudo apt-get update && sudo apt-get install -y jq file
+    - name: Extract spider value from lem.json
+      id: extract-spider
+      run: |
+        SPIDER_VALUE=$(grep -oP '(?<="spider":")[^"]*' ./JN/lem.json | head -n 1)
+        echo "Extracted spider value: $SPIDER_VALUE"
+        echo "::set-output name=spider_value::$SPIDER_VALUE"
 
-      - name: Super Debug lem.json (this must print something!)
-        run: |
-          set +e   # allow continuing even on errors
+    - name: Update spider value in tv.json
+      run: |
+        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
+        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/tv.json
+        echo "Updated tv.json:"
+        cat ./JN/tv.json
 
-          FILE="./JN/lem.json"
+    - name: Update spider value in tvy.json
+      run: |
+        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
+        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/tvy.json
+        echo "Updated tvy.json:"
+        cat ./JN/tvy.json
 
-          echo "=== pwd and ls ==="
-          pwd
-          ls -la ./JN || echo "JN dir missing"
+    - name: Update spider value in ttt.json
+      run: |
+        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
+        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/ttt.json
+        echo "Updated ttt.json:"
+        cat ./JN/ttt.json
+    - name: Check for changes
+      id: check-changes
+      run: |
+        git status
+        if git diff --quiet; then
+          echo "No changes to commit."
+          echo "::set-output name=has_changes::false"
+        else
+          echo "Changes detected."
+          echo "::set-output name=has_changes::true"
+        fi
 
-          echo "=== File existence & basic info ==="
-          if [ -f "$FILE" ]; then
-            ls -l "$FILE"
-            stat "$FILE" || true
-            file "$FILE" || echo "file command failed"
-          else
-            echo "FILE DOES NOT EXIST: $FILE"
-          fi
-
-          echo "=== First 40 lines (cat) ==="
-          cat -v "$FILE" 2>/dev/null | head -n 40 || echo "cat failed - file unreadable?"
-
-          echo "=== Hex dump of first 64 bytes (look for BOM: efbbbf or fffe / feff) ==="
-          hexdump -C "$FILE" -n 64 2>/dev/null || echo "hexdump failed"
-
-          echo "=== Try jq validate (may fail, that's ok) ==="
-          jq . "$FILE" 2>&1 | head -n 10 || true
-
-          set -e   # restore strict mode
-
-      - name: Extract spider value - robust version
-        id: extract-spider
-        run: |
-          set +e  # critical: don't exit early
-
-          FILE="./JN/lem.json"
-          SPIDER_VALUE="提取失败-未知错误"
-
-          if [ ! -f "$FILE" ]; then
-            echo "文件不存在"
-            SPIDER_VALUE="提取失败-文件不存在"
-          else
-            echo "文件存在，开始尝试提取..."
-
-            # Try jq first
-            jq . "$FILE" >/dev/null 2>&1
-            if [ $? -eq 0 ]; then
-              SPIDER_VALUE=$(jq -r '.spider // "未找到"' "$FILE")
-              echo "jq 成功: $SPIDER_VALUE"
-            else
-              echo "jq 失败 → 尝试 grep 后备..."
-
-              # More flexible grep: allow spaces, single/double quotes
-              FALLBACK=$(grep -E '"spider"\s*:\s*["'\'']?([^"'\'' ]*)["'\'']?' "$FILE" | \
-                         sed -E 's/.*"spider"\s*:\s*["'\'']?([^"'\'' ]*)["'\'']?.*/\1/' | head -n 1)
-
-              if [ -n "$FALLBACK" ]; then
-                SPIDER_VALUE="$FALLBACK"
-                echo "grep 成功: $SPIDER_VALUE"
-              else
-                SPIDER_VALUE="提取失败-无有效spider值"
-                echo "grep 也失败"
-              fi
-            fi
-          fi
-
-          echo "最终值用于输出: [$SPIDER_VALUE]"
-          echo "spider_value=$SPIDER_VALUE" >> $GITHUB_OUTPUT
-
-          set -e
-
-      # The update steps only run if we got a reasonable value
-      - name: Update tv.json
-        if: steps.extract-spider.outputs.spider_value != '提取失败-文件不存在' && !contains(steps.extract-spider.outputs.spider_value, '提取失败')
-        run: |
-          VALUE="${{ steps.extract-spider.outputs.spider_value }}"
-          jq --arg v "$VALUE" '.spider = $v' ./JN/tv.json > tmp && mv tmp ./JN/tv.json
-          cat ./JN/tv.json
-
-      # Repeat similar for tvy.json and ttt.json (copy the block above and change filename)
-
-      - name: Update tvy.json
-        if: steps.extract-spider.outputs.spider_value != '提取失败-文件不存在' && !contains(steps.extract-spider.outputs.spider_value, '提取失败')
-        run: |
-          VALUE="${{ steps.extract-spider.outputs.spider_value }}"
-          jq --arg v "$VALUE" '.spider = $v' ./JN/tvy.json > tmp && mv tmp ./JN/tvy.json
-          cat ./JN/tvy.json
-
-      - name: Update ttt.json
-        if: steps.extract-spider.outputs.spider_value != '提取失败-文件不存在' && !contains(steps.extract-spider.outputs.spider_value, '提取失败')
-        run: |
-          VALUE="${{ steps.extract-spider.outputs.spider_value }}"
-          jq --arg v "$VALUE" '.spider = $v' ./JN/ttt.json > tmp && mv tmp ./JN/ttt.json
-          cat ./JN/ttt.json
-
-      # Check & commit (same as before)
-      - name: Check for changes
-        id: check-changes
-        run: |
-          git status --short
-          if git diff --quiet HEAD -- ./JN/*.json; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          else
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          fi
-
-      - name: Commit and push
-        if: steps.check-changes.outputs.has_changes == 'true'
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git add ./JN/*.json
-          git commit -m "Update spider value $(date +'%Y-%m-%d %H:%M UTC')" || true
-          git push origin HEAD:main
+    - name: Commit and push changes
+      if: steps.check-changes.outputs.has_changes == 'true'
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add ./JN/tv.json ./JN/tvy.json ./JN/ttt.json
+        git commit -m "Update spider value"
+        git push
