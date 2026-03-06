@@ -2,64 +2,117 @@ name: Update Spider Value
 
 on:
   schedule:
-    - cron: '0 03 * * *'  # 每天 UTC 时间 00:00 触发（北京时间 08:00）
-  workflow_dispatch:  # 允许手动触发
+    - cron: '0 03 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   update-spider:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main                   # ← 改成你的分支名，如果不是 main
+          fetch-depth: 0
 
-    - name: Extract spider value from lem.json
-      id: extract-spider
-      run: |
-        SPIDER_VALUE=$(grep -oP '(?<="spider":")[^"]*' ./JN/lem.json | head -n 1)
-        echo "Extracted spider value: $SPIDER_VALUE"
-        echo "::set-output name=spider_value::$SPIDER_VALUE"
+      - name: Install jq
+        run: sudo apt-get update && sudo apt-get install -y jq
 
-    - name: Update spider value in tv.json
-      run: |
-        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
-        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
-        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/tv.json
-        echo "Updated tv.json:"
-        cat ./JN/tv.json
+      - name: Debug lem.json file (非常重要！)
+        run: |
+          echo "=== 当前工作目录 ==="
+          pwd
+          
+          echo "=== JN 目录内容 ==="
+          ls -la ./JN || echo "JN 目录不存在或为空"
+          
+          echo "=== lem.json 文件信息 ==="
+          ls -l ./JN/lem.json 2>/dev/null || echo "lem.json 文件不存在！"
+          stat ./JN/lem.json 2>/dev/null || true
+          
+          echo "=== 文件前 30 行内容（关键调试信息） ==="
+          head -n 30 ./JN/lem.json || echo "无法读取 lem.json"
+          
+          echo "=== 文件前 500 字节原始内容 ==="
+          head -c 500 ./JN/lem.json | cat -v || true   # cat -v 显示隐藏字符
+          echo ""
 
-    - name: Update spider value in tvy.json
-      run: |
-        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
-        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
-        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/tvy.json
-        echo "Updated tvy.json:"
-        cat ./JN/tvy.json
+      - name: Extract spider value from lem.json (带容错)
+        id: extract-spider
+        run: |
+          FILE="./JN/lem.json"
+          
+          if [ ! -f "$FILE" ]; then
+            echo "错误：$FILE 不存在"
+            SPIDER_VALUE="提取失败-文件不存在"
+          else
+            # 先尝试严格解析
+            jq . "$FILE" >/dev/null 2>&1
+            if [ $? -eq 0 ]; then
+              # 是有效 JSON，直接取值
+              SPIDER_VALUE=$(jq -r '.spider // "未找到spider字段"' "$FILE")
+              echo "成功解析 JSON，spider 值：$SPIDER_VALUE"
+            else
+              echo "警告：lem.json 不是有效 JSON，尝试宽松提取..."
+              
+              # 尝试 grep 方式作为 fallback（匹配 "spider":"xxx"）
+              FALLBACK=$(grep -oP '"spider"\s*:\s*"\K[^"]+' "$FILE" | head -n 1)
+              
+              if [ -n "$FALLBACK" ]; then
+                SPIDER_VALUE="$FALLBACK"
+                echo "使用 grep 后备提取成功：$SPIDER_VALUE"
+              else
+                SPIDER_VALUE="提取失败-无效JSON且无匹配"
+                echo "grep 也未匹配到 spider 值"
+              fi
+            fi
+          fi
+          
+          echo "最终提取值：$SPIDER_VALUE"
+          echo "spider_value=$SPIDER_VALUE" >> $GITHUB_OUTPUT
 
-    - name: Update spider value in ttt.json
-      run: |
-        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
-        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
-        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/ttt.json
-        echo "Updated ttt.json:"
-        cat ./JN/ttt.json
-    - name: Check for changes
-      id: check-changes
-      run: |
-        git status
-        if git diff --quiet; then
-          echo "No changes to commit."
-          echo "::set-output name=has_changes::false"
-        else
-          echo "Changes detected."
-          echo "::set-output name=has_changes::true"
-        fi
+      - name: Update spider value in tv.json
+        if: steps.extract-spider.outputs.spider_value != '提取失败-文件不存在' && steps.extract-spider.outputs.spider_value != '提取失败-无效JSON且无匹配'
+        run: |
+          SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+          jq --arg newval "$SPIDER_VALUE" '.spider = $newval' ./JN/tv.json > ./JN/tv.json.tmp && mv ./JN/tv.json.tmp ./JN/tv.json
+          cat ./JN/tv.json
 
-    - name: Commit and push changes
-      if: steps.check-changes.outputs.has_changes == 'true'
-      run: |
-        git config --global user.name "GitHub Actions"
-        git config --global user.email "actions@github.com"
-        git add ./JN/tv.json ./JN/tvy.json ./JN/ttt.json
-        git commit -m "Update spider value"
-        git push
+      - name: Update spider value in tvy.json
+        if: steps.extract-spider.outputs.spider_value != '提取失败-文件不存在' && steps.extract-spider.outputs.spider_value != '提取失败-无效JSON且无匹配'
+        run: |
+          SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+          jq --arg newval "$SPIDER_VALUE" '.spider = $newval' ./JN/tvy.json > ./JN/tvy.json.tmp && mv ./JN/tvy.json.tmp ./JN/tvy.json
+          cat ./JN/tvy.json
+
+      - name: Update spider value in ttt.json
+        if: steps.extract-spider.outputs.spider_value != '提取失败-文件不存在' && steps.extract-spider.outputs.spider_value != '提取失败-无效JSON且无匹配'
+        run: |
+          SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+          jq --arg newval "$SPIDER_VALUE" '.spider = $newval' ./JN/ttt.json > ./JN/ttt.json.tmp && mv ./JN/ttt.json.tmp ./JN/ttt.json
+          cat ./JN/ttt.json
+
+      - name: Check for changes
+        id: check-changes
+        run: |
+          git status --short
+          if git diff --quiet HEAD -- ./JN/*.json; then
+            echo "无变更"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "有变更"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check-changes.outputs.has_changes == 'true'
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add ./JN/*.json
+          git commit -m "chore: update spider value $(date +'%Y-%m-%d %H:%M UTC')" || echo "无内容可提交"
+          git push origin HEAD:main
