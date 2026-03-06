@@ -14,39 +14,49 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
 
-    - name: Install jq
-      run: sudo apt-get install -y jq
-
-    - name: Extract spider value
-      id: spider
+    - name: Extract spider value from lem.json
+      id: extract-spider
       run: |
-        SPIDER=$(jq -r '.spider' ./JN/lem.json)
-        echo "Spider value: $SPIDER"
-        echo "spider=$SPIDER" >> $GITHUB_OUTPUT
+        SPIDER_VALUE=$(grep -oP '(?<="spider":")[^"]*' ./JN/lem.json | head -n 1)
+        echo "Extracted spider value: $SPIDER_VALUE"
+        echo "spider_value=$SPIDER_VALUE" >> $GITHUB_OUTPUT
 
-    - name: Update json files
+    - name: Update spider value in tv.json
       run: |
-        SPIDER="${{ steps.spider.outputs.spider }}"
+        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
+        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/tv.json
 
-        for file in ./JN/tv.json ./JN/tvy.json ./JN/ttt.json
-        do
-          jq --arg spider "$SPIDER" '.spider=$spider' "$file" > tmp.json
-          mv tmp.json "$file"
-          echo "Updated $file"
-        done
+    - name: Update spider value in tvy.json
+      run: |
+        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
+        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/tvy.json
 
-    - name: Commit changes
+    - name: Update spider value in ttt.json
+      run: |
+        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
+        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/ttt.json
+
+    - name: Check for changes
+      id: check-changes
+      run: |
+        if git diff --quiet; then
+          echo "No changes"
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "Changes detected"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push changes
+      if: steps.check-changes.outputs.has_changes == 'true'
       run: |
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
-
-        git add ./JN/*.json
-
-        if git diff --cached --quiet; then
-          echo "No changes"
-        else
-          git commit -m "Auto update spider"
-          git push
-        fi
+        git add ./JN/tv.json ./JN/tvy.json ./JN/ttt.json
+        git commit -m "Update spider value"
+        git push
