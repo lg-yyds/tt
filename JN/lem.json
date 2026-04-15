@@ -1,6 +1,7 @@
 {
-"spider":"./N3RD/J/lem0410.jar;md5;4E421DA03E50EA2CA7824D8C601DEA68",
+"spider":"./N3RD/J/lem0414.jar;md5;ED112A8FB4B2CC4351B50B70568AA751",
 
+//"spider":"./N3RD/J/lem0410.jar;md5;4E421DA03E50EA2CA7824D8C601DEA68",
 //"spider":"./N3RD/J/lem0406.jar;md5;DC4D6E017A2603E7867D9A650804692C",
 //"spider":"./N3RD/J/lem0403.jar;md5;790A3809099F0D85564D48BFE78B2AB9",
 //"spider":"./N3RD/J/lem0329.jar;md5;4FC77B47584B8B65F95C9DC82F8F49E2",
@@ -65,8 +66,8 @@
 {"key":"csp_JpysGuard","name":"雷蒙影视 | 💮文才(SP)","type":3,"api":"csp_JpysGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"csp_YCyzGuard","name":"雷蒙影视 | ☀原创(SP)","type":3,"api":"csp_YCyzGuard","timeout":15,"playerType":1,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"csp_BttooGuard","name":"雷蒙影视 | 🍄两个BT(SP)","type":3,"api":"csp_BttwooGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
-{"key":"csp_AppTTGuard_热播","name":"雷蒙影视 | 📺热播(SP)","type":3,"api":"csp_AppTTGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENExT7/hGxpSE5qU="},
 {"key":"csp_NmyswvGuard","name":"雷蒙影视 | 🍓糯米(SP)","type":3,"api":"csp_NmyswvGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
+{"key":"csp_AppTTGuard_热播","name":"雷蒙影视 | 📺热播(SP)","type":3,"api":"csp_AppTTGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENExT7/hGxpSE5qU="},
 {"key":"csp_AppSxGuard_剧圈","name":"雷蒙影视 | 🐻剧圈(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p"},
 {"key":"csp_AppSxGuard_光影","name":"雷蒙影视 | 🌞光影(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwtCFsub18Wmenoi4l29kKsy7X0oRJRBVvSwnsuM5MO9ZiIJs6T6MfJNEk2ptvW4yXL42Edzeou/SHng="},
 {"key":"csp_AppSxGuard_视界","name":"雷蒙影视 | 🍙视界(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwpmIsuS1pDrb3t3j0G9nLcv9Hk5HJ1EK9mVu7apib64Gl9tN42ugKclqmXsYtX9DROtqWIyC+ajCEDTiGLA="},
@@ -93,7 +94,7 @@
 {"key":"csp_YHDM","name":"雷蒙影视 | 🐾樱花动漫(SP)","api":"csp_YHDM","timeout":15,"type":3,"filterable":1,"quickSearch":1,"searchable":1},
 {"key":"csp_SP360","name":"雷蒙影视 | 3️⃣360(SP)","type":3,"api":"csp_SP360","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"csp_Sir88Guard","name":"雷蒙影视 | ⚽88看球(SP)","type":3,"api":"csp_Sir88Guard","timeout":10,"searchable":0,"changeable":0,"style":{"type":"list"}},
-{"key":"csp_ZbzGuard","name":"雷蒙影视 | ⚽超全看球(SP)","type":3,"api":"csp_ZbzGuard","searchable":0,"quickSearch":0,"changeable":0,"style":{"type":"list"},"ext":"uqGL1fpJNAUf8fdTwZCE5qSp+Q=="},
+{"key":"csp_LiveGzGuard","name":"雷蒙影视 | ⚽吃瓜看球(SP)","type":3,"api":"csp_LiveGzGuard","searchable":0,"quickSearch":0,"changeable":0,"style":{"type":"list"}},
 {"key":"csp_KanqiuGuard","name":"雷蒙影视 | ⚽看球(SP)","type":3,"api":"csp_KanqiuGuard","timeout":10,"searchable":0,"changeable":0,"style":{"type":"list"}},
 {"key":"csp_MusicGuard","name":"雷蒙影视 | 🎙️易听(SP)","type":3,"api":"csp_MusicGuard","style":{"type":"rect","ratio":1},"searchable":1,"quickSearch":0,"changeable":0},
 {"key":"csp_Tingshu275Guard","name":"雷蒙影视 | 🎧听书(SP)","type":3,"api":"csp_Tingshu275Guard","style":{"type":"rect","ratio":1},"searchable":0,"quickSearch":0,"changeable":0},
