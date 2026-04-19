@@ -1,10 +1,9 @@
 {
-"spider":"./N3RD/J/lem0415.jar;md5;8097627A094522928374A62BF8089B1B",
+"spider":"./N3RD/J/lem0418.jar;md5;287AECC8D55B82E93B6BCF6E4A6EE20E",
 
+//"spider":"./N3RD/J/lem0415.jar;md5;8097627A094522928374A62BF8089B1B",
 //"spider":"./N3RD/J/lem0414.jar;md5;ED112A8FB4B2CC4351B50B70568AA751",
 //"spider":"./N3RD/J/lem0410.jar;md5;4E421DA03E50EA2CA7824D8C601DEA68",
-//"spider":"./N3RD/J/lem0406.jar;md5;DC4D6E017A2603E7867D9A650804692C",
-//"spider":"./N3RD/J/lem0403.jar;md5;790A3809099F0D85564D48BFE78B2AB9",
 
 "logo":"./N3RD/W/ICONSGIF.gif",
 
@@ -68,12 +67,12 @@
 {"key":"csp_NmyswvGuard","name":"雷蒙影视 | 🍓糯米(SP)","type":3,"api":"csp_NmyswvGuard","timeout":15,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"csp_AppTTGuard_热播","name":"雷蒙影视 | 📺热播(SP)","type":3,"api":"csp_AppTTGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":1,"ext":"uqGL1bNENExT7/hGxpSE5qU="},
 {"key":"csp_AppSxGuard_剧圈","name":"雷蒙影视 | 🐻剧圈(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwpmIsuSluiuZl4+/lm1iJsy3HwNWMxpf9CY77fshI+kByoxy7DyPatUZ1jk0ty1p"},
-{"key":"csp_AppSxGuard_光影","name":"雷蒙影视 | 🌞光影(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwtCFsub18Wmenoi4l29kKsy7X0oRJRBVvSwnsuM5MO9ZiIJs6T6MfJNEk2ptvW4yXL42Edzeou/SHng="},
-{"key":"csp_AppSxGuard_视界","name":"雷蒙影视 | 🍙视界(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwpmIsuS1pDrb3t3j0G9nLcv9Hk5HJ1EK9mVu7apib64Gl9tN42ugKclqmXsYtX9DROtqWIyC+ajCEDTiGLA="},
-{"key":"csp_AppSxGuard_花花","name":"雷蒙影视 | 🥝花花(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOb1uAWbkRHp7hdxprG9un3+SLV183v12klao6oAAgFfVcL8D0quLA1d+RRyMN4vnPZetdOm08F3TlgCOxqWIyX+afCECO7aPaKnovDOCeMkxglOhlDv9axDFC5RYVbAYd+"},
-{"key":"csp_AppSxGuard_播客","name":"雷蒙影视 | 🦊播客(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwpmIsuS1pDrb3t3j0G9nLcv9Hk5HJ1EK9mVu7apib64Gl9tN42ugKclqmXsYtX9DROtqWIyC+ajCEDTiHrA="},
-{"key":"csp_AppSxGuard_爱影","name":"雷蒙影视 | 👀爱影(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOb1uAWbkRHp7hdxprGv+T3+22cnI+1lW1gL8i1UUQeJQBMqCc2+bF/Yq4Ul9lvoCLVO51Skm9i8zNvRa47T5uA+erCUw=="},
-{"key":"csp_AppSxGuard_猫猫","name":"雷蒙影视 | 🐟猫猫(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOb1uAWbkRHp7hdxprG9un3+TrS2dv+1y8lL4ryEFdPZxse8yYwoKFyJOlU2M9/q2OcL8NQxT0kuzomBOA4Uobe87udCDvyXaLcmpT5AzDxpSkECnVSqNy7UE+qFZ1UBoc16Q=="},
+{"key":"csp_AppSxGuard_光影","name":"雷蒙影视 | 🌞光影(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOb1uAWbkRHp7hdxprG9un3+TDC2t/rlTwlcMr+ChdbeV8Q9y9xsKxqfbtO0M05tGWcacFVm2c45jhyH6t1Rt6A6PjICGqxV+uN1uOqS2/x0Vp5J0Vfo8usQADpHg=="},
+{"key":"csp_AppSxGuard_视界","name":"雷蒙影视 | 🍙视界(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwpmIsuSjpyyamoq83jM9L4r3AlwEM1kc4mV87aNKLeF/iNNL7ne1LNZlk3Bz8A=="},
+{"key":"csp_AppSxGuard_花花","name":"雷蒙影视 | 🥝花花(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOb1uAWbkRHp7hdxprG9un3+TbEn4q2l2kibom2DB9cJ0IB72Vu7apib64Gl9Ew6WDTJcIVzWsluDxqEaBqWIyM77GBXCPqCPmCyOr3RGfwjlsjchkArMHzTFT1VY9QUooz8m8BXA2mSa/whkG7SpZP100qUm6hMmTjm8YQQ51m6mxEE7hhEK1eNQ=="},
+{"key":"csp_AppSxGuard_播客","name":"雷蒙影视 | 🦊播客(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOb1uAWbkRHp7hdxprG9un3+SPC3Nbv1SI/b5LtAUhbYkFU/DFvsLBvd/oV3cA4uGiCZNFRz3ln6nh5Q+AgDZiM5KrCAiO7S7SVzv31EG78jVB4JEMNrMPzTgWqRZdMTdR1smBWWwru"},
+{"key":"csp_AppSxGuard_爱影","name":"雷蒙影视 | 👀爱影(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOb1uAWbkRHp7hdxprG9un3+TbK3c790iI/b5LtEhxNfAQK7DRvrLcqbf1Q0MQntXLZfMhK0Xsn6nwmF+shR8eZ76qXW3y9XKbblunmCSPux0YtJlscp9zpDmW7Ju4ufOtv+BcyBX7VWrSzyUWoVcxGhUtv"},
+{"key":"csp_AppSxGuard_猫猫","name":"雷蒙影视 | 🐟猫猫(SP)","type":3,"api":"csp_AppSxGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1,"ext":"rfOX1voDIQhH8epBwpmIsuSjpyyamoq83jM9L4r3AlwEM1kc4mV87aNKLeF/iNNL7ne1LNZlk3Bz8A=="},
 {"key":"csp_AueteGuard","name":"雷蒙影视 | 🏝奥特(SP)","type": 3,"api":"csp_AueteGuard","timeout":10,"searchable":1,"quickSearch":1,"changeable":1},
 {"key":"csp_JPJGuard","name":"雷蒙影视 | 🐭荐片(SP)","type":3,"api":"csp_JPJGuard","timeout":10,"playerType":2,"searchable":1,"quickSearch":1,"changeable":0},
 {"key":"csp_SixVGuard","name":"雷蒙影视 | 🧲6V电影网(SP)","type":3,"api":"csp_SixVGuard","timeout":10,"searchable":1,"quickSearch":1,"filterable":1,"ext":"http://www.xb6v.com/"},
@@ -171,7 +170,7 @@
 
 // ⇩⇩ 网盘搜索 ⇩⇩ 
 {"key":"csp_SeedhubGuard","name":"雷蒙影视 | 📀SeedHub(网盘APP扫码)","type":3,"api":"csp_SeedhubGuard","changeable":0,"ext":"5++kwLhNYm9UrO9wh7Dl7eKamTee4s/5","searchable":1,"quickSearch":1,"changeable":0, "indexs":0,"style":{"type":"list"}},
-{"key":"csp_S_zpsGuard","name":"雷蒙影视 | 📀聚盘搜(网盘APP扫码)","type":3,"api":"csp_S_zpsGuard","searchable":1,"quickSearch":0,"changeable":0,"ext":{"siteUrl":"http://38.55.131.86:82/"},"indexs":0,"style":{"type":"list"}},
+{"key":"csp_S_zpsGuard","name":"雷蒙影视 | 📀聚盘搜(网盘APP扫码)","type":3,"api":"csp_S_zpsGuard","searchable":1,"quickSearch":0,"changeable":0,"ext":{"siteUrl":"http://107.148.176.74:8383/"},"indexs":0,"style":{"type":"list"}},
 {"key":"csp_KkSsGuard","name":"雷蒙影视 | 📀抠抠(网盘APP扫码)","type":3,"api":"csp_KkSsGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt"}},
 {"key":"csp_UuSsGuard","name":"雷蒙影视 | 📀优汐(网盘APP扫码)","type":3,"api":"csp_UuSsGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt"}},
 {"key":"csp_YiSoGuard","name":"雷蒙影视 | 📀易搜(网盘APP扫码)","type":3,"api":"csp_YiSoGuard","searchable":1,"quickSearch":1,"changeable":0,"ext":{"Cloud-drive":"tvfan/Cloud-drive.txt","yiSoCookie":"satoken=4437cb8c-a260-411b-9a0d-1fa622ab422f"}},
@@ -400,6 +399,8 @@
 
 
 "rules": [
+{"name":"cdn.ryplay","hosts":["cdn.ryplay"],"regex":["5.480000","#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:5.480000,[\\s\\S]*?#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:5.320000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:3.360000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY","#EXT-X-DISCONTINUITY\\s*\\r?\\n#EXTINF:4.000000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n(?:#EXTINF:[\\d.]+,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n)*?#EXTINF:0.560000,\\s*\\r?\\n.+\\.ts\\s*\\r?\\n#EXT-X-DISCONTINUITY","#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"]},
+
 {"name":"proxy","hosts":["raw.githubusercontent.com","googlevideo.com","cdn.v82u1l.com","cdn.iz8qkg.com","cdn.kin6c1.com","c.biggggg.com","c.olddddd.com","haiwaikan.com","www.histar.tv","youtube.com","uhibo.com",".*boku.*",".*nivod.*",".*ulivetv.*"]},
 
 {"name":"夜市","hosts":["yeslivetv.com"],"script":["document.getElementsByClassName('vjs-big-play-button')[0].click()"]},
