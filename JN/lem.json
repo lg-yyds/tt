@@ -49,7 +49,7 @@
 
 
 // ⇩⇩ Lem缝合包 ⇩⇩ 
-{"key":"csp_Jianpian_FM","name":"雷蒙影视 | 🏆荐片(SP)","api":"csp_Jianpian","type":3,"playerType":"2","ext":"https://ev5356.970xw.com"},
+{"key":"csp_Jianpian_FM","name":"雷蒙影视 | 🏆荐片(SP)","api":"csp_Jianpian","type":3,"playerType":"2","ext":"https://h5.jianpianips1.com"},
 {"key":"drjs_荐片","name":"雷蒙影视 | 🏆荐片(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./EXT/JS/荐片.js"},
 {"key":"csp_Gz360_FM","name":"雷蒙影视 | 🍉瓜子(SP)","type":3,"api":"csp_Gz360","playerType":2},
 {"key":"drjs_瓜子","name":"雷蒙影视 | 🍉瓜子(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","ext":"./dr_py/js/瓜子影视.js"},
