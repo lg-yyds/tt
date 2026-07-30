@@ -1,0 +1,80 @@
+name: Update Spider Value
+
+on:
+  schedule:
+    - cron: '0 03 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write          # ← 添加这一行，允许删除 workflow runs
+
+jobs:
+  update-spider:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Extract spider value from lem.json
+      id: extract-spider
+      run: |
+        SPIDER_VALUE=$(grep -oP '(?<="spider":")[^"]*' ./JN/lem.json | head -n 1)
+        echo "Extracted spider value: $SPIDER_VALUE"
+        echo "spider_value=$SPIDER_VALUE" >> $GITHUB_OUTPUT
+
+    - name: Update spider value in tv.json
+      run: |
+        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
+        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/tv.json
+
+    - name: Update spider value in tvy.json
+      run: |
+        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
+        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/tvy.json
+
+    - name: Update spider value in ttt.json
+      run: |
+        SPIDER_VALUE="${{ steps.extract-spider.outputs.spider_value }}"
+        ESCAPED_SPIDER_VALUE=$(echo "$SPIDER_VALUE" | sed 's/[\/&]/\\&/g')
+        sed -i '0,/"spider":".*"/s//"spider":"'"$ESCAPED_SPIDER_VALUE"'"/' ./JN/ttt.json
+
+    - name: Check for changes
+      id: check-changes
+      run: |
+        if git diff --quiet; then
+          echo "No changes"
+          echo "has_changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "Changes detected"
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Commit and push changes
+      if: steps.check-changes.outputs.has_changes == 'true'
+      run: |
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+        git add ./JN/tv.json ./JN/tvy.json ./JN/ttt.json
+        git commit -m "Update spider value"
+        git push
+
+    # 只保留最新 3 条工作流运行记录
+    - name: Keep only the latest 3 workflow runs
+      run: |
+        echo "Cleaning old workflow runs (keep latest 3)..."
+        # 列出本工作流的运行（默认按时间倒序），从第 4 条开始删除
+        gh run list \
+          --workflow="Update Spider Value" \
+          --limit 50 \
+          --json databaseId \
+          --jq '.[3:][].databaseId' | while read -r id; do
+            echo "Deleting run $id"
+            gh run delete "$id" || true
+          done
+        echo "Cleanup of old runs completed."
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
