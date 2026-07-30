@@ -16,7 +16,7 @@ jobs:
     steps:
       # 检出当前仓库
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # 克隆目标仓库到临时目录（不污染工作区）
       - name: Clone n3rddd/N3RD repository
