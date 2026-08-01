@@ -36,7 +36,6 @@
 {"key":"drjs_4kvm","name":"🎬4K影视(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"filterable":0,"ext":"./dr_py/js/4kvm.js"},
 {"key":"drjs_mtyy","name":"🌾麦田(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"filterable":0,"ext":"./dr_py/js/mtyy.js"},
 {"key":"drjs_ppnix","name":"🎬ppnix(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","searchable":1,"quickSearch":1,"changeable":1,"filterable":0,"ext":"./dr_py/js/ppnix.js"},
- {"key":"drjs_yfsp","name":"🎬爱一帆(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","searchable":0,"quickSearch":0,"changeable":1,"filterable":0,"ext":"./dr_py/js/yfsp.js"},
 {"key":"csp_Douban_LEM","name":"📡我的豆瓣(SP)","type":3,"api":"csp_DoubanLEM","searchable":0,"ext":"./N3RD/T/douban.json"},
 {"key":"csp_DouDouGuard","name":"📡豆瓣片单(SP)","type":3,"api":"csp_DouDouGuard","searchable":0},
 {"key":"drjs_豆瓣推荐","name":"📡豆瓣推荐(DRPY)","type":3,"api":"./dr_py/libs/drpy2.min.js","searchable":0,"quickSearch":0,"filterable":0,"ext":"./dr_py/js/豆瓣[官].js"},
