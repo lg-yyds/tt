@@ -1,5 +1,5 @@
 {
-"spider":"./N3RD/J/lem0930_modified.jar;md5;B4634B2C1559698AF90776A7961DF275",
+"spider":"./N3RD/J/1lem0930_modified.jar;md5;B4634B2C1559698AF90776A7961DF275",
 
 //"spider":"./N3RD/J/lem07212.jar;md5;A58833A90124C3F641A6FCD2F4D69A97",
 //"spider":"./N3RD/J/lem0721.jar;md5;4D14DB2F6DF40ECB7CE3957C3DDCBE77",
@@ -14,7 +14,7 @@
 
 "wallpaper":"",
 
-"notice": "欢迎使用",
+"notice": "使用",
 
 "lives":[
 {"name":"直播","type":0,"url":"https://ghproxy.cc/https://raw.githubusercontent.com/lg-yyds/gdtvapi/refs/heads/master/output/result_new.txt","ua":"okhttp/3.15","epg":"http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png","catchup":{"type":"append","source":"?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"}},
